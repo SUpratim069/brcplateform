@@ -1,0 +1,43 @@
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from "./pages/home/index";
+import Case from "./component/Case/cases_sarmiento_pinedo";
+import BRCPlatform from './component/BRCPlatform/BRCPlatform';
+import CookiesLink from './pages/cookiesLink';
+import LegalLink from "./pages/LegalLink";
+import LegalEthicLink from "./pages/LegalEthicLink";
+import PrivacyLink from "./pages/privacyLink";
+import TermsConditions from "./pages/termsConditons";
+import Termofcase from "./pages/TermsofFocus";
+import Navbar from "./layout/Navbar/Navbar"
+import Footer from './layout/Footer/Footer';
+import CCPACompliance from './component/Ccpa/ccpa';
+import ScrollToTop from './ScrollToTop';
+import AllCases from './pages/AllcaseLink';
+
+const App = () => {
+  return (
+    <div className="app">
+      {/* <BRCPlatform /> */}
+      <ScrollToTop/>
+      <Navbar/>
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/case-sarmiento" element={<Case />} />
+          <Route path="/cookies" element={<CookiesLink />} />
+          <Route path="/legal-Ethics" element={<LegalEthicLink />} />
+          <Route path="/legal-disclaimer" element={<LegalLink />} />
+          <Route path="/privacy" element={<PrivacyLink />} />
+          <Route path="/terms&conditions" element={<TermsConditions />} />
+          <Route path="/terms-of-use" element={<Termofcase />} />
+          <Route path="/CCPA-Compliance" element={<CCPACompliance />} />
+          <Route path="/all-Cases" element={<AllCases />} />
+        </Routes>
+      </main>
+      <Footer/>
+    </div>
+  );
+}
+
+export default App
