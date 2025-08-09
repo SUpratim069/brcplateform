@@ -1,5 +1,5 @@
 import React from 'react'
-import LegalDisclaimer from '../../component/Legaldisclaimer/legaldisclaimer'
+import LegalDisclaimer from '../../component/LegalDisclaimer/legaldisclaimer'
 
 const index = () => {
   return (
