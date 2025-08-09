@@ -14,27 +14,48 @@ import {
   FaShare
 } from "react-icons/fa";
 import img2 from "../../assets/allcase/pinedo7.JPG"
+import XPostsArchive from "./XPost";
+import First from "../coments/first";
 const allcases = () => {
 const cases = [
   { id: 1, img: "https://randomuser.me/api/portraits/women/1.jpg", label: "Case #3053_Salinaz" },
-  { id: 2, img: "https://randomuser.me/api/portraits/men/2.jpg", label: "Case #3054_Salinaz" },
-  { id: 3, img: "https://randomuser.me/api/portraits/women/3.jpg", label: "Case #3055_Salinaz" },
-  { id: 4, img: "https://randomuser.me/api/portraits/men/4.jpg", label: "Case #3056_Salinaz" },
-  { id: 5, img: "https://randomuser.me/api/portraits/women/5.jpg", label: "Case #3057_Salinaz" },
-  { id: 6, img: "https://randomuser.me/api/portraits/men/6.jpg", label: "Case #3058_Salinaz" },
-  { id: 7, img: "https://randomuser.me/api/portraits/women/7.jpg", label: "Case #3059_Salinaz" },
-  { id: 8, img: "https://randomuser.me/api/portraits/men/8.jpg", label: "Case #3060_Salinaz" },
-  { id: 9, img: "https://randomuser.me/api/portraits/women/9.jpg", label: "Case #3061_Salinaz" },
-  { id: 10, img: "https://randomuser.me/api/portraits/men/10.jpg", label: "Case #3062_Salinaz" },
-  { id: 11, img: "https://randomuser.me/api/portraits/women/11.jpg", label: "Case #3063_Salinaz" },
-  { id: 12, img: "https://randomuser.me/api/portraits/men/12.jpg", label: "Case #3064_Salinaz" },
-  { id: 13, img: "https://randomuser.me/api/portraits/women/13.jpg", label: "Case #3065_Salinaz" },
-  { id: 14, img: "https://randomuser.me/api/portraits/men/14.jpg", label: "Case #3066_Salinaz" },
-  { id: 15, img: "https://randomuser.me/api/portraits/women/15.jpg", label: "Case #3067_Salinaz" },
-  { id: 16, img: "https://randomuser.me/api/portraits/men/16.jpg", label: "Case #3068_Salinaz" },
-  { id: 17, img: "https://randomuser.me/api/portraits/women/17.jpg", label: "Case #3069_Salinaz" },
-  { id: 18, img: "https://randomuser.me/api/portraits/men/18.jpg", label: "Case #3070_Salinaz" },
+  { id: 2, img: "https://randomuser.me/api/portraits/men/2.jpg", label: "Case #3054_Gonzalez" },
+  { id: 3, img: "https://randomuser.me/api/portraits/women/3.jpg", label: "Case #3055_Ramirez" },
+  { id: 4, img: "https://randomuser.me/api/portraits/men/4.jpg", label: "Case #3056_Morales" },
+  { id: 5, img: "https://randomuser.me/api/portraits/women/5.jpg", label: "Case #3057_Perez" },
+  { id: 6, img: "https://randomuser.me/api/portraits/men/6.jpg", label: "Case #3058_Hernandez" },
+  { id: 7, img: "https://randomuser.me/api/portraits/women/7.jpg", label: "Case #3059_Lopez" },
+  { id: 8, img: "https://randomuser.me/api/portraits/men/8.jpg", label: "Case #3060_Diaz" },
+  { id: 9, img: "https://randomuser.me/api/portraits/women/9.jpg", label: "Case #3061_Torres" },
+  { id: 10, img: "https://randomuser.me/api/portraits/men/10.jpg", label: "Case #3062_Santos" },
+  { id: 11, img: "https://randomuser.me/api/portraits/women/11.jpg", label: "Case #3063_Cruz" },
+  { id: 12, img: "https://randomuser.me/api/portraits/men/12.jpg", label: "Case #3064_Vargas" },
+  { id: 13, img: "https://randomuser.me/api/portraits/women/13.jpg", label: "Case #3065_Martinez" },
+  { id: 14, img: "https://randomuser.me/api/portraits/men/14.jpg", label: "Case #3066_Rivera" },
+  { id: 15, img: "https://randomuser.me/api/portraits/women/15.jpg", label: "Case #3067_Rojas" },
+  { id: 16, img: "https://randomuser.me/api/portraits/men/16.jpg", label: "Case #3068_Ortega" },
+  { id: 17, img: "https://randomuser.me/api/portraits/women/17.jpg", label: "Case #3069_Castillo" },
+  { id: 18, img: "https://randomuser.me/api/portraits/men/18.jpg", label: "Case #3070_Suarez" },
+  { id: 19, img: "https://randomuser.me/api/portraits/women/19.jpg", label: "Case #3071_Padilla" },
+  { id: 20, img: "https://randomuser.me/api/portraits/men/20.jpg", label: "Case #3072_Flores" },
+  { id: 21, img: "https://randomuser.me/api/portraits/women/21.jpg", label: "Case #3073_Ramos" },
+  { id: 22, img: "https://randomuser.me/api/portraits/men/22.jpg", label: "Case #3074_Vasquez" },
+  { id: 23, img: "https://randomuser.me/api/portraits/women/23.jpg", label: "Case #3075_Mendoza" },
+  { id: 24, img: "https://randomuser.me/api/portraits/men/24.jpg", label: "Case #3076_Alvarez" },
+  { id: 25, img: "https://randomuser.me/api/portraits/women/25.jpg", label: "Case #3077_Moreno" },
+  { id: 26, img: "https://randomuser.me/api/portraits/men/26.jpg", label: "Case #3078_Campos" },
+  { id: 27, img: "https://randomuser.me/api/portraits/women/27.jpg", label: "Case #3079_Guerrero" },
+  { id: 28, img: "https://randomuser.me/api/portraits/men/28.jpg", label: "Case #3080_Cabrera" },
+  { id: 29, img: "https://randomuser.me/api/portraits/women/29.jpg", label: "Case #3081_Vega" },
+  { id: 30, img: "https://randomuser.me/api/portraits/men/30.jpg", label: "Case #3082_Mejia" },
+  { id: 31, img: "https://randomuser.me/api/portraits/women/31.jpg", label: "Case #3083_Acosta" },
+  { id: 32, img: "https://randomuser.me/api/portraits/men/32.jpg", label: "Case #3084_Silva" },
+  { id: 33, img: "https://randomuser.me/api/portraits/women/33.jpg", label: "Case #3085_Ponce" },
+  { id: 34, img: "https://randomuser.me/api/portraits/men/34.jpg", label: "Case #3086_Contreras" },
+  { id: 35, img: "https://randomuser.me/api/portraits/women/35.jpg", label: "Case #3087_Cordova" },
+  { id: 36, img: "https://randomuser.me/api/portraits/men/36.jpg", label: "Case #3088_Maldonado" },
 ];
+
 
 
   const cases2 = [
@@ -771,6 +792,502 @@ const cases = [
           </div>
         </div>
       </div>
+
+       <First/>
+       <First
+  name="Jane Doe"
+  handle="@jdoe"
+  translatedLabel="Translated"
+  embedImage="https://example.com/quoted.jpg"
+  timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+  likesCount={42}
+  commentsCount={7}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+  replyPlaceholder="Write a reply"
+  commentUserName="Alex Smith"
+  commentUserMeta="@alex · 1h"
+  commentText="Great point. Thanks for sharing the details."
+  commentLikes={3}
+/>
+
+<First
+  name="John Smith"
+  handle="@jsmith"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1011/400/200"
+  timestamp="9:15 AM · Aug 9, 2025 · 2,145 Views"
+  likesCount={12}
+  commentsCount={3}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=5"
+  replyPlaceholder="Write a reply"
+  commentUserName="Emily Clark"
+  commentUserMeta="@emily · 2h"
+  commentText="Interesting perspective, never thought of it that way."
+  commentLikes={1}
+/>
+
+<First
+  name="Sarah Lee"
+  handle="@slee"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1027/400/200"
+  timestamp="7:45 PM · Aug 8, 2025 · 980 Views"
+  likesCount={5}
+  commentsCount={0}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=8"
+  replyPlaceholder="Write a reply"
+  commentUserName="Daniel Kim"
+  commentUserMeta="@daniel · 4h"
+  commentText="Love this idea!"
+  commentLikes={0}
+/>
+
+<First
+  name="Michael Brown"
+  handle="@mbrown"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1005/400/200"
+  timestamp="1:00 PM · Aug 7, 2025 · 4,562 Views"
+  likesCount={89}
+  commentsCount={15}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=15"
+  replyPlaceholder="Write a reply"
+  commentUserName="Olivia Martinez"
+  commentUserMeta="@olivia · 30m"
+  commentText="This is really insightful."
+  commentLikes={6}
+/>
+
+<First
+  name="Linda Johnson"
+  handle="@ljohnson"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1035/400/200"
+  timestamp="5:30 AM · Aug 7, 2025 · 623 Views"
+  likesCount={3}
+  commentsCount={1}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=21"
+  replyPlaceholder="Write a reply"
+  commentUserName="Kevin Wright"
+  commentUserMeta="@kevin · 6h"
+  commentText="Not sure I agree, but it's worth discussing."
+  commentLikes={0}
+/>
+
+<First
+  name="David Wilson"
+  handle="@dwilson"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1043/400/200"
+  timestamp="10:45 PM · Aug 6, 2025 · 3,250 Views"
+  likesCount={25}
+  commentsCount={4}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=18"
+  replyPlaceholder="Write a reply"
+  commentUserName="Sophia Turner"
+  commentUserMeta="@sophia · 1d"
+  commentText="Exactly my thoughts."
+  commentLikes={2}
+/>
+
+<First
+  name="Emma Davis"
+  handle="@edavis"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1051/400/200"
+  timestamp="3:12 PM · Aug 5, 2025 · 8,130 Views"
+  likesCount={101}
+  commentsCount={19}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=29"
+  replyPlaceholder="Write a reply"
+  commentUserName="Liam Harris"
+  commentUserMeta="@liam · 20m"
+  commentText="I totally agree with this take."
+  commentLikes={9}
+/>
+
+<First
+  name="Chris Young"
+  handle="@cyoung"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1062/400/200"
+  timestamp="8:00 AM · Aug 4, 2025 · 415 Views"
+  likesCount={2}
+  commentsCount={0}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=33"
+  replyPlaceholder="Write a reply"
+  commentUserName="Zoe Bennett"
+  commentUserMeta="@zoe · 8h"
+  commentText="Can you share more info?"
+  commentLikes={0}
+/>
+
+<First
+  name="Olivia Garcia"
+  handle="@ogarcia"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1074/400/200"
+  timestamp="1:40 PM · Aug 3, 2025 · 2,008 Views"
+  likesCount={14}
+  commentsCount={2}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=41"
+  replyPlaceholder="Write a reply"
+  commentUserName="Noah Rivera"
+  commentUserMeta="@noah · 2h"
+  commentText="Nice post!"
+  commentLikes={1}
+/>
+
+<First
+  name="Jacob Thompson"
+  handle="@jthompson"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1084/400/200"
+  timestamp="9:05 PM · Aug 2, 2025 · 5,342 Views"
+  likesCount={33}
+  commentsCount={6}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=49"
+  replyPlaceholder="Write a reply"
+  commentUserName="Ava Hall"
+  commentUserMeta="@ava · 3h"
+  commentText="Well put."
+  commentLikes={4}
+/>
+
+<First
+  name="Sophia Martinez"
+  handle="@smartinez"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1092/400/200"
+  timestamp="11:50 AM · Aug 1, 2025 · 7,800 Views"
+  likesCount={77}
+  commentsCount={13}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=53"
+  replyPlaceholder="Write a reply"
+  commentUserName="Ethan Scott"
+  commentUserMeta="@ethan · 45m"
+  commentText="You nailed it."
+  commentLikes={8}
+/>
+
+<First
+  name="James Anderson"
+  handle="@janderson"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1104/400/200"
+  timestamp="6:25 AM · Jul 31, 2025 · 1,600 Views"
+  likesCount={9}
+  commentsCount={1}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=61"
+  replyPlaceholder="Write a reply"
+  commentUserName="Mia Moore"
+  commentUserMeta="@mia · 5h"
+  commentText="I hadn't thought about that."
+  commentLikes={0}
+/>
+
+<First
+  name="Mason Clark"
+  handle="@mclark"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1116/400/200"
+  timestamp="2:50 PM · Jul 30, 2025 · 4,200 Views"
+  likesCount={42}
+  commentsCount={5}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=65"
+  replyPlaceholder="Write a reply"
+  commentUserName="Ella Walker"
+  commentUserMeta="@ella · 2h"
+  commentText="Thanks for this."
+  commentLikes={3}
+/>
+
+<First
+  name="Isabella Lopez"
+  handle="@ilopez"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1128/400/200"
+  timestamp="7:05 PM · Jul 29, 2025 · 3,350 Views"
+  likesCount={28}
+  commentsCount={4}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=72"
+  replyPlaceholder="Write a reply"
+  commentUserName="Lucas King"
+  commentUserMeta="@lucas · 3h"
+  commentText="This makes sense."
+  commentLikes={2}
+/>
+
+<First
+  name="Benjamin White"
+  handle="@bwhite"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1136/400/200"
+  timestamp="4:30 AM · Jul 28, 2025 · 2,220 Views"
+  likesCount={18}
+  commentsCount={3}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=80"
+  replyPlaceholder="Write a reply"
+  commentUserName="Chloe Adams"
+  commentUserMeta="@chloe · 1d"
+  commentText="Totally agree."
+  commentLikes={1}
+/>
+
+<First
+  name="John Smith"
+  handle="@jsmith"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1011/400/200"
+  timestamp="9:15 AM · Aug 9, 2025 · 2,145 Views"
+  likesCount={12}
+  commentsCount={3}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=5"
+  replyPlaceholder="Write a reply"
+  commentUserName="Emily Clark"
+  commentUserMeta="@emily · 2h"
+  commentText="Interesting perspective, never thought of it that way."
+  commentLikes={1}
+/>
+
+<First
+  name="Sarah Lee"
+  handle="@slee"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1027/400/200"
+  timestamp="7:45 PM · Aug 8, 2025 · 980 Views"
+  likesCount={5}
+  commentsCount={0}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=8"
+  replyPlaceholder="Write a reply"
+  commentUserName="Daniel Kim"
+  commentUserMeta="@daniel · 4h"
+  commentText="Love this idea!"
+  commentLikes={0}
+/>
+
+<First
+  name="Michael Brown"
+  handle="@mbrown"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1005/400/200"
+  timestamp="1:00 PM · Aug 7, 2025 · 4,562 Views"
+  likesCount={89}
+  commentsCount={15}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=15"
+  replyPlaceholder="Write a reply"
+  commentUserName="Olivia Martinez"
+  commentUserMeta="@olivia · 30m"
+  commentText="This is really insightful."
+  commentLikes={6}
+/>
+
+<First
+  name="Linda Johnson"
+  handle="@ljohnson"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1035/400/200"
+  timestamp="5:30 AM · Aug 7, 2025 · 623 Views"
+  likesCount={3}
+  commentsCount={1}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=21"
+  replyPlaceholder="Write a reply"
+  commentUserName="Kevin Wright"
+  commentUserMeta="@kevin · 6h"
+  commentText="Not sure I agree, but it's worth discussing."
+  commentLikes={0}
+/>
+
+<First
+  name="David Wilson"
+  handle="@dwilson"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1043/400/200"
+  timestamp="10:45 PM · Aug 6, 2025 · 3,250 Views"
+  likesCount={25}
+  commentsCount={4}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=18"
+  replyPlaceholder="Write a reply"
+  commentUserName="Sophia Turner"
+  commentUserMeta="@sophia · 1d"
+  commentText="Exactly my thoughts."
+  commentLikes={2}
+/>
+
+<First
+  name="Emma Davis"
+  handle="@edavis"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1051/400/200"
+  timestamp="3:12 PM · Aug 5, 2025 · 8,130 Views"
+  likesCount={101}
+  commentsCount={19}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=29"
+  replyPlaceholder="Write a reply"
+  commentUserName="Liam Harris"
+  commentUserMeta="@liam · 20m"
+  commentText="I totally agree with this take."
+  commentLikes={9}
+/>
+
+<First
+  name="Chris Young"
+  handle="@cyoung"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1062/400/200"
+  timestamp="8:00 AM · Aug 4, 2025 · 415 Views"
+  likesCount={2}
+  commentsCount={0}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=33"
+  replyPlaceholder="Write a reply"
+  commentUserName="Zoe Bennett"
+  commentUserMeta="@zoe · 8h"
+  commentText="Can you share more info?"
+  commentLikes={0}
+/>
+
+<First
+  name="Olivia Garcia"
+  handle="@ogarcia"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1074/400/200"
+  timestamp="1:40 PM · Aug 3, 2025 · 2,008 Views"
+  likesCount={14}
+  commentsCount={2}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=41"
+  replyPlaceholder="Write a reply"
+  commentUserName="Noah Rivera"
+  commentUserMeta="@noah · 2h"
+  commentText="Nice post!"
+  commentLikes={1}
+/>
+
+<First
+  name="Jacob Thompson"
+  handle="@jthompson"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1084/400/200"
+  timestamp="9:05 PM · Aug 2, 2025 · 5,342 Views"
+  likesCount={33}
+  commentsCount={6}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=49"
+  replyPlaceholder="Write a reply"
+  commentUserName="Ava Hall"
+  commentUserMeta="@ava · 3h"
+  commentText="Well put."
+  commentLikes={4}
+/>
+
+<First
+  name="Sophia Martinez"
+  handle="@smartinez"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1092/400/200"
+  timestamp="11:50 AM · Aug 1, 2025 · 7,800 Views"
+  likesCount={77}
+  commentsCount={13}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=53"
+  replyPlaceholder="Write a reply"
+  commentUserName="Ethan Scott"
+  commentUserMeta="@ethan · 45m"
+  commentText="You nailed it."
+  commentLikes={8}
+/>
+
+<First
+  name="James Anderson"
+  handle="@janderson"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1104/400/200"
+  timestamp="6:25 AM · Jul 31, 2025 · 1,600 Views"
+  likesCount={9}
+  commentsCount={1}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=61"
+  replyPlaceholder="Write a reply"
+  commentUserName="Mia Moore"
+  commentUserMeta="@mia · 5h"
+  commentText="I hadn't thought about that."
+  commentLikes={0}
+/>
+
+<First
+  name="Mason Clark"
+  handle="@mclark"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1116/400/200"
+  timestamp="2:50 PM · Jul 30, 2025 · 4,200 Views"
+  likesCount={42}
+  commentsCount={5}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=65"
+  replyPlaceholder="Write a reply"
+  commentUserName="Ella Walker"
+  commentUserMeta="@ella · 2h"
+  commentText="Thanks for this."
+  commentLikes={3}
+/>
+
+<First
+  name="Isabella Lopez"
+  handle="@ilopez"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1128/400/200"
+  timestamp="7:05 PM · Jul 29, 2025 · 3,350 Views"
+  likesCount={28}
+  commentsCount={4}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=72"
+  replyPlaceholder="Write a reply"
+  commentUserName="Lucas King"
+  commentUserMeta="@lucas · 3h"
+  commentText="This makes sense."
+  commentLikes={2}
+/>
+
+<First
+  name="Benjamin White"
+  handle="@bwhite"
+  translatedLabel="Translated"
+  embedImage="https://picsum.photos/id/1136/400/200"
+  timestamp="4:30 AM · Jul 28, 2025 · 2,220 Views"
+  likesCount={18}
+  commentsCount={3}
+  shareLabel="Share"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=80"
+  replyPlaceholder="Write a reply"
+  commentUserName="Chloe Adams"
+  commentUserMeta="@chloe · 1d"
+  commentText="Totally agree."
+  commentLikes={1}
+/>
+
+
       
       {/* Case Report Section */}
       <div className="bg-[#0B1623] min-h-screen py-10 px-4 font-sans">
@@ -921,6 +1438,8 @@ const cases = [
               <li><span className="font-semibold">Protocol Updates</span>: This document may be updated as the situation evolves or new threats are identified.</li>
             </ol>
           </section>
+          {/* <XPostsArchive/> */}
+        
         </div>
       </div>
     </div>
