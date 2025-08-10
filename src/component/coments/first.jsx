@@ -51,17 +51,9 @@ const First = ({
           <div className="p-4 mb-3">
             <div className="text-[12px] text-gray-500 mb-2">Translate post</div>
             <div className="mb-2">
-              <div className="w-full overflow-hidden rounded-2xl border">
-                <img 
-                  src={embedImage} 
-                  alt="" 
-                  className="w-full h-auto max-h-[30rem] object-cover sm:max-h-[35rem] md:max-h-[40rem]"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src = 'https://via.placeholder.com/800x600?text=Image+Not+Available';
-                  }}
-                />
-              </div>
+              <p className="text-[14px] text-black">
+               <img src={embedImage} alt="img" className="max-h-[50vh] bg-cover md:h-[20rem] border rounded-2xl"/>
+              </p>
             </div>
             {/* minimal actions row in quoted tweet */}
             <div className="mt-3 flex items-center justify-between text-gray-500 text-[13px]">
