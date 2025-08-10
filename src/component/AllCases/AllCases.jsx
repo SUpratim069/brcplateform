@@ -34,7 +34,17 @@ import img16 from "../../assets/comment/16.jpeg"
 import img17 from "../../assets/comment/17.jpeg"
 import img18 from "../../assets/comment/18.jpeg"
 
-const allcases = () => {
+const AllCases = () => {
+  // State to track which cases are expanded
+  const [expandedCases, setExpandedCases] = React.useState({});
+
+  // Toggle function to show/hide case details
+  const toggleCaseDetails = (caseId) => {
+    setExpandedCases(prev => ({
+      ...prev,
+      [caseId]: !prev[caseId]
+    }));
+  };
 const cases = [
   { id: 1, img: "https://randomuser.me/api/portraits/women/1.jpg", label: "Case #3053_Salinaz" },
   { id: 2, img: "https://randomuser.me/api/portraits/men/2.jpg", label: "Case #3054_Gonzalez" },
@@ -76,7 +86,8 @@ const cases = [
 
 
 
-  const cases2 = [
+  // Add details to each case
+const cases2 = [
     {
       id: "3001_Gomez",
       name: "Case #3001_Gomez",
@@ -462,6 +473,14 @@ const cases = [
     Flagged: "bg-red-100 text-red-700",
   };
 
+  // Add status color mapping
+  const statusColorMap = {
+    'Published': 'text-green-600',
+    'In Review': 'text-yellow-600',
+    'Closed': 'text-gray-600',
+    'Flagged': 'text-red-600'
+  };
+
   return (
     <div>
       <div className="w-full">
@@ -508,7 +527,7 @@ const cases = [
         <div className="px-6 py-10">
           {/* Header */}
           <div className="bg-[#0c0e18] text-white text-center py-10 rounded-none">
-            <h1 className="text-2xl font-bold tracking-wide">
+            <h1 className="text-3xl font-bold tracking-wide">
               ALL REPORTED CASES
             </h1>
             <p className="mt-2 text-gray-300">
@@ -546,12 +565,26 @@ const cases = [
                   <p className="text-xs text-gray-500 mt-1">
                     Submitted: {item.submitted}
                   </p>
-                  <a
-                    href="#"
-                    className="text-blue-600 text-sm font-medium mt-2 inline-block"
+                  <button 
+                    onClick={() => toggleCaseDetails(item.id)}
+                    className="text-blue-600 text-sm font-medium mt-2 inline-block hover:underline"
                   >
-                    View Full Case
-                  </a>
+                    {expandedCases[item.id] ? 'Hide Details' : 'View Full Case'}
+                  </button>
+                  {expandedCases[item.id] && (
+                    <div className="mt-4 text-sm text-gray-700 space-y-4">
+                      <div><strong>Name:</strong> {item.name.split('_')[1]}</div>
+                      <div><strong>RFC:</strong> {item.rfc || 'Not provided'}</div>
+                      <div><strong>CURP:</strong> {item.curp || 'Not provided'}</div>
+                      <div><strong>Misconduct:</strong> {item.description}</div>
+                      <div><strong>Evidence:</strong> {item.evidence || 'Statement + Screenshot'}</div>
+                      <div><strong>Response:</strong> {item.response || 'Pending'}</div>
+                      <div><strong>Note:</strong> {item.note || 'Under evaluation'}</div>
+                      <span className={`inline-block ${statusClasses[item.status].replace('text-', 'bg-')} text-xs px-3 py-1 rounded-full`}>
+                        Status: {item.status}
+                      </span>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -1291,4 +1324,4 @@ const cases = [
   );
 };
 
-export default allcases;
+export default AllCases;
