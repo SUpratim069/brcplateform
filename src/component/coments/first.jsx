@@ -19,6 +19,7 @@ const First = ({
   commentText = "This is unfortunately a common issue in the construction industry. Many small contractors face this problem.",
   commentLikes = 7,
   mainContent,
+  tweetText = "MARICONI: se le llama a la gente como @RuffoEstra73099 y #JoseLuisEstrasaMartinez que contratan un servicio y desaparecen a la hora de pagar. @ensenadanet @VigiaEnsenada @SPSEnsenada #Ensenada #BajaCalifornia #MexicanGP",
 }) => {
   return (
     <div className="mx-auto w-full max-w-[900px] p-4 font-sans ">
@@ -39,10 +40,7 @@ const First = ({
           {/* Main Tweet Text */}
           {mainContent ? mainContent : (
             <p className="text-[16px] leading-6 text-black mb-4">
-              MARICONI: se le llama a la gente como <span className="text-black">@RuffoEstra73099</span> y
-              <span className="text-black"> #JoseLuisEstrasaMartinez</span> que contratan un servicio y
-              desaparecen a la hora de pagar. @ensenadanet @VigiaEnsenada @SPSEnsenada #Ensenada #BajaCalifornia
-              #MexicanGP
+              {tweetText}
             </p>
           )}
 

@@ -127,7 +127,7 @@ const Navbar = () => {
                 {title}
               </Link>
             ))}
-            <div className="flex w-full px-3 py-2 space-x-2 ">
+            <div className="flex w-full px-3 py-2 space-x-2 relative bottom-2 ">
               <button
                 className={`w-1/2 py-[0.01rem] rounded-full bg font-semibold ${
                   activeLang === 'EN' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
@@ -148,6 +148,21 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+       <style jsx global>{`
+        .lang-toggle {
+          background-color: #f3f4f6;
+          border-radius: 9999px;
+          padding: 0.25rem;
+          display: inline-flex;
+        }
+        .ethics-card {
+          transition: all 0.3s ease;
+        }
+        .ethics-card:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+      `}</style>
     </header>
   );
 };

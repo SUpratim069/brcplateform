@@ -16,6 +16,24 @@ import {
 import img2 from "../../assets/allcase/pinedo7.JPG"
 import XPostsArchive from "./XPost";
 import First from "../coments/first";
+import img19 from "../../assets/comment/2.jpeg"
+import img3 from "../../assets/comment/3.jpeg"
+import img4 from "../../assets/comment/4.jpeg"
+import img5 from "../../assets/comment/5.jpeg"
+import img6 from "../../assets/comment/6.jpeg"
+import img7 from "../../assets/comment/7.jpeg"
+import img8 from "../../assets/comment/8.jpeg"
+import img9 from "../../assets/comment/9.jpeg"
+import img10 from "../../assets/comment/10.jpeg"
+import img11 from "../../assets/comment/11.jpeg"
+import img12 from "../../assets/comment/12.jpeg"
+import img13 from "../../assets/comment/13.jpeg"
+import img14 from "../../assets/comment/14.jpeg"
+import img15 from "../../assets/comment/15.jpeg"
+import img16 from "../../assets/comment/16.jpeg"
+import img17 from "../../assets/comment/17.jpeg"
+import img18 from "../../assets/comment/18.jpeg"
+
 const allcases = () => {
 const cases = [
   { id: 1, img: "https://randomuser.me/api/portraits/women/1.jpg", label: "Case #3053_Salinaz" },
@@ -793,499 +811,304 @@ const cases = [
         </div>
       </div>
 
-       <First/>
        <First
-  name="Jane Doe"
-  handle="@jdoe"
-  translatedLabel="Translated"
-  embedImage="https://example.com/quoted.jpg"
-  timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
-  likesCount={42}
-  commentsCount={7}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=12"
-  replyPlaceholder="Write a reply"
-  commentUserName="Alex Smith"
-  commentUserMeta="@alex · 1h"
-  commentText="Great point. Thanks for sharing the details."
-  commentLikes={3}
-/>
+         tweetText="MARICONI: se le llama a la gente como @RuffoEstra73099 y #JoseLuisEstrasaMartinez que contratan un servicio y desaparecen a la hora de pagar. @ensenadanet @VigiaEnsenada @SPSEnsenada #Ensenada #BajaCalifornia #MexicanGP"
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img19}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="El señor Mauricio Merikanskas nunca pagó por los trabajos contratados que hicimos para el basurero de San Mateo @GobNau @SEDEMA.CDMX @Edomex se para el cuello hablando de toda la gente que corrompió para obtener esa consesión .... Mucho ojo!!"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Roberto Sanchez"
+         commentUserMeta="@robertosan · 1h"
+         commentText="This is concerning. The San Mateo landfill project has been controversial for years. Have you filed a formal complaint?"
+         commentLikes={3}
+       />
 
 <First
-  name="John Smith"
-  handle="@jsmith"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1011/400/200"
-  timestamp="9:15 AM · Aug 9, 2025 · 2,145 Views"
-  likesCount={12}
-  commentsCount={3}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=5"
-  replyPlaceholder="Write a reply"
-  commentUserName="Emily Clark"
-  commentUserMeta="@emily · 2h"
-  commentText="Interesting perspective, never thought of it that way."
-  commentLikes={1}
-/>
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img3}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@Jeep @JeepMx @TabascoHOY @AutomoTab De verdad que no hay peor servicio ni un equipo de gente más indiferente. Aquí me tienen si quieren seguir con la mala fama..."
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Sofia Hernandez"
+         commentUserMeta="@sofiah · 1h"
+         commentText="I had a similar experience with Jeep service last month. They kept my car for 3 weeks!"
+         commentLikes={10}
+       />
 
-<First
-  name="Sarah Lee"
-  handle="@slee"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1027/400/200"
-  timestamp="7:45 PM · Aug 8, 2025 · 980 Views"
-  likesCount={5}
-  commentsCount={0}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=8"
-  replyPlaceholder="Write a reply"
-  commentUserName="Daniel Kim"
-  commentUserMeta="@daniel · 4h"
-  commentText="Love this idea!"
-  commentLikes={0}
-/>
-
-<First
-  name="Michael Brown"
-  handle="@mbrown"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1005/400/200"
-  timestamp="1:00 PM · Aug 7, 2025 · 4,562 Views"
-  likesCount={89}
-  commentsCount={15}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=15"
-  replyPlaceholder="Write a reply"
-  commentUserName="Olivia Martinez"
-  commentUserMeta="@olivia · 30m"
-  commentText="This is really insightful."
-  commentLikes={6}
-/>
-
-<First
-  name="Linda Johnson"
-  handle="@ljohnson"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1035/400/200"
-  timestamp="5:30 AM · Aug 7, 2025 · 623 Views"
-  likesCount={3}
-  commentsCount={1}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=21"
-  replyPlaceholder="Write a reply"
-  commentUserName="Kevin Wright"
-  commentUserMeta="@kevin · 6h"
-  commentText="Not sure I agree, but it's worth discussing."
-  commentLikes={0}
-/>
-
-<First
-  name="David Wilson"
-  handle="@dwilson"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1043/400/200"
-  timestamp="10:45 PM · Aug 6, 2025 · 3,250 Views"
-  likesCount={25}
-  commentsCount={4}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=18"
-  replyPlaceholder="Write a reply"
-  commentUserName="Sophia Turner"
-  commentUserMeta="@sophia · 1d"
-  commentText="Exactly my thoughts."
-  commentLikes={2}
-/>
-
-<First
-  name="Emma Davis"
-  handle="@edavis"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1051/400/200"
-  timestamp="3:12 PM · Aug 5, 2025 · 8,130 Views"
-  likesCount={101}
-  commentsCount={19}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=29"
-  replyPlaceholder="Write a reply"
-  commentUserName="Liam Harris"
-  commentUserMeta="@liam · 20m"
-  commentText="I totally agree with this take."
-  commentLikes={9}
-/>
-
-<First
-  name="Chris Young"
-  handle="@cyoung"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1062/400/200"
-  timestamp="8:00 AM · Aug 4, 2025 · 415 Views"
-  likesCount={2}
-  commentsCount={0}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=33"
-  replyPlaceholder="Write a reply"
-  commentUserName="Zoe Bennett"
-  commentUserMeta="@zoe · 8h"
-  commentText="Can you share more info?"
-  commentLikes={0}
-/>
-
-<First
-  name="Olivia Garcia"
-  handle="@ogarcia"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1074/400/200"
-  timestamp="1:40 PM · Aug 3, 2025 · 2,008 Views"
-  likesCount={14}
-  commentsCount={2}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=41"
-  replyPlaceholder="Write a reply"
-  commentUserName="Noah Rivera"
-  commentUserMeta="@noah · 2h"
-  commentText="Nice post!"
-  commentLikes={1}
-/>
-
-<First
-  name="Jacob Thompson"
-  handle="@jthompson"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1084/400/200"
-  timestamp="9:05 PM · Aug 2, 2025 · 5,342 Views"
-  likesCount={33}
-  commentsCount={6}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=49"
-  replyPlaceholder="Write a reply"
-  commentUserName="Ava Hall"
-  commentUserMeta="@ava · 3h"
-  commentText="Well put."
-  commentLikes={4}
-/>
-
-<First
-  name="Sophia Martinez"
-  handle="@smartinez"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1092/400/200"
-  timestamp="11:50 AM · Aug 1, 2025 · 7,800 Views"
-  likesCount={77}
-  commentsCount={13}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=53"
-  replyPlaceholder="Write a reply"
-  commentUserName="Ethan Scott"
-  commentUserMeta="@ethan · 45m"
-  commentText="You nailed it."
-  commentLikes={8}
-/>
-
-<First
-  name="James Anderson"
-  handle="@janderson"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1104/400/200"
-  timestamp="6:25 AM · Jul 31, 2025 · 1,600 Views"
-  likesCount={9}
-  commentsCount={1}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=61"
-  replyPlaceholder="Write a reply"
-  commentUserName="Mia Moore"
-  commentUserMeta="@mia · 5h"
-  commentText="I hadn't thought about that."
-  commentLikes={0}
-/>
-
-<First
-  name="Mason Clark"
-  handle="@mclark"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1116/400/200"
-  timestamp="2:50 PM · Jul 30, 2025 · 4,200 Views"
-  likesCount={42}
-  commentsCount={5}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=65"
-  replyPlaceholder="Write a reply"
-  commentUserName="Ella Walker"
-  commentUserMeta="@ella · 2h"
-  commentText="Thanks for this."
-  commentLikes={3}
-/>
-
-<First
-  name="Isabella Lopez"
-  handle="@ilopez"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1128/400/200"
-  timestamp="7:05 PM · Jul 29, 2025 · 3,350 Views"
-  likesCount={28}
-  commentsCount={4}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=72"
-  replyPlaceholder="Write a reply"
-  commentUserName="Lucas King"
-  commentUserMeta="@lucas · 3h"
-  commentText="This makes sense."
-  commentLikes={2}
-/>
-
-<First
-  name="Benjamin White"
-  handle="@bwhite"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1136/400/200"
-  timestamp="4:30 AM · Jul 28, 2025 · 2,220 Views"
-  likesCount={18}
-  commentsCount={3}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=80"
-  replyPlaceholder="Write a reply"
-  commentUserName="Chloe Adams"
-  commentUserMeta="@chloe · 1d"
-  commentText="Totally agree."
-  commentLikes={1}
-/>
-
-<First
-  name="John Smith"
-  handle="@jsmith"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1011/400/200"
-  timestamp="9:15 AM · Aug 9, 2025 · 2,145 Views"
-  likesCount={12}
-  commentsCount={3}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=5"
-  replyPlaceholder="Write a reply"
-  commentUserName="Emily Clark"
-  commentUserMeta="@emily · 2h"
-  commentText="Interesting perspective, never thought of it that way."
-  commentLikes={1}
-/>
-
-<First
-  name="Sarah Lee"
-  handle="@slee"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1027/400/200"
-  timestamp="7:45 PM · Aug 8, 2025 · 980 Views"
-  likesCount={5}
-  commentsCount={0}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=8"
-  replyPlaceholder="Write a reply"
-  commentUserName="Daniel Kim"
-  commentUserMeta="@daniel · 4h"
-  commentText="Love this idea!"
-  commentLikes={0}
-/>
-
-<First
-  name="Michael Brown"
-  handle="@mbrown"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1005/400/200"
-  timestamp="1:00 PM · Aug 7, 2025 · 4,562 Views"
-  likesCount={89}
-  commentsCount={15}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=15"
-  replyPlaceholder="Write a reply"
-  commentUserName="Olivia Martinez"
-  commentUserMeta="@olivia · 30m"
-  commentText="This is really insightful."
-  commentLikes={6}
-/>
-
-<First
-  name="Linda Johnson"
-  handle="@ljohnson"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1035/400/200"
-  timestamp="5:30 AM · Aug 7, 2025 · 623 Views"
-  likesCount={3}
-  commentsCount={1}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=21"
-  replyPlaceholder="Write a reply"
-  commentUserName="Kevin Wright"
-  commentUserMeta="@kevin · 6h"
-  commentText="Not sure I agree, but it's worth discussing."
-  commentLikes={0}
-/>
-
-<First
-  name="David Wilson"
-  handle="@dwilson"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1043/400/200"
-  timestamp="10:45 PM · Aug 6, 2025 · 3,250 Views"
-  likesCount={25}
-  commentsCount={4}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=18"
-  replyPlaceholder="Write a reply"
-  commentUserName="Sophia Turner"
-  commentUserMeta="@sophia · 1d"
-  commentText="Exactly my thoughts."
-  commentLikes={2}
-/>
-
-<First
-  name="Emma Davis"
-  handle="@edavis"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1051/400/200"
-  timestamp="3:12 PM · Aug 5, 2025 · 8,130 Views"
-  likesCount={101}
-  commentsCount={19}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=29"
-  replyPlaceholder="Write a reply"
-  commentUserName="Liam Harris"
-  commentUserMeta="@liam · 20m"
-  commentText="I totally agree with this take."
-  commentLikes={9}
-/>
-
-<First
-  name="Chris Young"
-  handle="@cyoung"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1062/400/200"
-  timestamp="8:00 AM · Aug 4, 2025 · 415 Views"
-  likesCount={2}
-  commentsCount={0}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=33"
-  replyPlaceholder="Write a reply"
-  commentUserName="Zoe Bennett"
-  commentUserMeta="@zoe · 8h"
-  commentText="Can you share more info?"
-  commentLikes={0}
-/>
-
-<First
-  name="Olivia Garcia"
-  handle="@ogarcia"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1074/400/200"
-  timestamp="1:40 PM · Aug 3, 2025 · 2,008 Views"
-  likesCount={14}
-  commentsCount={2}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=41"
-  replyPlaceholder="Write a reply"
-  commentUserName="Noah Rivera"
-  commentUserMeta="@noah · 2h"
-  commentText="Nice post!"
-  commentLikes={1}
-/>
-
-<First
-  name="Jacob Thompson"
-  handle="@jthompson"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1084/400/200"
-  timestamp="9:05 PM · Aug 2, 2025 · 5,342 Views"
-  likesCount={33}
-  commentsCount={6}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=49"
-  replyPlaceholder="Write a reply"
-  commentUserName="Ava Hall"
-  commentUserMeta="@ava · 3h"
-  commentText="Well put."
-  commentLikes={4}
-/>
-
-<First
-  name="Sophia Martinez"
-  handle="@smartinez"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1092/400/200"
-  timestamp="11:50 AM · Aug 1, 2025 · 7,800 Views"
-  likesCount={77}
-  commentsCount={13}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=53"
-  replyPlaceholder="Write a reply"
-  commentUserName="Ethan Scott"
-  commentUserMeta="@ethan · 45m"
-  commentText="You nailed it."
-  commentLikes={8}
-/>
-
-<First
-  name="James Anderson"
-  handle="@janderson"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1104/400/200"
-  timestamp="6:25 AM · Jul 31, 2025 · 1,600 Views"
-  likesCount={9}
-  commentsCount={1}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=61"
-  replyPlaceholder="Write a reply"
-  commentUserName="Mia Moore"
-  commentUserMeta="@mia · 5h"
-  commentText="I hadn't thought about that."
-  commentLikes={0}
-/>
-
-<First
-  name="Mason Clark"
-  handle="@mclark"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1116/400/200"
-  timestamp="2:50 PM · Jul 30, 2025 · 4,200 Views"
-  likesCount={42}
-  commentsCount={5}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=65"
-  replyPlaceholder="Write a reply"
-  commentUserName="Ella Walker"
-  commentUserMeta="@ella · 2h"
-  commentText="Thanks for this."
-  commentLikes={3}
-/>
-
-<First
-  name="Isabella Lopez"
-  handle="@ilopez"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1128/400/200"
-  timestamp="7:05 PM · Jul 29, 2025 · 3,350 Views"
-  likesCount={28}
-  commentsCount={4}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=72"
-  replyPlaceholder="Write a reply"
-  commentUserName="Lucas King"
-  commentUserMeta="@lucas · 3h"
-  commentText="This makes sense."
-  commentLikes={2}
-/>
-
-<First
-  name="Benjamin White"
-  handle="@bwhite"
-  translatedLabel="Translated"
-  embedImage="https://picsum.photos/id/1136/400/200"
-  timestamp="4:30 AM · Jul 28, 2025 · 2,220 Views"
-  likesCount={18}
-  commentsCount={3}
-  shareLabel="Share"
-  replyAvatarUrl="https://i.pravatar.cc/32?img=80"
-  replyPlaceholder="Write a reply"
-  commentUserName="Chloe Adams"
-  commentUserMeta="@chloe · 1d"
-  commentText="Totally agree."
-  commentLikes={1}
-/>
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img4}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="La empresa #CAMEX se quedó con el dinero de contratistas que trabajaron para el @TrenMayaMX y @Defensamx1 en el Tramo 7 F6 `CENTENARIO`. Desconocen y bloquean los teléfonos de la gente que exige su dinero. #justicia #obras #TrenMaya #campeche #ClaudiaSheinbaum"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Miguel Angel"
+         commentUserMeta="@miguelangel · 4h"
+         commentText="This is a serious issue that needs more attention. Many small businesses suffer from this."
+         commentLikes={6}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img5}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="#CAMEX empresa proveedora de la @Defensamx1 se robó el dinero de los proveedores que trabajaron a marchas forzadas para construir el @TrenMayaMX . La empresa es de un señor de nombre Ricardo González de #Coatzacoalcos #Veracruz ."
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Patricia Lopez"
+         commentUserMeta="@patylopez · 3h"
+         commentText="This is a serious issue that needs more attention. Many small businesses suffer from this."
+         commentLikes={4}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img6}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="No vuelvo a volar por @LATAM_CHI jamas! Es la peor experiencia de mi vida... #airline #2020Elections #Covid_19 #Lima #Biden2020 #falabella
+#Retwittear #malservicio
+#irresponsable
+#DGAC
+#tercermundo"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Miguel Angel"
+         commentUserMeta="@miguelangel · 4h"
+         commentText="This is a serious issue that needs more attention. Many small businesses suffer from this."
+         commentLikes={6}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img7}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@CondusefMX @bbva muy prudente el horario en el que marcan a cobrar muchachos! #thanksgiving #blackfriday"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Miguel Angel"
+         commentUserMeta="@miguelangel · 4h"
+         commentText="This is a serious issue that needs more attention. Many small businesses suffer from this."
+         commentLikes={6}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img8}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR No pagar a los contratistas es su política? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Carlos Mendoza"
+         commentUserMeta="@carlosm · 4h"
+         commentText="GICSA has a history of these issues. Have you considered legal action?"
+         commentLikes={5}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img9}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Maria Fernandez"
+         commentUserMeta="@mariaf · 3h"
+         commentText="This is a serious accusation. Do you have documentation to support this claim?"
+         commentLikes={2}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img10}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Jorge Ramirez"
+         commentUserMeta="@jorger · 2h"
+         commentText="This is a serious accusation. Do you have documentation to support this claim?"
+         commentLikes={5}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img11}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Ana Gutierrez"
+         commentUserMeta="@anag · 3h"
+         commentText="Have you tried contacting the authorities about this? The labor board might be able to help."
+         commentLikes={3}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img12}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Maria Fernandez"
+         commentUserMeta="@mariaf · 3h"
+         commentText="This is a serious accusation. Do you have documentation to support this claim?"
+         commentLikes={2}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img13}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Maria Fernandez"
+         commentUserMeta="@mariaf · 3h"
+         commentText="This is a serious accusation. Do you have documentation to support this claim?"
+         commentLikes={2}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img14}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Maria Fernandez"
+         commentUserMeta="@mariaf · 3h"
+         commentText="This is a serious accusation. Do you have documentation to support this claim?"
+         commentLikes={2}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img15}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Maria Fernandez"
+         commentUserMeta="@mariaf · 3h"
+         commentText="This is a serious accusation. Do you have documentation to support this claim?"
+         commentLikes={2}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img16}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Maria Fernandez"
+         commentUserMeta="@mariaf · 3h"
+         commentText="This is a serious accusation. Do you have documentation to support this claim?"
+         commentLikes={2}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img17}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Maria Fernandez"
+         commentUserMeta="@mariaf · 3h"
+         commentText="This is a serious accusation. Do you have documentation to support this claim?"
+         commentLikes={2}
+       />
+       <First
+         name="Sarmiento Pinedo"
+         handle="@PinedoSarmiento"
+         translatedLabel="Translated"
+         embedImage={img18}
+         timestamp="10:00 AM · Aug 10, 2025 · 1,234 Views"
+         likesCount={42}
+         commentsCount={7}
+         shareLabel="Share"
+         tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyPlaceholder="Write a reply"
+         commentUserName="Maria Fernandez"
+         commentUserMeta="@mariaf · 3h"
+         commentText="This is a serious accusation. Do you have documentation to support this claim?"
+         commentLikes={2}
+       />
 
 
       

@@ -1,19 +1,4 @@
-import { useState } from 'react';
-
 const LegalEthicsStatement = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeLang, setActiveLang] = useState('EN');
-
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
-
-  const handleLanguageChange = (lang) => {
-    setActiveLang(lang);
-    // Here you would add actual language switching logic
-    console.log('Language switched to:', lang);
-  };
-
   const ethicalPrinciples = [
     {
       title: "Truth & Accuracy",

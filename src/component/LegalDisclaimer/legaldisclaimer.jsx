@@ -1,19 +1,4 @@
-import { useState } from 'react';
-
 const LegalDisclaimer = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeLang, setActiveLang] = useState('EN');
-
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
-
-  const handleLanguageChange = (lang) => {
-    setActiveLang(lang);
-    // Here you would add actual language switching logic
-    console.log('Language switched to:', lang);
-  };
-
   return (
     <div className="min-h-screen bg-white">
       <head>
@@ -23,8 +8,6 @@ const LegalDisclaimer = () => {
         <meta charSet="UTF-8" />
         <link rel="canonical" href="https://yourwebsite.com/legal-disclaimer" />
       </head>
-
-     
 
       {/* Hero Section */}
       <section className="bg-gray-900 text-white py-12 sm:py-20 px-4 sm:px-6 text-center">
