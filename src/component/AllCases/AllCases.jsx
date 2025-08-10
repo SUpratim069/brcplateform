@@ -508,7 +508,7 @@ const cases2 = [
 
         {/* Case Grid */}
         <div className="bg-white py-8">
-          <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-9 gap-y-8 gap-x-6">
+          <div className="max-w-6xl mx-auto grid grid-cols-3 p-2 md:p-0 sm:grid-cols-3 md:grid-cols-9 gap-y-8 gap-x-6">
             {cases.map((c) => (
               <div key={c.id} className="text-center">
                 <div className="w-24 h-24 mx-auto rounded-full overflow-hidden border-4 border-white shadow">
