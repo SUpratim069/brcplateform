@@ -824,7 +824,7 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="El señor Mauricio Merikanskas nunca pagó por los trabajos contratados que hicimos para el basurero de San Mateo @GobNau @SEDEMA.CDMX @Edomex se para el cuello hablando de toda la gente que corrompió para obtener esa consesión .... Mucho ojo!!"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=11"
          replyPlaceholder="Write a reply"
          commentUserName="Roberto Sanchez"
          commentUserMeta="@robertosan · 1h"
@@ -842,7 +842,8 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@Jeep @JeepMx @TabascoHOY @AutomoTab De verdad que no hay peor servicio ni un equipo de gente más indiferente. Aquí me tienen si quieren seguir con la mala fama..."
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=14"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=16" 
          replyPlaceholder="Write a reply"
          commentUserName="Sofia Hernandez"
          commentUserMeta="@sofiah · 1h"
@@ -861,6 +862,7 @@ const cases = [
          shareLabel="Share"
          tweetText="La empresa #CAMEX se quedó con el dinero de contratistas que trabajaron para el @TrenMayaMX y @Defensamx1 en el Tramo 7 F6 `CENTENARIO`. Desconocen y bloquean los teléfonos de la gente que exige su dinero. #justicia #obras #TrenMaya #campeche #ClaudiaSheinbaum"
          replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=19" 
          replyPlaceholder="Write a reply"
          commentUserName="Miguel Angel"
          commentUserMeta="@miguelangel · 4h"
@@ -877,7 +879,8 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="#CAMEX empresa proveedora de la @Defensamx1 se robó el dinero de los proveedores que trabajaron a marchas forzadas para construir el @TrenMayaMX . La empresa es de un señor de nombre Ricardo González de #Coatzacoalcos #Veracruz ."
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=13"
+  commentAvatarUrl="https://i.pravatar.cc/32?img=20" 
          replyPlaceholder="Write a reply"
          commentUserName="Patricia Lopez"
          commentUserMeta="@patylopez · 3h"
@@ -898,7 +901,8 @@ const cases = [
 #irresponsable
 #DGAC
 #tercermundo"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=22"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=20" 
          replyPlaceholder="Write a reply"
          commentUserName="Miguel Angel"
          commentUserMeta="@miguelangel · 4h"
@@ -915,8 +919,9 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@CondusefMX @bbva muy prudente el horario en el que marcan a cobrar muchachos! #thanksgiving #blackfriday"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
-         replyPlaceholder="Write a reply"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=25"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=27" 
+                  replyPlaceholder="Write a reply"
          commentUserName="Miguel Angel"
          commentUserMeta="@miguelangel · 4h"
          commentText="This is a serious issue that needs more attention. Many small businesses suffer from this."
@@ -932,7 +937,8 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR No pagar a los contratistas es su política? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+      replyAvatarUrl="https://i.pravatar.cc/32?img=30"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=28" 
          replyPlaceholder="Write a reply"
          commentUserName="Carlos Mendoza"
          commentUserMeta="@carlosm · 4h"
@@ -949,8 +955,9 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
-         replyPlaceholder="Write a reply"
+  replyAvatarUrl="https://i.pravatar.cc/32?img=9"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=5" 
+                  replyPlaceholder="Write a reply"
          commentUserName="Maria Fernandez"
          commentUserMeta="@mariaf · 3h"
          commentText="This is a serious accusation. Do you have documentation to support this claim?"
@@ -966,7 +973,8 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+          replyAvatarUrl="https://i.pravatar.cc/32?img=11"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=32" 
          replyPlaceholder="Write a reply"
          commentUserName="Jorge Ramirez"
          commentUserMeta="@jorger · 2h"
@@ -983,7 +991,9 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+                replyAvatarUrl="https://i.pravatar.cc/32?img=6"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=34" 
+
          replyPlaceholder="Write a reply"
          commentUserName="Ana Gutierrez"
          commentUserMeta="@anag · 3h"
@@ -1000,7 +1010,9 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+          replyAvatarUrl="https://i.pravatar.cc/32?img=4"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=36" 
+
          replyPlaceholder="Write a reply"
          commentUserName="Maria Fernandez"
          commentUserMeta="@mariaf · 3h"
@@ -1017,7 +1029,9 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+                  replyAvatarUrl="https://i.pravatar.cc/32?img=16"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=35" 
+
          replyPlaceholder="Write a reply"
          commentUserName="Maria Fernandez"
          commentUserMeta="@mariaf · 3h"
@@ -1034,7 +1048,9 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+            replyAvatarUrl="https://i.pravatar.cc/32?img=18"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=37" 
+
          replyPlaceholder="Write a reply"
          commentUserName="Maria Fernandez"
          commentUserMeta="@mariaf · 3h"
@@ -1051,7 +1067,9 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+          replyAvatarUrl="https://i.pravatar.cc/32?img=19"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=38" 
+
          replyPlaceholder="Write a reply"
          commentUserName="Maria Fernandez"
          commentUserMeta="@mariaf · 3h"
@@ -1068,7 +1086,9 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+           replyAvatarUrl="https://i.pravatar.cc/32?img=50"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=40" 
+
          replyPlaceholder="Write a reply"
          commentUserName="Maria Fernandez"
          commentUserMeta="@mariaf · 3h"
@@ -1085,7 +1105,8 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+         replyAvatarUrl="https://i.pravatar.cc/32?img=51"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=41" 
          replyPlaceholder="Write a reply"
          commentUserName="Maria Fernandez"
          commentUserMeta="@mariaf · 3h"
@@ -1102,7 +1123,8 @@ const cases = [
          commentsCount={7}
          shareLabel="Share"
          tweetText="@GICSAoficial @GICSA_IR Por qué no pagan a los contratistas? Es su política no pagar? #GICSA #CDMX #Acapulco #Cancun #aQuienCorresponda"
-         replyAvatarUrl="https://i.pravatar.cc/32?img=12"
+   replyAvatarUrl="https://i.pravatar.cc/32?img=52"
+         commentAvatarUrl="https://i.pravatar.cc/32?img=42" 
          replyPlaceholder="Write a reply"
          commentUserName="Maria Fernandez"
          commentUserMeta="@mariaf · 3h"

@@ -18,8 +18,8 @@ const First = ({
   commentUserMeta = "@juanperez · 3h",
   commentText = "This is unfortunately a common issue in the construction industry. Many small contractors face this problem.",
   commentLikes = 7,
+  commentAvatarUrl = "https://i.pravatar.cc/32?img=12",
   mainContent,
-  tweetText = "MARICONI: se le llama a la gente como @RuffoEstra73099 y #JoseLuisEstrasaMartinez que contratan un servicio y desaparecen a la hora de pagar. @ensenadanet @VigiaEnsenada @SPSEnsenada #Ensenada #BajaCalifornia #MexicanGP",
 }) => {
   return (
     <div className="mx-auto w-full max-w-[900px] p-4 font-sans ">
@@ -40,7 +40,10 @@ const First = ({
           {/* Main Tweet Text */}
           {mainContent ? mainContent : (
             <p className="text-[16px] leading-6 text-black mb-4">
-              {tweetText}
+              MARICONI: se le llama a la gente como <span className="text-black">@RuffoEstra73099</span> y
+              <span className="text-black"> #JoseLuisEstrasaMartinez</span> que contratan un servicio y
+              desaparecen a la hora de pagar. @ensenadanet @VigiaEnsenada @SPSEnsenada #Ensenada #BajaCalifornia
+              #MexicanGP
             </p>
           )}
 
@@ -113,23 +116,38 @@ const First = ({
           {/* One Comment */}
           <div className="px-6 pb-6">
             <div className="flex items-start gap-3">
-              <div className="w-9 h-9 rounded-full bg-gray-300" />
+              <div className="relative">
+                <div className="w-9 h-9 rounded-full bg-gray-200 overflow-hidden">
+                  <img 
+                    src={commentAvatarUrl} 
+                    alt={commentUserName}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.target.onerror = null;
+                      e.target.src = 'https://ui-avatars.com/api/?name=' + encodeURIComponent(commentUserName) + '&background=random';
+                    }}
+                  />
+                </div>
+              </div>
               <div className="flex-1">
                 <p className="font-semibold text-[14px]">
                   {commentUserName} 
-                  <span className="text-gray-500 font-normal">
+                  <span className="text-gray-500 font-normal ml-1">
                     {commentUserMeta}
                   </span>
                 </p>
                 <p className="text-[14px] mt-1 text-gray-800">
                   {commentText}
                 </p>
-                <div className="mt-2 flex items-center gap-2 text-black text-[13px]">
-                  <div className="flex items-center gap-1">
-                    <FaRegHeart />
-                  </div>
-                  <span>{commentLikes}</span>
-                  <button className="hover:underline">Reply</button>
+                <div className="mt-2 flex items-center gap-4 text-black text-[13px]">
+                  <button className="flex items-center gap-1 hover:text-red-500">
+                    <FaRegHeart className="text-[14px]" />
+                    <span className="ml-1">{commentLikes}</span>
+                  </button>
+                  <button className="flex items-center gap-1 hover:text-blue-500">
+                    <FaRegComment className="text-[14px]" />
+                    <span className="ml-1">Reply</span>
+                  </button>
                 </div>
               </div>
             </div>
