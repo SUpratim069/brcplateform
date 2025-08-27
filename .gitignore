@@ -247,3 +247,7 @@ Icon
 /build/
 
 # End of https://www.toptal.com/developers/gitignore/api/react,vite,node,macos,windows,linux,visualstudiocode
+
+# Environment variables
+.env
+

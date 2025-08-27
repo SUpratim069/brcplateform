@@ -14,7 +14,7 @@ import Footer from './layout/Footer/Footer';
 import CCPACompliance from './component/Ccpa/ccpa';
 import ScrollToTop from './ScrollToTop';
 import AllCases from './pages/AllcaseLink';
-
+import ComingSoon from './pages/ComingLink';
 const App = () => {
   return (
     <div className="app">
@@ -24,7 +24,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/case-sarmiento" element={<Case />} />
+          <Route path="/case-3000" element={<Case />} />
           <Route path="/cookies" element={<CookiesLink />} />
           <Route path="/legal-Ethics" element={<LegalEthicLink />} />
           <Route path="/legal-disclaimer" element={<LegalLink />} />
@@ -33,6 +33,7 @@ const App = () => {
           <Route path="/terms-of-use" element={<Termofcase />} />
           <Route path="/CCPA-Compliance" element={<CCPACompliance />} />
           <Route path="/all-Cases" element={<AllCases />} />
+          <Route path="/coming-soon" element={<ComingSoon />} />
         </Routes>
       </main>
       <Footer/>
