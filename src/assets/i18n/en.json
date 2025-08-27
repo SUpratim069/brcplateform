@@ -1,0 +1,733 @@
+{
+  "nav": {
+    "home": "Home",
+    "all_cases": "All Cases",
+    "case_3000": "Case #3000",
+    "submit_case": "Submit Case",
+    "donate": "Donate",
+    "membership": "Membership",
+    "legal": "Legal",
+    "en": "EN",
+    "es": "ES"
+  },
+  "sections": {
+    "ledger": {
+      "title": "Reputation Ledger",
+      "desc": "Permanent, transparent logs of abuses and omissions beyond court records."
+    },
+    "validation": {
+      "title": "Community Validation",
+      "desc": "Cases are supported or challenged by verified peers and public commentary."
+    },
+    "empowerment": {
+      "title": "Civic Empowerment",
+      "desc": "Every citizen becomes an archivist of legal memory and social truth."
+    }
+  },
+  "how_it_works": {
+    "title": "How BRC Works",
+    "steps": {
+      "1": "Submit Evidence",
+      "1_desc": "Provide details and upload verifiable documentation about the misconduct.",
+      "2": "Verification",
+      "2_desc": "Our team reviews and verifies the evidence for authenticity and relevance.",
+      "3": "Public Record",
+      "3_desc": "Verified cases are published on the BRC ledger for public transparency.",
+      "4": "Right to Reply",
+      "4_desc": "Accused parties are notified and have the right to respond to allegations.",
+      "5": "Civic Action",
+      "5_desc": "Cases inform civic action, policy, and collective memory."
+    }
+  },
+  "cases": {
+    "title": "Real-life",
+    "subtitle": "Reputational Cases",
+    "1123": {
+      "title": "Case #1123: Municipal Negligence",
+      "desc": "Waste overflow reported in Ward 17 was ignored by 3 civic bodies. The BRC record forced media coverage and a delayed apology."
+    },
+    "1047": {
+      "title": "Case #1047: Harassment at Work",
+      "desc": "A female whistleblower documented repeated HR retaliation. BRC entry led to external review and NGO-led support."
+    },
+    "1355": {
+      "title": "Case #1355: Public School Closure",
+      "desc": "Community documented 3 years of underfunding leading to school shutdown. Case helped reverse closure in 2024."
+    }
+  },
+  "hero": {
+    "title": "Behavioral Risk Check (BRC)",
+    "subtitle": "Citizen-led reputational intelligence, verified evidence, and civic justice in action.",
+    "description": "BRC is an independent civic protocol to document and trace reputational misconduct. It allows any citizen to submit verified evidence and grants the right to reply for the accused. All records are public and auditable.",
+    "cta": "Get Involved"
+  },
+  "cta_section": {
+    "title": "Be a Guardian of Reputational Justice",
+    "desc": "Join our mission to create legal memory for the unacknowledged. Share stories. Amplify truth. Push accountability forward.",
+    "button": "Get Involved"
+  },
+  "donations": {
+    "title": "Support BRC with Ethical Contributions",
+    "desc": "Your donations help keep the Citizen Reputational Bureau transparent, independent, and community-driven.",
+    "stripe": "Donate via Stripe",
+    "paypal": "Donate via PayPal",
+    "options": {
+      "founder": {
+        "title": "Founding Supporter",
+        "price": "$10/month",
+        "benefits": [
+          "Name on public wall (optional)",
+          "Exclusive newsletter",
+          "Help fund BRC growth"
+        ],
+        "cta": "Join Now"
+      },
+      "citizen": {
+        "title": "Verified Citizen",
+        "price": "$25/year",
+        "benefits": [
+          "Membership certificate",
+          "Access to internal updates",
+          "Optional listing on BRC directory"
+        ],
+        "cta": "Verify Me"
+      },
+      "ally": {
+        "title": "Legal Ally",
+        "price": "$25/year",
+        "benefits": [
+          "Public listing (optional)",
+          "Community defense toolkit",
+          "Advisory group access"
+        ],
+        "cta": "Become Ally"
+      }
+    },
+    "onetime": "One-Time or Monthly Donations"
+  },
+  "decentralized": {
+    "title": "Decentralized Publishing",
+    "desc": "We support optional publishing on distributed networks to ensure censorship resistance and data integrity.",
+    "coming": "Coming Soon: IPFS & Arweave integrations"
+  },
+  "footer": {
+    "title": "Citizen Reputational Bureau",
+    "desc": "A civic platform for documenting misconduct, empowering communities, and defending reputation through transparent, evidence-based records.",
+    "links": {
+      "legal": "Legal",
+      "legal_disclaimers": "Legal Disclaimers",
+      "cookies": "Cookie Policy",
+      "privacy": "Privacy Notice (GDPR)",
+      "ethics": "Legal Ethics Statement",
+      "terms": "Terms Of Use",
+      "ccpa": "CCPA Compliance"
+    },
+    "involve": {
+      "submit": "Submit a Case",
+      "donate": "Make a Donation",
+      "join": "Join as Member"
+    },
+    "copyright": " ©️ 2025 BRC Platform – A citizen-led public registry for documenting misconduct and enabling verified right of reply"
+  },
+  "legal_disclaimers": {
+    "title": "Legal Disclaimers",
+    "subtitle": "Important legal information regarding the use of the Citizen Reputational Bureau platform",
+    "sections": {
+      "1": {
+        "title": "1. General Disclaimer",
+        "text": "The Citizen Reputational Bureau (BRC) is a civil justice platform where citizens can document personal, community, or systemic injustices. BRC is not a court of law, government agency, or official judicial body. The information contained on this platform represents user-submitted documentation and does not constitute legal findings or determinations of fact."
+      },
+      "2": {
+        "title": "2. Nature of Content",
+        "text": "All case documentation, reports, and evidence submitted to BRC are provided by users of the platform. BRC does not independently verify the accuracy, completeness, or veracity of user-submitted content unless explicitly stated. Users are solely responsible for the content they submit."
+      },
+      "3": {
+        "title": "3. No Legal Advice",
+        "text": "The materials and information on this platform are provided for informational purposes only and do not constitute legal advice. BRC is not a law firm and does not provide legal services or representation. Users should consult with qualified legal professionals for specific legal advice."
+      },
+      "4": {
+        "title": "4. Limitation of Liability",
+        "text": "BRC shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages resulting from: The use or inability to use the service; Unauthorized access to or alteration of your transmissions or data; Statements or conduct of any third party on the service; Any other matter relating to the service."
+      },
+      "5": {
+        "title": "5. User Responsibilities",
+        "text": "By using this platform, you agree: To provide accurate and truthful information in your submissions; Not to submit defamatory, libelous, or knowingly false information; To comply with all applicable laws and regulations; To respect the privacy and rights of others."
+      },
+      "6": {
+        "title": "6. Intellectual Property",
+        "text": "All content submitted to BRC remains the intellectual property of the original submitter. By submitting content, users grant BRC a non-exclusive, worldwide, royalty-free license to use, display, and distribute the content in connection with the platform's operations."
+      },
+      "7": {
+        "title": "7. Right to Response",
+        "text": "Individuals named in case documentation have the right to submit responses or rebuttals, which will be published alongside the original content in accordance with our policies."
+      },
+      "8": {
+        "title": "8. Content Moderation",
+        "text": "BRC reserves the right to remove or modify any content that violates our terms of service or community guidelines, including but not limited to content that is unlawful, threatening, abusive, harassing, defamatory, or otherwise objectionable."
+      },
+      "9": {
+        "title": "9. Jurisdiction",
+        "text": "These terms shall be governed by and construed in accordance with the laws of [Jurisdiction], without regard to its conflict of law provisions. Any legal action relating to these terms or use of the platform shall be brought exclusively in the courts located in [Jurisdiction]."
+      },
+      "10": {
+        "title": "10. Changes to Disclaimers",
+        "text": "BRC reserves the right to modify these disclaimers at any time. Continued use of the platform following any changes constitutes acceptance of the new terms."
+      }
+    },
+    "contact": {
+      "title": "Contact Information",
+      "department": "Legal Department",
+      "org": "Citizen Reputational Bureau",
+      "email_label": "Email:",
+      "email": "legal@brc-platform.org",
+      "phone_label": "Phone:",
+      "phone": "1-800-XXX-XXXX",
+      "last_updated_label": "Last Updated:",
+      "last_updated": "July 2025"
+    }
+  },
+  "cookie_policy": {
+    "meta_title": "Cookie Policy - BRC",
+    "meta_description": "Our Cookie Policy explains how we use cookies and similar technologies on our website.",
+    "title": "Cookie Policy",
+    "subtitle": "Information about how we use cookies on the Citizen Reputational Bureau platform",
+    "sections": {
+      "1": {
+        "title": "1. What Are Cookies?",
+        "text": "Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, as well as to provide information to the website owners."
+      },
+      "2": {
+        "title": "2. How We Use Cookies",
+        "text": "The Citizen Reputational Bureau (BRC) uses cookies for several purposes:"
+      },
+      "3": {
+        "title": "3. Types of Cookies We Use",
+        "text": "Below is a list of cookies we use and their purposes."
+      },
+      "4": {
+        "title": "4. Managing Cookies",
+        "text": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. However, if you do this, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work."
+      },
+      "5": {
+        "title": "5. Third-Party Cookies",
+        "text": "We may use third-party services that place cookies on your device. These include:"
+      },
+      "6": {
+        "title": "6. Changes to This Policy",
+        "text": "We may update this Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page and updating the 'Last Updated' date below."
+      },
+      "7": {
+        "title": "7. Contact Us",
+        "text": "If you have any questions about our use of cookies, please contact us at:"
+      }
+    },
+    "essential": {
+      "title": "Essential Cookies:",
+      "text": "Necessary for the website to function properly."
+    },
+    "performance": {
+      "title": "Performance Cookies:",
+      "text": "Help us understand how visitors interact with our website."
+    },
+    "functionality": {
+      "title": "Functionality Cookies:",
+      "text": "Remember your preferences to enhance your experience."
+    },
+    "analytics": {
+      "title": "Analytics Cookies:",
+      "text": "Help us improve our website by collecting anonymous information."
+    },
+    "table": {
+      "name": "Cookie Name",
+      "purpose": "Purpose",
+      "duration": "Duration"
+    },
+    "browser_instructions": {
+      "title": "Browser-Specific Instructions:",
+      "chrome": "Google Chrome",
+      "firefox": "Mozilla Firefox",
+      "safari": "Safari",
+      "edge": "Microsoft Edge"
+    },
+    "third_party": {
+      "analytics": {
+        "title": "Analytics Services:",
+        "text": "Such as Google Analytics to help us analyze website usage."
+      },
+      "payments": {
+        "title": "Payment Processors:",
+        "text": "Cookies necessary for processing donations."
+      },
+      "social": {
+        "title": "Social Media:",
+        "text": "Cookies from embedded content like Twitter or Facebook feeds."
+      }
+    },
+    "contact": {
+      "officer": "Data Protection Officer",
+      "org": "Citizen Reputational Bureau",
+      "email_label": "Email:",
+      "last_updated_label": "Last Updated:",
+      "last_updated": "August 2025"
+    },
+    "preferences": {
+      "title": "Your Cookie Preferences",
+      "text": "You can manage your cookie preferences below:",
+      "essential": "Essential Cookies (Required)",
+      "performance": "Performance Cookies",
+      "analytics": "Analytics Cookies",
+      "save_button": "Save Preferences",
+      "save_alert": "Cookie preferences saved. Note: This is a demonstration. Actual cookie preferences would be implemented with proper cookie management tools."
+    }
+  },
+  "terms_of_use": {
+    "meta_title": "Terms of Use - BRC",
+    "meta_description": "Rules and guidelines for using the Citizen Reputational Bureau platform",
+    "title": "Terms of Use",
+    "subtitle": "The rules and guidelines governing your use of the Citizen Reputational Bureau platform",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing or using the Citizen Reputational Bureau (\"BRC\") platform, you agree to be bound by these Terms of Use. If you do not agree to these terms, you may not use our services. We reserve the right to modify these terms at any time, and your continued use constitutes acceptance of any changes."
+      },
+      "eligibility": {
+        "title": "2. User Eligibility",
+        "content": "To use BRC services, you must:",
+        "items": [
+          "Be at least 18 years of age or the age of majority in your jurisdiction",
+          "Have the legal capacity to enter into binding agreements",
+          "Not be prohibited from receiving our services under applicable laws",
+          "Provide accurate and complete registration information"
+        ]
+      },
+      "account_registration": {
+        "title": "3. Account Registration",
+        "content": "Some features may require account registration. You agree to:",
+        "items": [
+          "Provide accurate and current information",
+          "Maintain the security of your credentials",
+          "Be responsible for all activities under your account",
+          "Notify us immediately of any unauthorized use"
+        ]
+      },
+      "user_conduct": {
+        "title": "4. User Conduct",
+        "content": "You agree not to use the platform to:",
+        "items": [
+          "Submit false, misleading, or defamatory information",
+          "Violate any laws or third-party rights",
+          "Harass, threaten, or intimidate others",
+          "Upload malicious code or interfere with platform operations",
+          "Impersonate any person or entity",
+          "Engage in fraudulent or deceptive activities"
+        ]
+      },
+      "content_submission": {
+        "title": "5. Content Submission",
+        "content": "By submitting content to BRC, you:",
+        "items": [
+          "Affirm you have the right to share the content",
+          "Grant BRC a non-exclusive license to use, display, and distribute the content",
+          "Understand content may be publicly visible",
+          "Acknowledge BRC may remove content that violates these terms"
+        ]
+      },
+      "privacy_policy": {
+        "title": "6. Privacy Policy",
+        "content": "Your use of BRC is subject to our Privacy Notice, which explains how we collect, use, and protect your information. By using BRC, you consent to our data practices as described in the Privacy Notice."
+      },
+      "intellectual_property": {
+        "title": "7. Intellectual Property",
+        "content": "All platform content, including text, graphics, logos, and software, is owned by BRC or its licensors and protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without express permission."
+      },
+      "dispute_resolution": {
+        "title": "8. Dispute Resolution",
+        "content": "Any disputes arising from these terms shall be resolved through binding arbitration in [Jurisdiction], in accordance with the rules of [Arbitration Organization]. The arbitration shall be conducted in English, and the arbitrator's decision shall be final and binding."
+      },
+      "limitation_of_liability": {
+        "title": "9. Limitation of Liability",
+        "content": "BRC shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the platform, even if advised of the possibility of such damages."
+      },
+      "termination": {
+        "title": "10. Termination",
+        "content": "BRC reserves the right to suspend or terminate your access to the platform at any time, without notice, for conduct that we believe violates these terms or is harmful to other users, us, or third parties, or for any other reason."
+      },
+      "governing_law": {
+        "title": "11. Governing Law",
+        "content": "These terms shall be governed by and construed in accordance with the laws of [Jurisdiction], without regard to its conflict of law provisions."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "content": "For questions about these Terms of Use, please contact:",
+        "department": "Legal Department",
+        "org": "Citizen Reputational Bureau",
+        "email": "Email: legal@brc-platform.org",
+        "last_updated": "Last Updated: July 2025"
+      }
+    }
+  },
+  
+  "ccpa_gdpr": {
+    "meta_title": "CCPA/GDPR Compliance Notice - BRC",
+    "meta_description": "Your privacy rights under California and European Union data protection laws",
+    "title": "CCPA/GDPR Compliance Notice",
+    "subtitle": "Your privacy rights under California and European Union data protection laws",
+    "sections": {
+      "introduction": {
+        "title": "1. Introduction",
+        "content": "The Citizen Reputational Bureau (BRC) is committed to compliance with both the California Consumer Privacy Act (CCPA) and the European Union's General Data Protection Regulation (GDPR). This notice explains your rights under both regulations and how we protect your personal data.",
+        "overviews": [
+          {
+            "title": "CCPA Overview",
+            "description": "Provides California residents with specific rights regarding their personal information collected by businesses."
+          },
+          {
+            "title": "GDPR Overview",
+            "description": "Regulates data protection and privacy for individuals within the European Union and European Economic Area."
+          }
+        ]
+      },
+      "data_collection": {
+        "title": "2. Data Collection Practices",
+        "content": "We collect the following categories of personal information:",
+        "items": [
+          "Identifiers: Name, alias, contact information, IP address",
+          "Case Documentation: Information submitted in reputational cases",
+          "Financial Information: For donations and memberships",
+          "Technical Data: Browser type, device information, usage patterns",
+          "Location Data: Approximate geographic location"
+        ]
+      },
+      "your_rights": {
+        "title": "3. Your Rights",
+        "rights": [
+          {
+            "badge": "CCPA",
+            "title": "Right to Know and Access",
+            "content": "You may request disclosure of:",
+            "items": [
+              "Categories of personal information collected",
+              "Sources of collection",
+              "Business purposes for collection",
+              "Categories of third parties we share with",
+              "Specific pieces of personal information"
+            ]
+          },
+          {
+            "badges": ["CCPA", "GDPR"],
+            "title": "Right to Deletion",
+            "content": "Request deletion of your personal data, subject to legal exceptions including:",
+            "items": [
+              "Completion of transactions",
+              "Security protections",
+              "Legal compliance",
+              "Public interest archiving"
+            ]
+          },
+          {
+            "badge": "GDPR",
+            "title": "Right to Rectification",
+            "content": "Request correction of inaccurate personal data and completion of incomplete data."
+          },
+          {
+            "badge": "GDPR",
+            "title": "Right to Restrict Processing",
+            "content": "Request limitation of how we use your data in certain circumstances."
+          },
+          {
+            "badge": "GDPR",
+            "title": "Right to Data Portability",
+            "content": "Receive your data in a structured, commonly used format and transmit it to another controller."
+          },
+          {
+            "badge": "GDPR",
+            "title": "Right to Object",
+            "content": "Object to processing of your personal data in certain situations."
+          },
+          {
+            "badge": "CCPA",
+            "title": "Right to Opt-Out of Sale",
+            "content": "The Citizen Reputational Bureau does not sell personal information to third parties."
+          },
+          {
+            "badge": "CCPA",
+            "title": "Right to Non-Discrimination",
+            "content": "We will not discriminate against you for exercising your privacy rights."
+          }
+        ]
+      },
+      "exercise_rights": {
+        "title": "4. How to Exercise Your Rights",
+        "intro": "To submit a request regarding your personal data:",
+        "items": [
+          "Verifiable Request: Contact us through our designated request methods",
+          "Identity Verification: We will verify your identity before processing",
+          "Response Time: We aim to respond within required timeframes (30 days for CCPA, 1 month for GDPR)"
+        ],
+        "request_methods": {
+          "title": "Request Methods",
+          "items": [
+            "Online Portal: Privacy Request Portal",
+            "Email: privacy@brc-platform.org with \"Privacy Request\" in subject",
+            "Toll-Free (US): 1-800-XXX-XXXX",
+            "EU Representative: [Your EU Representative Details]",
+            "Mail: Citizen Reputational Bureau, Attn: Privacy Officer, [Your Address]"
+          ]
+        }
+      },
+      "data_security": {
+        "title": "5. Data Security",
+        "content": "We implement appropriate technical and organizational measures to protect personal data, including:",
+        "items": [
+          "Encryption of sensitive data",
+          "Regular security assessments",
+          "Access controls and authentication",
+          "Staff training on data protection"
+        ]
+      },
+      "data_transfers": {
+        "title": "6. International Data Transfers",
+        "content": "For GDPR compliance, we ensure appropriate safeguards for international data transfers, including:",
+        "items": [
+          "EU Standard Contractual Clauses",
+          "Adequacy decisions where applicable",
+          "Other approved transfer mechanisms"
+        ]
+      },
+      "data_retention": {
+        "title": "7. Data Retention",
+        "content": "We retain personal data only as long as necessary for:",
+        "items": [
+          "The purposes outlined in our Privacy Notice",
+          "Legal and regulatory requirements",
+          "Public interest archiving of reputational cases"
+        ]
+      },
+      "changes": {
+        "title": "8. Changes to This Notice",
+        "content": "We may update this compliance notice periodically. Significant changes will be communicated through our website or directly to affected individuals when required."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "privacy_officer": {
+          "title": "Privacy Officer (Global)",
+          "email": "privacy@brc-platform.org",
+          "phone": "1-800-XXX-XXXX"
+        },
+        "eu_representative": {
+          "title": "EU Representative",
+          "name": "[Representative Name]",
+          "address": "[Representative Address]",
+          "email": "eurep@brc-platform.org"
+        },
+        "uk_representative": {
+          "title": "UK Representative",
+          "name": "[Representative Name]",
+          "address": "[Representative Address]",
+          "email": "ukrep@brc-platform.org"
+        },
+        "last_updated": "Last Updated: July 2025"
+      }
+    }
+  },
+  "legal_ethics": {
+    "meta_title": "Legal Ethics Statement - BRC",
+    "meta_description": "Legal and Ethical Standards for the Citizen Reputational Bureau",
+    "title": "Legal Ethics Statement",
+    "subtitle": "Our commitment to ethical standards in documentation and reputational justice",
+    "sections": {
+      "principles": {
+        "title": "1. Foundational Principles",
+        "description": "The Citizen Reputational Bureau operates under these core ethical principles that guide all our activities and platform operations:",
+        "items": [
+          {
+            "title": "Truth & Accuracy",
+            "description": "We prioritize factual accuracy and require verifiable evidence for all submissions, while acknowledging the complexity of truth in reputational matters."
+          },
+          {
+            "title": "Due Process",
+            "description": "All subjects of documentation receive notice and opportunity to respond before publication, with clear procedures for rebuttal and appeal."
+          },
+          {
+            "title": "Proportionality",
+            "description": "We assess the severity of claims against available evidence, ensuring documentation reflects appropriate scope and context."
+          },
+          {
+            "title": "Public Interest",
+            "description": "Documentation serves legitimate civic purposes - exposing misconduct, protecting communities, and promoting accountability."
+          }
+        ]
+      },
+      "documentation_standards": {
+        "title": "2. Documentation Standards",
+        "description": "All case documentation must meet these ethical standards:",
+        "items": [
+          "Verification: Submitters must provide supporting evidence for factual claims",
+          "Context: Documentation must include relevant background and circumstances",
+          "Balance: Submitters should acknowledge any contradictory evidence",
+          "Privacy: Personal information not relevant to the case should be redacted",
+          "Timeliness: Documentation should reflect current information or clearly note historical context"
+        ]
+      },
+      "right_to_response": {
+        "title": "3. Right to Response",
+        "description": "We uphold these ethical practices regarding responses:",
+        "items": [
+          "Subjects receive notification before publication with clear response instructions",
+          "Responses receive equal prominence to original documentation",
+          "We facilitate mediation in cases of factual disputes",
+          "Corrections are published promptly with clear change documentation"
+        ]
+      },
+      "moderation_ethics": {
+        "title": "4. Moderation Ethics",
+        "description": "Our content moderation follows these principles:",
+        "items": [
+          "Transparency in moderation decisions and criteria",
+          "Consistency in applying platform rules",
+          "Opportunity for appeal of moderation decisions",
+          "Protection against misuse while preserving legitimate documentation",
+          "Regular review of moderation practices by independent ethics advisors"
+        ]
+      },
+      "conflict_of_interest": {
+        "title": "5. Conflict of Interest",
+        "description": "We maintain strict policies regarding conflicts:",
+        "items": [
+          "Staff and reviewers must disclose potential conflicts",
+          "Cases involving BRC personnel receive independent review",
+          "Funding sources are transparent and do not influence case documentation",
+          "No paid removals or alterations of documentation"
+        ]
+      },
+      "continuous_improvement": {
+        "title": "6. Continuous Improvement",
+        "description": "Our ethical framework evolves through:",
+        "items": [
+          "Annual ethics reviews by external experts",
+          "Public comment periods for policy changes",
+          "Case studies of ethical dilemmas for staff training",
+          "Transparent reporting on ethical challenges faced"
+        ]
+      },
+      "contact": {
+        "title": "Ethics Committee Contact",
+        "description": "To report ethical concerns or seek guidance:",
+        "officer": "Ethics Review Board",
+        "org": "Citizen Reputational Bureau",
+        "email": "Email: ethics@brc-platform.org",
+        "phone": "Confidential Hotline: +1 (555) 123-4567",
+        "last_updated": "Last Reviewed: July 2025"
+      }
+    }
+  },
+  
+  "privacy_notice_gdpr": {
+    "meta_title": "Privacy Notice (GDPR) - BRC",
+    "meta_description": "How we collect, use, and protect your personal data in compliance with the General Data Protection Regulation (GDPR).",
+    "title": "Privacy Notice (GDPR)",
+    "subtitle": "How we collect, use, and protect your personal data in compliance with the General Data Protection Regulation",
+    "sections": {
+      "1": {
+        "title": "1. Data Controller Information",
+        "text": "The Citizen Reputational Bureau (BRC) is the data controller responsible for your personal data.",
+        "contact_heading": "Contact Details:",
+        "contact_officer": "Data Protection Officer",
+        "contact_org": "Citizen Reputational Bureau",
+        "contact_email": "Email: dpo@brc-platform.org",
+        "contact_address": "Postal Address: [Your Registered Office Address]"
+      },
+      "2": {
+        "title": "2. Information We Collect",
+        "text": "We may collect and process the following categories of personal data:",
+        "list": {
+          "identity": "Identity Data: Name, username, or similar identifier",
+          "contact": "Contact Data: Email address, telephone numbers, postal address",
+          "case": "Case Data: Information submitted when documenting cases"
+        }
+      },
+      "3": {
+        "title": "3. How We Use Your Data",
+        "text": "We will only use your personal data when the law allows us to. Most commonly, we will use your data in the following circumstances:",
+        "list": {
+          "register": "To register you as a user of our platform",
+          "process": "To process and document cases of reputational concern",
+          "manage": "To manage our relationship with you",
+          "admin": "To administer and protect our platform",
+          "deliver": "To deliver relevant website content",
+          "analytics": "To use data analytics to improve our platform"
+        }
+      },
+      "4": {
+        "title": "4. Legal Basis for Processing",
+        "text": "Under GDPR, we rely on the following legal bases for processing personal data:",
+        "list": {
+          "consent": "Consent: When you have given clear consent",
+          "contract": "Contract: When processing is necessary for a contract",
+          "legal_obligation": "Legal Obligation: When processing is required by law",
+          "legitimate_interests": "Legitimate Interests: When processing is necessary for our legitimate interests",
+          "public_interest": "Public Interest: When processing is necessary for a task carried out in the public interest"
+        }
+      },
+      "5": {
+        "title": "5. Data Sharing and Transfers",
+        "text": "We may share your personal data with the following parties:",
+        "list": {
+          "service_providers": "Service providers who provide IT and system administration services",
+          "advisers": "Professional advisers including lawyers, bankers, and insurers",
+          "government": "Government bodies that require us to report processing activities",
+          "third_parties": "Third parties to whom we may choose to transfer parts of our operations"
+        },
+        "note": "We require all third parties to respect the security of your personal data and to treat it in accordance with the law."
+      },
+      "6": {
+        "title": "6. Data Security",
+        "text": "We have implemented appropriate security measures to prevent your personal data from being accidentally lost, used, or accessed in an unauthorized way. These include:",
+        "list": {
+          "encryption": "Encryption of data in transit and at rest",
+          "assessments": "Regular security assessments and penetration testing",
+          "access_controls": "Access controls and authentication procedures",
+          "training": "Staff training on data protection"
+        }
+      },
+      "7": {
+        "title": "7. Data Retention",
+        "text": "We will only retain your personal data for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.",
+        "note": "Our standard retention periods are:",
+        "list": {
+          "user_accounts": "User accounts: 5 years after last activity",
+          "case_docs": "Case documentation: 10 years from case closure",
+          "financial": "Financial records: 7 years for tax purposes"
+        }
+      },
+      "8": {
+        "title": "8. Your Legal Rights",
+        "text": "Under GDPR, you have rights including:",
+        "list": {
+          "access": "Right to access: Request copies of your personal data",
+          "rectification": "Right to rectification: Request correction of inaccurate data",
+          "erasure": "Right to erasure: Request deletion of your personal data",
+          "restrict": "Right to restrict processing: Request limitation of processing",
+          "portability": "Right to data portability: Request transfer of your data",
+          "object": "Right to object: Object to certain types of processing",
+          "withdraw": "Right to withdraw consent: Withdraw consent at any time"
+        },
+        "note": "To exercise any of these rights, please contact our Data Protection Officer."
+      },
+      "9": {
+        "title": "9. Changes to This Notice",
+        "text": "We may update this privacy notice from time to time. The current version will always be posted on our website with an updated revision date."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "text": "For questions about this privacy notice or our data practices, please contact:",
+        "officer": "Data Protection Officer",
+        "org": "Citizen Reputational Bureau",
+        "email": "Email: dpo@brc-platform.org",
+        "address": "Postal Address: [Your Registered Office Address]",
+        "last_updated": "Last Updated: July 2025"
+      }
+    }
+  }
+}
+

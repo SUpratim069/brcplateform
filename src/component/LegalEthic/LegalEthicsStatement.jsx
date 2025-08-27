@@ -1,126 +1,119 @@
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import { Helmet } from 'react-helmet';
+
 const LegalEthicsStatement = () => {
-  const ethicalPrinciples = [
-    {
-      title: "Truth & Accuracy",
-      description: "We prioritize factual accuracy and require verifiable evidence for all submissions, while acknowledging the complexity of truth in reputational matters."
-    },
-    {
-      title: "Due Process",
-      description: "All subjects of documentation receive notice and opportunity to respond before publication, with clear procedures for rebuttal and appeal."
-    },
-    {
-      title: "Proportionality",
-      description: "We assess the severity of claims against available evidence, ensuring documentation reflects appropriate scope and context."
-    },
-    {
-      title: "Public Interest",
-      description: "Documentation serves legitimate civic purposes - exposing misconduct, protecting communities, and promoting accountability."
-    }
-  ];
+  const { t } = useTranslation();
+  const ethicalPrinciples = t('legal_ethics.sections.principles.items', { returnObjects: true });
+
+  const renderListItems = (items) => {
+    if (!Array.isArray(items)) return null;
+    
+    return items.map((item, index) => {
+      if (typeof item === 'string') {
+        const [title, ...descParts] = item.split(': ');
+        const description = descParts.join(': ');
+        
+        return (
+          <li key={index}>
+            {description ? (
+              <>
+                <strong>{title}:</strong> {description}
+              </>
+            ) : (
+              title
+            )}
+          </li>
+        );
+      }
+      return null;
+    });
+  };
+
+  const renderSection = (sectionKey) => {
+    const section = t(`legal_ethics.sections.${sectionKey}`, { returnObjects: true });
+    if (!section) return null;
+
+    return (
+      <>
+        <h2 className="text-xl sm:text-2xl font-bold mb-6 mt-10">{section.title}</h2>
+        <p>{section.description}</p>
+        {section.items && (
+          <ul className="list-disc pl-6 space-y-2 mt-4">
+            {renderListItems(section.items)}
+          </ul>
+        )}
+      </>
+    );
+  };
 
   return (
     <div className="min-h-screen bg-white">
-      <head>
-        <title>Legal Ethics Statement - BRC</title>
-        <meta name="description" content="Legal and Ethical Standards for the Citizen Reputational Bureau" />
+      <Helmet>
+        <title>{t('legal_ethics.meta_title')}</title>
+        <meta name="description" content={t('legal_ethics.meta_description')} />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charSet="UTF-8" />
         <link rel="canonical" href="https://yourwebsite.com/legal-ethics" />
-      </head>
-
-      {/* Header with Navigation */}
-     
+      </Helmet>
 
       {/* Hero Section */}
       <section className="bg-gray-900 text-white py-12 sm:py-20 px-4 sm:px-6 text-center">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Legal Ethics Statement</h1>
-        <p className="text-base sm:text-lg max-w-2xl mx-auto">Our commitment to ethical standards in documentation and reputational justice</p>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+          {t('legal_ethics.title')}
+        </h1>
+        <p className="text-base sm:text-lg max-w-2xl mx-auto">
+          {t('legal_ethics.subtitle')}
+        </p>
       </section>
 
       {/* Ethics Content */}
       <section className="max-w-5xl mx-auto py-12 sm:py-16 px-4 sm:px-6">
         <div className="prose lg:prose-xl">
-          <h2 className="text-xl sm:text-2xl font-bold mb-6">1. Foundational Principles</h2>
-          <p>The Citizen Reputational Bureau operates under these core ethical principles that guide all our activities and platform operations:</p>
+          <h2 className="text-xl sm:text-2xl font-bold mb-6">
+            {t('legal_ethics.sections.principles.title')}
+          </h2>
+          <p>{t('legal_ethics.sections.principles.description')}</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
-            {ethicalPrinciples.map((principle, index) => (
-              <div key={index} className="ethics-card bg-gray-50 p-6 rounded-lg border-l-4 border-yellow-500 hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+            {Array.isArray(ethicalPrinciples) && ethicalPrinciples.map((principle, index) => (
+              <div 
+                key={index} 
+                className="ethics-card bg-gray-50 p-6 rounded-lg border-l-4 border-yellow-500 hover:-translate-y-1 hover:shadow-lg transition-all duration-300"
+              >
                 <h3 className="font-bold text-lg mb-2">{principle.title}</h3>
                 <p className="text-gray-600">{principle.description}</p>
               </div>
             ))}
           </div>
 
-          <h2 className="text-xl sm:text-2xl font-bold mb-6 mt-10">2. Documentation Standards</h2>
-          <p>All case documentation must meet these ethical standards:</p>
-          <ul className="list-disc pl-6 space-y-2 mt-4">
-            <li><strong>Verification:</strong> Submitters must provide supporting evidence for factual claims</li>
-            <li><strong>Context:</strong> Documentation must include relevant background and circumstances</li>
-            <li><strong>Balance:</strong> Submitters should acknowledge any contradictory evidence</li>
-            <li><strong>Privacy:</strong> Personal information not relevant to the case should be redacted</li>
-            <li><strong>Timeliness:</strong> Documentation should reflect current information or clearly note historical context</li>
-          </ul>
-
-          <h2 className="text-xl sm:text-2xl font-bold mb-6 mt-10">3. Right to Response</h2>
-          <p>We uphold these ethical practices regarding responses:</p>
-          <ul className="list-disc pl-6 space-y-2 mt-4">
-            <li>Subjects receive notification before publication with clear response instructions</li>
-            <li>Responses receive equal prominence to original documentation</li>
-            <li>We facilitate mediation in cases of factual disputes</li>
-            <li>Corrections are published promptly with clear change documentation</li>
-          </ul>
-
-          <h2 className="text-xl sm:text-2xl font-bold mb-6 mt-10">4. Moderation Ethics</h2>
-          <p>Our content moderation follows these principles:</p>
-          <ul className="list-disc pl-6 space-y-2 mt-4">
-            <li>Transparency in moderation decisions and criteria</li>
-            <li>Consistency in applying platform rules</li>
-            <li>Opportunity for appeal of moderation decisions</li>
-            <li>Protection against misuse while preserving legitimate documentation</li>
-            <li>Regular review of moderation practices by independent ethics advisors</li>
-          </ul>
-
-          <h2 className="text-xl sm:text-2xl font-bold mb-6 mt-10">5. Conflict of Interest</h2>
-          <p>We maintain strict policies regarding conflicts:</p>
-          <ul className="list-disc pl-6 space-y-2 mt-4">
-            <li>Staff and reviewers must disclose potential conflicts</li>
-            <li>Cases involving BRC personnel receive independent review</li>
-            <li>Funding sources are transparent and do not influence case documentation</li>
-            <li>No paid removals or alterations of documentation</li>
-          </ul>
-
-          <h2 className="text-xl sm:text-2xl font-bold mb-6 mt-10">6. Continuous Improvement</h2>
-          <p>Our ethical framework evolves through:</p>
-          <ul className="list-disc pl-6 space-y-2 mt-4">
-            <li>Annual ethics reviews by external experts</li>
-            <li>Public comment periods for policy changes</li>
-            <li>Case studies of ethical dilemmas for staff training</li>
-            <li>Transparent reporting on ethical challenges faced</li>
-          </ul>
+          {renderSection('documentation_standards')}
+          {renderSection('right_to_response')}
+          {renderSection('moderation_ethics')}
+          {renderSection('conflict_of_interest')}
+          {renderSection('continuous_improvement')}
 
           <div className="bg-gray-100 p-4 sm:p-6 rounded-lg mt-10">
-            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">Ethics Committee Contact</h3>
-            <p>To report ethical concerns or seek guidance:</p>
-            <p className="mt-2"><strong>Ethics Review Board</strong><br />
-            Citizen Reputational Bureau<br />
-            Email: ethics@brc-platform.org<br />
-            Confidential Hotline: +1 (555) 123-4567<br />
-            Last Reviewed: July 2025</p>
+            <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">
+              {t('legal_ethics.sections.contact.title')}
+            </h3>
+            <p>{t('legal_ethics.sections.contact.description')}</p>
+            <p className="mt-2">
+              <strong>{t('legal_ethics.sections.contact.officer')}</strong>
+              <br />
+              {t('legal_ethics.sections.contact.org')}
+              <br />
+              {t('legal_ethics.sections.contact.email')}
+              <br />
+              {t('legal_ethics.sections.contact.phone')}
+              <br />
+              {t('legal_ethics.sections.contact.last_updated')}
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Footer */}
-      
-
       <style jsx global>{`
-        .lang-toggle {
-          background-color: #f3f4f6;
-          border-radius: 9999px;
-          padding: 0.25rem;
-          display: inline-flex;
-        }
         .ethics-card {
           transition: all 0.3s ease;
         }

@@ -1,31 +1,33 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
+  const { t } = useTranslation();
   const sections = [
     {
-      title: 'Citizen Reputational Bureau',
-      content: 'A civic platform for documenting misconduct, empowering communities, and defending reputation through transparent, evidence-based records.',
+      title: t('footer.title'),
+      content: t('footer.desc'),
       isList: false,
     },
     {
-      title: 'Legal',
+      title: t('footer.links.legal'),
       links: [
-        { label: 'Legal Disclaimers', href: '/legal-disclaimer' },
-        { label: 'Cookie Policy', href: '/cookies' },
-        { label: 'Privacy Notice (GDPR)', href: '/privacy' },
-        { label: 'Legal Ethics Statement', href: '/legal-Ethics' },
-        { label: 'Terms Of Use', href: '/terms-of-use' },
-        { label: 'CCPA Compliance', href: '/CCPA-Compliance' },
+        { label: t('footer.links.legal'), href: '/legal-disclaimer' },
+        { label: t('footer.links.cookies'), href: '/cookies' },
+        { label: t('footer.links.privacy'), href: '/privacy' },
+        { label: t('footer.links.ethics'), href: '/legal-Ethics' },
+        { label: t('footer.links.terms'), href: '/terms-of-use' },
+        { label: t('footer.links.ccpa'), href: '/CCPA-Compliance' },
       ],
       isList: true,
     },
     {
-      title: 'Get Involved',
+      title: t('footer.involve.title', 'Get Involved'),
       links: [
-        { label: 'Submit a Case', href: '/#submit' },
-        { label: 'Make a Donation', href: '/#donate' },
-        { label: 'Join as Member', href: '#' },
+        { label: t('footer.involve.submit'), href: '/#submit' },
+        { label: t('footer.involve.donate'), href: '/#donate' },
+        { label: t('footer.involve.join'), href: '#' },
       ],
       isList: true,
     },
@@ -64,7 +66,7 @@ const Footer = () => {
         ))}
       </div>
       <div className="text-center text-xs text-gray-500 mt-6 sm:mt-10">
-        ©️ 2025 BRC Platform – A citizen-led public registry for documenting misconduct and enabling verified right of reply
+        {t('footer.copyright')}
       </div>
     </footer>
   );

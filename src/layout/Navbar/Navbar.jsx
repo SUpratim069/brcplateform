@@ -1,19 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeLang, setActiveLang] = useState('EN');
+  const { i18n } = useTranslation();
 
   const location = useLocation();
   const navLinks = [
-    { title: "Home", link: "/" },
-    { title: "All Cases", link: "/coming-soon" },
-    { title: "Case #3000", link: "/case-3000" },
-    { title: "Submit Case", link: "/#submit" },
-    { title: "Donate", link: "/#donate" },
-    { title: "Membership", link: "/" },
-    { title: "Legal", link: "/legal-disclaimer" },
+    { key: "home", link: "/" },
+    { key: "all_cases", link: "/coming-soon" },
+    { key: "case_3000", link: "/case-3000" },
+    { key: "submit_case", link: "/#submit" },
+    { key: "donate", link: "/#donate" },
+    { key: "membership", link: "/" },
+    { key: "legal", link: "/legal-disclaimer" },
   ];
 
   useEffect(() => {
@@ -47,7 +49,7 @@ const Navbar = () => {
 
   const handleLanguageChange = (lang) => {
     setActiveLang(lang);
-    console.log('Language switched to:', lang);
+    i18n.changeLanguage(lang === 'EN' ? 'en' : 'es-MX');
   };
 
   return (
@@ -56,21 +58,23 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
+          <Link to="/">
             <img src="brclogo.jpeg" alt="BRC Logo" className="h-14 sm:h-16 mr-3" />
+            </Link>
           </div>
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center space-x-9">
             <nav className="flex space-x-10">
-              {navLinks.map(({ title, link }) => (
-                <Link
-                  key={title}
-                  to={link}
-                  className="text-black hover:text-blue-600 px-2 py-2 text-sm sm:text-base transition"
-                >
-                  {title}
-                </Link>
-              ))}
+              {navLinks.map(({ key, link }) => (
+              <Link
+                key={key}
+                to={link}
+                className="text-black hover:text-blue-600 px-2 py-2 text-sm sm:text-base transition"
+              >
+                {i18n.t(`nav.${key}`)}
+              </Link>
+            ))}
             </nav>
             <div className="lang-toggle ml-4">
               {['EN', 'ES'].map((lang) => (
@@ -117,14 +121,14 @@ const Navbar = () => {
           }`}
         >
           <div className="px-2 pt-2 pb-4 space-y-2">
-            {navLinks.map(({ title, link }) => (
+            {navLinks.map(({ key, link }) => (
               <Link
-                key={title}
+                key={key}
                 to={link}
                 className="block px-3 py-2 text-base text-black hover:bg-gray-100 rounded-lg"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                {title}
+                {i18n.t(`nav.${key}`)}
               </Link>
             ))}
             <div className="flex w-full px-3 py-2 space-x-2 relative bottom-2 ">
@@ -148,7 +152,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-       <style jsx global>{`
+       <style jsx>{`
         .lang-toggle {
           background-color: #f3f4f6;
           border-radius: 9999px;
