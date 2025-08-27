@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import logo from "../../assets/logo/brclogo.jpeg";
 import { Link } from 'react-router-dom';
+import PayPalButton from '../PayPalButton';
+import StripeButton from '../StripeButton';
 
 const BRCPlatform = () => {
   const navLinks = [
@@ -115,35 +117,35 @@ const BRCPlatform = () => {
           <div className="grid grid-cols-1 md:grid-cols-5 gap-4 sm:gap-6 text-left mb-8">
             {/* Step 1 */}
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-200">
-              <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">1</div>
+              {/* <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">1</div> */}
               <h3 className="font-semibold text-center sm:text-left mb-2">Submit Evidence</h3>
               <p className="text-sm text-gray-600 text-center sm:text-left">Citizens submit verified evidence of misconduct through our secure platform.</p>
             </div>
             
             {/* Step 2 */}
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-200">
-              <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">2</div>
+              {/* <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">2</div> */}
               <h3 className="font-semibold text-center sm:text-left mb-2">Right to Reply</h3>
               <p className="text-sm text-gray-600 text-center sm:text-left">The accused party is notified and given opportunity to respond.</p>
             </div>
             
             {/* Step 3 */}
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-200">
-              <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">3</div>
+              {/* <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">3</div> */}
               <h3 className="font-semibold text-center sm:text-left mb-2">Community Review</h3>
               <p className="text-sm text-gray-600 text-center sm:text-left">Verified peers and experts evaluate the evidence and responses.</p>
             </div>
             
             {/* Step 4 */}
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-200">
-              <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">4</div>
+              {/* <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">4</div> */}
               <h3 className="font-semibold text-center sm:text-left mb-2">Public Record</h3>
               <p className="text-sm text-gray-600 text-center sm:text-left">Validated cases are added to the permanent, transparent ledger.</p>
             </div>
             
             {/* Step 5 */}
             <div className="bg-gray-50 p-4 sm:p-6 rounded-lg border border-gray-200">
-              <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">5</div>
+              {/* <div className="bg-[#0d111c] text-white rounded-full w-8 h-8 flex items-center justify-center mb-3 mx-auto sm:mx-0">5</div> */}
               <h3 className="font-semibold text-center sm:text-left mb-2">Civic Impact</h3>
               <p className="text-sm text-gray-600 text-center sm:text-left">The record informs public discourse and institutional accountability.</p>
             </div>
@@ -163,39 +165,79 @@ const BRCPlatform = () => {
       {/* Cases */}
       <section className="py-12 sm:py-16 px-4 sm:px-6 max-w-5xl mx-auto">
         <div className="text-center mb-8 sm:mb-10">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Real-life</h2>
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-600">Reputational Cases</h3>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Recent Cases</h2>
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-600">RDocumented on BRC</h3>
         </div>
         <div className="space-y-4 sm:space-y-6">
           <div className="border-l-4 border-yellow-500 pl-4">
             <p className="font-semibold text-base sm:text-lg">
               Case #1123: Municipal Negligence
             </p>
-            <p className="text-sm sm:text-base">
+            <p className="text-sm sm:text-base text-black/80">
               Waste overflow reported in Ward 17 was ignored by 3 civic bodies. The BRC record forced media coverage and a delayed apology.
             </p>
+            <p className="text-sm sm:text-base  text-black/80" >
+government negligence public health            </p>
           </div>
           <div className="border-l-4 border-yellow-500 pl-4">
             <p className="font-semibold text-base sm:text-lg">
               Case #1047: Harassment at Work
             </p>
-            <p className="text-sm sm:text-base">
+            <p className="text-sm sm:text-base  text-black/80">
               A female whistleblower documented repeated HR retaliation. BRC entry led to external review and NGO-led support.
             </p>
+            <p className="text-sm sm:text-base  text-black/80">
+workplace harassment retaliation            </p>
           </div>
           <div className="border-l-4 border-yellow-500 pl-4">
             <p className="font-semibold text-base sm:text-lg">
               Case #1355: Public School Closure
             </p>
-            <p className="text-sm sm:text-base">
+            <p className="text-sm sm:text-base  text-black/80">
               Community documented 3 years of underfunding leading to school shutdown. Case helped reverse closure in 2024.
             </p>
+            <p className="text-sm sm:text-base  text-black/80">
+education community funding            </p>
           </div>
         </div>
       </section>
 
       {/* Submit */}
       <section className="bg-[#0d111c] text-white py-12 sm:py-20 px-4 sm:px-6" id="submit">
+        {/*Warning */}
+    <div className="max-w-3xl mx-auto mb-8 sm:mb-10  ">
+         <div className="flex items-start border border-white/5 py-10 px-7 bg-white/5 rounded-xl">
+    {/* Icon */}
+    <svg 
+      className="h-5 w-5 md:h-6 md:w-6 text-yellow-400 mt-1 flex-shrink-0" 
+      xmlns="http://www.w3.org/2000/svg" 
+      fill="currentColor" 
+      viewBox="0 0 20 20"
+    >
+      <path 
+        fillRule="evenodd" 
+        d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" 
+        clipRule="evenodd" 
+      />
+    </svg>
+
+    {/* Text */}
+    <div className="ml-3">
+      <h3 className="text-sm md:text-xl font-semibold text-yellow-400 mb-2">
+        Important Legal Information
+      </h3>
+      <p className="text-sm md:text-lg text-gray-300 mb-3">
+        This registry is of civic nature and public interest:
+      </p>
+      <ul className="list-disc list-inside space-y-1 text-sm md:text-lg text-gray-400">
+        <li>All submissions must be supported by verifiable evidence</li>
+        <li>Subjects have the right to reply to any allegations</li>
+        <li>False or misleading submissions may have legal consequences</li>
+        <li>This platform does not replace official legal proceedings</li>
+      </ul>
+    </div>
+  </div>
+    </div>
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
             Submit a Reputational Case
@@ -270,12 +312,9 @@ const BRCPlatform = () => {
             One-Time or Monthly Donations
           </h3>
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
-            <a className="bg-blue-600 text-white px-4 sm:px-5 py-2 sm:py-3 rounded hover:bg-blue-700 transition font-semibold flex-1 sm:flex-none text-sm sm:text-base" href="#">
-              Donate via Stripe
-            </a>
-            <a className="bg-yellow-500 text-black px-4 sm:px-5 py-2 sm:py-3 rounded hover:bg-yellow-400 transition font-semibold flex-1 sm:flex-none text-sm sm:text-base" href="#">
-              Donate via PayPal
-            </a>
+
+            <StripeButton />
+            <PayPalButton />
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 text-left">

@@ -8,8 +8,8 @@ const Navbar = () => {
   const location = useLocation();
   const navLinks = [
     { title: "Home", link: "/" },
-    { title: "All Cases", link: "/all-Cases" },
-    { title: "Case #3000_Sarmiento", link: "/case-sarmiento" },
+    { title: "All Cases", link: "/coming-soon" },
+    { title: "Case #3000", link: "/case-3000" },
     { title: "Submit Case", link: "/#submit" },
     { title: "Donate", link: "/#donate" },
     { title: "Membership", link: "/" },
