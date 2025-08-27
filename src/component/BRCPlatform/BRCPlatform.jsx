@@ -314,7 +314,9 @@ education community funding            </p>
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
 
             <StripeButton />
-            <PayPalButton />
+            <div className="relative z-10">
+  <PayPalButton />
+</div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 text-left">
