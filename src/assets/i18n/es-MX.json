@@ -533,6 +533,53 @@
       }
     }
   },
+  "coming_soon": {
+    "title": "Algo significativo está por venir",
+    "description": "Estamos dando los últimos toques a nuestro próximo lanzamiento. Manténgase atento a las actualizaciones y acceso anticipado.",
+    "email_placeholder": "Ingresa tu correo para recibir notificaciones",
+    "notify_me": "Notifícame",
+    "stay_updated": "Mantente actualizado con nuestro progreso",
+    "follow_us": "Síguenos"
+  },
+  "sarmiento_case": {
+    "case_profile": "Perfil del Caso",
+    "legal_notice_title": "AVISO LEGAL",
+    "legal_notice": "Esta plataforma no emite juicios legales. Documenta informes ciudadanos con evidencia de respaldo y ofrece pleno derecho de réplica. Se presume la inocencia de las personas mencionadas. Esta es una herramienta de transparencia y prevención.",
+    "case_summary": "1. Resumen del Caso",
+    "relationship_beginning": "Inicio de la relación",
+    "relationship_beginning_text": "Esta relación comenzó como una amistad cuando el demandante estaba comenzando un proyecto de construcción. Se firmaron tres contratos de suma global con plazo determinado.",
+    "conflict": "Conflicto",
+    "conflict_text": "A pesar de un contrato de precio fijo y plazo determinado, él exigió injustificadamente más dinero. Había realizado una debida diligencia completa antes de firmar, y expertos independientes confirmaron que la información proporcionada era más que suficiente. Otros postores incluso cotizaron precios más bajos.",
+    "demands": "Exigencias",
+    "demands_text": "Exigió pagos adicionales sin justificación, incluso después de firmar un acuerdo de conciliación.",
+    "threats": "Amenazas",
+    "threats_text": "Dos años después, comenzaron las amenazas y mensajes intimidatorios, incluyendo publicaciones en redes sociales.",
+    "impact": "Impacto en terceros",
+    "impact_text": "Las amenazas y difamación incluyeron a miembros de la familia (hijos, esposa, madre), reputación profesional y posición social.",
+    "related_contacts": "Contactos Relacionados",
+    "contact_note": "Nota",
+    "contact_text": "La información de contacto se mantiene confidencial y solo se comparte con partes autorizadas para fines de verificación.",
+    "to_request_contact": "Para solicitar información de contacto verificada con fines legítimos, por favor",
+    "contact_link": "contacte a nuestro Oficial de Protección de Datos",
+    "with_your_request": "con su solicitud oficial.",
+    "public_evidence": "2. Evidencia Pública",
+    "pdf_document": "Documento PDF",
+    "view_pdf": "Ver Documento PDF",
+    "audio_evidence_1": "Audio Evidence 1",
+    "audio_evidence_2": "Audio Evidence 2",
+    "browser_no_audio": "Su navegador no soporta el elemento de audio.",
+    "image_evidence": "Imagen (Redes Sociales)",
+    "social_media_evidence": "Enlace de Evidencia de Facebook/WhatsApp",
+    "view_social_media": "Ver publicación en redes sociales",
+    "right_to_reply": "3. Derecho de Réplica",
+    "full_name": "Nombre completo",
+    "email_address": "Correo electrónico",
+    "public_response": "Su respuesta pública...",
+    "submit_response": "Enviar Respuesta",
+    "thank_you": "¡Gracias!",
+    "success_message": "Gracias por enviar su respuesta. José Eduardo Ignacio Sarmiento Pinedo responderá a su mensaje.",
+    "ok": "Aceptar"
+  },
   "legal_ethics": {
     "meta_title": "Declaración de Ética Legal - BRC",
     "meta_description": "Estándares Legales y Éticos para la Oficina Ciudadana de Reputación",
@@ -625,6 +672,34 @@
     }
   },
   
+  "form": {
+    "warning": {
+      "title": "Información Legal Importante",
+      "description": "Este registro es de naturaleza cívica y de interés público:",
+      "items": [
+        "Todas las presentaciones deben estar respaldadas por evidencia verificable",
+        "Los sujetos tienen derecho a responder a cualquier acusación",
+        "Las presentaciones falsas o engañosas pueden tener consecuencias legales",
+        "Esta plataforma no reemplaza los procedimientos legales oficiales"
+      ]
+    },
+    "title": "Enviar un Caso de Reputación",
+    "description": "Tu verdad importa. Ayúdanos a construir memoria colectiva y rendición de cuentas. Cada injusticia documentada ayuda a dar forma al poder cívico.",
+    "fields": {
+      "name": "Tu Nombre Completo (requerido)",
+      "email": "Tu Correo Electrónico (requerido)",
+      "phone": "Tu Teléfono (requerido)",
+      "tags": "Etiquetas (ej. lugar de trabajo, corrupción, cívico) (requerido)",
+      "description": "Describe el incidente... (requerido)",
+      "evidence": "Subir Evidencia (PDF, Imagen, Audio) (requerido):"
+    },
+    "checkboxes": {
+      "review": "Entiendo que mi respuesta será revisada y puede que no se publique de inmediato. (requerido)",
+      "storage": "Autorizo que esta información sea almacenada para fines de trazabilidad legal y transparencia pública. (requerido)",
+      "terms": "Acepto los <a href=\"terms&condition.html\" class=\"underline\">términos y condiciones</a>. (requerido)"
+    },
+    "submit": "Enviar Caso"
+  },
   "privacy_notice_gdpr": {
     "meta_title": "Aviso de Privacidad (GDPR) - BRC",
     "meta_description": "Cómo recopilamos, usamos y protegemos sus datos personales en cumplimiento con el Reglamento General de Protección de Datos (GDPR).",

@@ -8,8 +8,10 @@ i18n
   .init({
     resources: {
       en: { translation: en },
-      'es-MX': { translation: esMX },
+      'es-MX': { translation: esMX }
     },
+    ns: ['translation'],
+    defaultNS: 'translation',
     lng: 'en',
     fallbackLng: 'en',
     interpolation: {

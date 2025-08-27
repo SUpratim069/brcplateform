@@ -530,6 +530,53 @@
       }
     }
   },
+  "coming_soon": {
+    "title": "Something meaningful is coming soon",
+    "description": "We're putting the final touches on our next release. Stay tuned for updates and early access.",
+    "email_placeholder": "Enter your email to get notified",
+    "notify_me": "Notify me",
+    "stay_updated": "Stay updated with our progress",
+    "follow_us": "Follow us"
+  },
+  "sarmiento_case": {
+    "case_profile": "Case Profile",
+    "legal_notice_title": "LEGAL NOTICE",
+    "legal_notice": "This platform does not issue legal judgments. It documents citizen reports with supporting evidence and offers full right of reply. The individuals mentioned are presumed innocent. This is a transparency and prevention tool.",
+    "case_summary": "1. Case Summary",
+    "relationship_beginning": "Relationship beginning",
+    "relationship_beginning_text": "This relationship started as a friendship when the complainant was beginning a construction project. Three lump-sum, time-bound contracts were signed.",
+    "conflict": "Conflict",
+    "conflict_text": "Despite a fixed-price, fixed-term contract, he unjustifiably demanded more money. He had done full due diligence before signing, and third-party experts confirmed the info provided was more than sufficient. Other bidders even quoted lower prices.",
+    "demands": "Demands",
+    "demands_text": "He demanded additional payments without justification, even after signing a settlement agreement.",
+    "threats": "Threats",
+    "threats_text": "Two years later, threats and intimidating messages began, including social media posts.",
+    "impact": "Impact on third parties",
+    "impact_text": "Threats and defamation included family members (children, wife, mother), professional reputation, and social standing.",
+    "related_contacts": "Related Contacts",
+    "contact_note": "Note",
+    "contact_text": "Contact information is kept confidential and only shared with authorized parties for verification purposes.",
+    "to_request_contact": "To request verified contact information for legitimate purposes, please",
+    "contact_link": "contact our Data Protection Officer",
+    "with_your_request": "with your official request.",
+    "public_evidence": "2. Public Evidence",
+    "pdf_document": "PDF Document",
+    "view_pdf": "View PDF Document",
+    "audio_evidence_1": "Audio Evidence 1",
+    "audio_evidence_2": "Audio Evidence 2",
+    "browser_no_audio": "Your browser does not support the audio element.",
+    "image_evidence": "Image (Social Media)",
+    "social_media_evidence": "Facebook/WhatsApp Evidence Link",
+    "view_social_media": "View social media post",
+    "right_to_reply": "3. Right to Reply",
+    "full_name": "Full name",
+    "email_address": "Email address",
+    "public_response": "Your public response...",
+    "submit_response": "Submit Response",
+    "thank_you": "Thank You!",
+    "success_message": "Thank you for submitting your response. José Eduardo Ignacio Sarmiento Pinedo will reply to your message.",
+    "ok": "OK"
+  },
   "legal_ethics": {
     "meta_title": "Legal Ethics Statement - BRC",
     "meta_description": "Legal and Ethical Standards for the Citizen Reputational Bureau",
@@ -622,6 +669,34 @@
     }
   },
   
+  "form": {
+    "warning": {
+      "title": "Important Legal Information",
+      "description": "This registry is of civic nature and public interest:",
+      "items": [
+        "All submissions must be supported by verifiable evidence",
+        "Subjects have the right to reply to any allegations",
+        "False or misleading submissions may have legal consequences",
+        "This platform does not replace official legal proceedings"
+      ]
+    },
+    "title": "Submit a Reputational Case",
+    "description": "Your truth matters. Help us build collective memory and accountability. Every documented injustice helps shape civic power.",
+    "fields": {
+      "name": "Your Full Name (required)",
+      "email": "Your Email (required)",
+      "phone": "Your Phone (required)",
+      "tags": "Tags (e.g. workplace, corruption, civic) (required)",
+      "description": "Describe the incident... (required)",
+      "evidence": "Upload Evidence (PDF, Image, Audio) (required):"
+    },
+    "checkboxes": {
+      "review": "I understand that my response will be reviewed and may not be published immediately. (required)",
+      "storage": "I authorize this information to be stored for legal traceability and public transparency purposes. (required)",
+      "terms": "I accept the <a href=\"terms&condition.html\" class=\"underline\">terms and conditions</a>. (required)"
+    },
+    "submit": "Submit Case"
+  },
   "privacy_notice_gdpr": {
     "meta_title": "Privacy Notice (GDPR) - BRC",
     "meta_description": "How we collect, use, and protect your personal data in compliance with the General Data Protection Regulation (GDPR).",

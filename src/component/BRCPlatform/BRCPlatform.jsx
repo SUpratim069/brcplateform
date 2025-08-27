@@ -197,82 +197,116 @@ education community funding            </p>
 
       {/* Submit */}
       <section className="bg-[#0d111c] text-white py-12 sm:py-20 px-4 sm:px-6" id="submit">
-        {/*Warning */}
-    <div className="max-w-3xl mx-auto mb-8 sm:mb-10  ">
-         <div className="flex items-start border border-white/5 py-10 px-7 bg-white/5 rounded-xl">
-    {/* Icon */}
-    <svg 
-      className="h-5 w-5 md:h-6 md:w-6 text-yellow-400 mt-1 flex-shrink-0" 
-      xmlns="http://www.w3.org/2000/svg" 
-      fill="currentColor" 
-      viewBox="0 0 20 20"
-    >
-      <path 
-        fillRule="evenodd" 
-        d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" 
-        clipRule="evenodd" 
-      />
-    </svg>
+        {/* Warning */}
+        <div className="max-w-3xl mx-auto mb-8 sm:mb-10">
+          <div className="flex items-start border border-white/5 py-10 px-7 bg-white/5 rounded-xl">
+            {/* Icon */}
+            <svg 
+              className="h-5 w-5 md:h-6 md:w-6 text-yellow-400 mt-1 flex-shrink-0" 
+              xmlns="http://www.w3.org/2000/svg" 
+              fill="currentColor" 
+              viewBox="0 0 20 20"
+            >
+              <path 
+                fillRule="evenodd" 
+                d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" 
+                clipRule="evenodd" 
+              />
+            </svg>
 
-    {/* Text */}
-    <div className="ml-3">
-      <h3 className="text-sm md:text-xl font-semibold text-yellow-400 mb-2">
-        Important Legal Information
-      </h3>
-      <p className="text-sm md:text-lg text-gray-300 mb-3">
-        This registry is of civic nature and public interest:
-      </p>
-      <ul className="list-disc list-inside space-y-1 text-sm md:text-lg text-gray-400">
-        <li>All submissions must be supported by verifiable evidence</li>
-        <li>Subjects have the right to reply to any allegations</li>
-        <li>False or misleading submissions may have legal consequences</li>
-        <li>This platform does not replace official legal proceedings</li>
-      </ul>
-    </div>
-  </div>
-    </div>
+            {/* Text */}
+            <div className="ml-3">
+              <h3 className="text-sm md:text-xl font-semibold text-yellow-400 mb-2">
+                {t('form.warning.title')}
+              </h3>
+              <p className="text-sm md:text-lg text-gray-300 mb-3">
+                {t('form.warning.description')}
+              </p>
+              <ul className="list-disc list-inside space-y-1 text-sm md:text-lg text-gray-400">
+                {t('form.warning.items', { returnObjects: true }).map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+        
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
-            Submit a Reputational Case
+            {t('form.title')}
           </h2>
           <p className="mb-6 sm:mb-8 text-base sm:text-lg">
-            Your truth matters. Help us build collective memory and accountability. Every documented injustice helps shape civic power.
+            {t('form.description')}
           </p>
+          
           <form onSubmit={handleFormSubmit} className="space-y-3 sm:space-y-4 text-left max-w-xl mx-auto" encType="multipart/form-data">
-            <input className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" placeholder="Your Full Name (required)" type="text" required />
-            <input className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" placeholder="Your Email (required)" type="email" required />
-            <input className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" placeholder="Your Phone (required)" type="tel" required />
-            <input className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" placeholder="Tags (e.g. workplace, corruption, civic) (required)" type="text" required />
-            <textarea className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" placeholder="Describe the incident... (required)" rows="4" required></textarea>
+            <input 
+              className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" 
+              placeholder={t('form.fields.name')} 
+              type="text" 
+              required 
+            />
+            <input 
+              className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" 
+              placeholder={t('form.fields.email')} 
+              type="email" 
+              required 
+            />
+            <input 
+              className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" 
+              placeholder={t('form.fields.phone')} 
+              type="tel" 
+              required 
+            />
+            <input 
+              className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" 
+              placeholder={t('form.fields.tags')} 
+              type="text" 
+              required 
+            />
+            <textarea 
+              className="w-full p-2 sm:p-3 rounded bg-[#1a2236] text-white border border-gray-700 text-sm sm:text-base" 
+              placeholder={t('form.fields.description')} 
+              rows="4" 
+              required
+            ></textarea>
             
             <div>
-              <label className="block text-white mb-1 sm:mb-2 text-sm sm:text-base" htmlFor="evidence">Upload Evidence (PDF, Image, Audio) (required):</label>
-              <input className="w-full p-1 sm:p-2 rounded bg-[#1a2236] text-white border border-gray-700 text-xs sm:text-sm" type="file" id="evidence" name="evidence" accept=".pdf,.png,.jpg,.jpeg,.mp3,.wav" required />
+              <label className="block text-white mb-1 sm:mb-2 text-sm sm:text-base" htmlFor="evidence">
+                {t('form.fields.evidence')}
+              </label>
+              <input 
+                className="w-full p-1 sm:p-2 rounded bg-[#1a2236] text-white border border-gray-700 text-xs sm:text-sm" 
+                type="file" 
+                id="evidence" 
+                name="evidence" 
+                accept=".pdf,.png,.jpg,.jpeg,.mp3,.wav" 
+                required 
+              />
             </div>
             
-            {/* Added confirmation checkboxes */}
+            {/* Confirmation checkboxes */}
             <div className="space-y-2">
               <div className="flex items-start space-x-2">
                 <input type="checkbox" id="reviewCheckbox" required />
-                <label htmlFor="reviewCheckbox" className="text-white text-xs sm:text-sm">
-                  I understand that my response will be reviewed and may not be published immediately. (required)
-                </label>
+                <label htmlFor="reviewCheckbox" className="text-white text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: t('form.checkboxes.review') }} />
               </div>
               <div className="flex items-start space-x-2">
                 <input type="checkbox" id="storageCheckbox" required />
-                <label htmlFor="storageCheckbox" className="text-white text-xs sm:text-sm">
-                  I authorize this information to be stored for legal traceability and public transparency purposes. (required)
-                </label>
+                <label htmlFor="storageCheckbox" className="text-white text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: t('form.checkboxes.storage') }} />
               </div>
             </div>
             
             <div className="flex items-start space-x-2">
               <input type="checkbox" id="termsCheckbox" required />
-              <label htmlFor="termsCheckbox" className="text-white text-xs sm:text-sm">I accept the <a href="terms&condition.html" className="underline">terms and conditions</a>. (required)</label>
+              <label htmlFor="termsCheckbox" className="text-white text-xs sm:text-sm" dangerouslySetInnerHTML={{ __html: t('form.checkboxes.terms') }} />
             </div>
             
-            <button className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-5 sm:px-6 py-2 sm:py-3 rounded font-semibold w-full text-sm sm:text-base" type="submit">
-              Submit Case
+            <button 
+              className="bg-yellow-500 hover:bg-yellow-400 text-gray-900 px-5 sm:px-6 py-2 sm:py-3 rounded font-semibold w-full text-sm sm:text-base" 
+              type="submit"
+            >
+              {t('form.submit')}
             </button>
           </form>
         </div>
@@ -281,13 +315,16 @@ education community funding            </p>
       {/* CTA */}
       <section className="py-12 sm:py-16 px-4 sm:px-6 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold mb-3 sm:mb-4">
-          Be a Guardian of Reputational Justice
+          {t('cta_section.title')}
         </h2>
         <p className="text-base sm:text-lg max-w-2xl mx-auto mb-4 sm:mb-6">
-          Join our mission to create legal memory for the unacknowledged. Share stories. Amplify truth. Push accountability forward.
+          {t('cta_section.desc')}
         </p>
-        <a className="inline-block bg-[#0d111c] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full font-semibold hover:bg-[#1a2236] text-sm sm:text-base" href="#submit">
-          Get Involved
+        <a 
+          className="inline-block bg-[#0d111c] text-white px-5 sm:px-6 py-2 sm:py-3 rounded-full font-semibold hover:bg-[#1a2236] text-sm sm:text-base" 
+          href="#submit"
+        >
+          {t('cta_section.button')}
         </a>
       </section>
 
@@ -302,7 +339,7 @@ education community funding            </p>
           </p>
 
           <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
-            One-Time or Monthly Donations
+            {t('donations.onetime')}
           </h3>
           <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
 
