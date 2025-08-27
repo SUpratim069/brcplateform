@@ -24,7 +24,7 @@ const ComingSoon = () => {
           </p>
 
           {/* Notify form */}
-          <div className="mt-8">
+          {/* <div className="mt-8">
             <form
               onSubmit={(e) => e.preventDefault()}
               className="mx-auto max-w-xl flex flex-col sm:flex-row gap-3 items-center"
@@ -48,10 +48,10 @@ const ComingSoon = () => {
             <p className="mt-6 text-sm text-gray-500">
               {t('coming_soon.stay_updated')}
             </p>
-          </div>
+          </div> */}
 
           {/* Social links */}
-          <div className="mt-10 flex items-center justify-center gap-5 text-gray-500">
+          {/* <div className="mt-10 flex items-center justify-center gap-5 text-gray-500">
             <p className="text-sm text-gray-500">
               {t('coming_soon.follow_us')}
             </p>
@@ -64,7 +64,7 @@ const ComingSoon = () => {
             <a href="#" aria-label="Facebook" className="hover:text-gray-800 transition-colors">
               <FaFacebook className="h-5 w-5" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
