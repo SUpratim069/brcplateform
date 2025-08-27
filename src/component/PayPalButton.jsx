@@ -23,6 +23,18 @@ const PayPalButton = () => {
               tagline: false,
               height: 45, // same as Stripe
             }}
+            createOrder={(data, actions) => {
+              return actions.order.create({
+                purchase_units: [
+                  {
+                    amount: {
+                      value: '10.00',
+                      currency_code: 'USD',
+                    },
+                  },
+                ],
+              });
+            }}
           />
         </div>
       </PayPalScriptProvider>
