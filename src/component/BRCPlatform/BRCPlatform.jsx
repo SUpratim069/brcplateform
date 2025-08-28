@@ -341,13 +341,13 @@ education community funding            </p>
           <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
             {t('donations.onetime')}
           </h3>
-          <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
-
-            <StripeButton />
-            <div className="relative z-10">
-  <PayPalButton />
+         <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
+  <StripeButton />
+  <div className="relative z-10 self-center sm:self-auto">
+    <PayPalButton className="flex items-center justify-center text-center" />
+  </div>
 </div>
-          </div>
+
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 text-left">
             <div className="bg-[#1a2236] border border-gray-700 rounded-lg p-4 sm:p-6 shadow text-white">
