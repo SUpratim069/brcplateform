@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-
+import music1 from "../../assets/audio/BRC-Evidencia03_Notificaciones_Sarmiento colombiano a mi mama 21 julio 2024.jpg_.m4a";
+import music2 from "../../assets/audio/Evidencia02_MensajesWhatsapp_Sarmiento colombiano Milton 14 de Julio.m4a";
+import img1 from "../../assets/pdf/face.jpg"
 const SarmientoCase = () => {
   const { t } = useTranslation();
   const [showSuccessModal, setShowSuccessModal] = useState(false);
@@ -81,27 +83,27 @@ const SarmientoCase = () => {
           <div>
             <h4 className="font-semibold mb-2">{t('sarmiento_case.audio_evidence_1')}</h4>
             <audio controls className="w-full">
-              <source src="Evidencia02_MensajesWhatsapp_Sarmiento colombiano Milton 14 de Julio.m4a" type="audio/mp4" />
+              <source src={music2} type="audio/mp4" />
               {t('sarmiento_case.browser_no_audio')}
             </audio>
           </div>
 
           <div>
             <h4 className="font-semibold mb-2">{t('sarmiento_case.audio_evidence_2')}</h4>
-            <audio controls className="w-full">
-              <source src="https://limewire.com/d/rvszB#1wj32tu3YP" type="audio/mp4" />
-              {t('sarmiento_case.browser_no_audio')}
-            </audio>
+           <audio controls className="w-full">
+  <source src={music1} type="audio/mp4" />
+  {t('sarmiento_case.browser_no_audio')}
+</audio>
           </div>
 
           <div>
             <h4 className="font-semibold mb-2">{t('sarmiento_case.image_evidence')}</h4>
-            <img src="20097a80-c735-47d4-b6bc-dac3beccbae9.png" alt={t('sarmiento_case.image_evidence')} className="rounded shadow max-w-full" />
+            <img src={"20097a80-c735-47d4-b6bc-dac3beccbae9.png"} alt={t('sarmiento_case.image_evidence')} className="rounded shadow max-w-full" />
           </div>
 
           <div>
             <h4 className="font-semibold mb-2">{t('sarmiento_case.social_media_evidence')}</h4>
-            <a className="text-blue-600 underline" href="https://limewire.com/d/zMJuz#HxcWBqSgRj" target="_blank" rel="noopener noreferrer">{t('sarmiento_case.view_social_media')}</a>
+            <a className="text-blue-600 underline" href={img1} target="_blank" rel="noopener noreferrer">{t('sarmiento_case.view_social_media')}</a>
           </div>
         </div>
       </section>
