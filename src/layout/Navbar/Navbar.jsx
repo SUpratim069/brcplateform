@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeLang, setActiveLang] = useState('EN');
+  const [activeLang, setActiveLang] = useState('ES');
   const { i18n } = useTranslation();
 
   const location = useLocation();
