@@ -1,8 +1,8 @@
 {
   "nav": {
     "home": "Home",
-    "all_cases": "All Cases",
-    "case_3000": "Case #3000",
+   
+    "case_3000": "All Cases",
     "submit_case": "Submit Case",
     "donate": "Donate",
     "membership": "Membership",
@@ -802,3 +802,4 @@
     }
   }
 }
+
