@@ -68,7 +68,7 @@
   },
   "donations": {
     "title": "Support BRC with Ethical Contributions",
-    "desc": "Your donations help keep the Citizen Reputational Bureau transparent, independent, and community-driven.",
+    "desc": "Your donations help keep the Behavioral Risk Check (BRC) transparent, independent, and community-driven.",
     "stripe": "Donate via Stripe",
     "paypal": "Donate via PayPal",
     "options": {
@@ -111,8 +111,8 @@
     "coming": "Coming Soon: IPFS & Arweave integrations"
   },
   "footer": {
-    "title": "Citizen Reputational Bureau",
-    "desc": "A civic platform for documenting misconduct, empowering communities, and defending reputation through transparent, evidence-based records.",
+    "title": "Behavioral Risk Check (BRC)",
+    "desc": "A civic platform documenting misconduct, empowering communities, and defending reputation through transparent, evidence-based records.",
     "links": {
       "legal": "Legal",
       "legal_disclaimers": "Legal Disclaimers",
@@ -131,11 +131,11 @@
   },
   "legal_disclaimers": {
     "title": "Legal Disclaimers",
-    "subtitle": "Important legal information regarding the use of the Citizen Reputational Bureau platform",
+    "subtitle": "Important legal information regarding the use of the Buró Reputacional Ciudadano (BRC) platform",
     "sections": {
       "1": {
         "title": "1. General Disclaimer",
-        "text": "The Citizen Reputational Bureau (BRC) is a civil justice platform where citizens can document personal, community, or systemic injustices. BRC is not a court of law, government agency, or official judicial body. The information contained on this platform represents user-submitted documentation and does not constitute legal findings or determinations of fact."
+        "text": "The Buró Reputacional Ciudadano (BRC) is a civil justice platform where citizens can document personal, community, or systemic injustices. BRC is not a court of law, government agency, or official judicial body. The information contained on this platform represents user-submitted documentation and does not constitute legal findings or determinations of fact."
       },
       "2": {
         "title": "2. Nature of Content",
@@ -167,7 +167,7 @@
       },
       "9": {
         "title": "9. Jurisdiction",
-        "text": "These terms shall be governed by and construed in accordance with the laws of the State of Texas, USA, without regard to conflict of law provisions. Any legal action related to these terms or use of the platform shall be brought exclusively before the competent courts of Texas, USA."
+        "text": "These terms shall be governed by and construed in accordance with the laws of the State of Texas, USA, without regard to conflict of law provisions. Any legal action related to these terms or use of the platform shall be brought exclusively before the competent courts of Texas, USA"
       },
       "10": {
         "title": "10. Changes to Disclaimers",
@@ -177,11 +177,10 @@
     "contact": {
       "title": "Contact Information",
       "department": "Legal Department",
-      "org": "Citizen Reputational Bureau",
+      "org": "Behavioral Risk Check (BRC)",
       "email_label": "Email:",
-      "email": "info@brccheck.com",
-      "phone_label": "Phone:",
-      "phone": "1-800-XXX-XXXX",
+      "email": " info@brccheck.com",
+    
       "last_updated_label": "Last Updated:",
       "last_updated": "July 2025"
     }
@@ -190,7 +189,7 @@
     "meta_title": "Cookie Policy - BRC",
     "meta_description": "Our Cookie Policy explains how we use cookies and similar technologies on our website.",
     "title": "Cookie Policy",
-    "subtitle": "Information about how we use cookies on the Citizen Reputational Bureau platform",
+    "subtitle": "Information about how we use cookies on the Behavioral Risk Check (BRC) platform",
     "sections": {
       "1": {
         "title": "1. What Are Cookies?",
@@ -198,7 +197,7 @@
       },
       "2": {
         "title": "2. How We Use Cookies",
-        "text": "The Citizen Reputational Bureau (BRC) uses cookies for several purposes:"
+        "text": "The Behavioral Risk Check (BRC) uses cookies for several purposes:"
       },
       "3": {
         "title": "3. Types of Cookies We Use",
@@ -265,7 +264,7 @@
     },
     "contact": {
       "officer": "Data Protection Officer",
-      "org": "Citizen Reputational Bureau",
+      "org": "Behavioral Risk Check (BRC)",
       "email_label": "Email:",
       "last_updated_label": "Last Updated:",
       "last_updated": "August 2025"
@@ -282,13 +281,13 @@
   },
   "terms_of_use": {
     "meta_title": "Terms of Use - BRC",
-    "meta_description": "Rules and guidelines for using the Citizen Reputational Bureau platform",
+    "meta_description": "Rules and guidelines for using the Behavioral Risk Check (BRC) platform",
     "title": "Terms of Use",
-    "subtitle": "The rules and guidelines governing your use of the Citizen Reputational Bureau platform",
+    "subtitle": "The rules and guidelines governing your use of the Behavioral Risk Check (BRC) platform",
     "sections": {
       "acceptance": {
         "title": "1. Acceptance of Terms",
-        "content": "By accessing or using the Citizen Reputational Bureau (\"BRC\") platform, you agree to be bound by these Terms of Use. If you do not agree to these terms, you may not use our services. We reserve the right to modify these terms at any time, and your continued use constitutes acceptance of any changes."
+        "content": "By accessing or using the Behavioral Risk Check (BRC) (\"BRC\") platform, you agree to be bound by these Terms of Use. If you do not agree to these terms, you may not use our services. We reserve the right to modify these terms at any time, and your continued use constitutes acceptance of any changes."
       },
       "eligibility": {
         "title": "2. User Eligibility",
@@ -360,7 +359,7 @@
         "title": "Contact Information",
         "content": "For questions about these Terms of Use, please contact:",
         "department": "Legal Department",
-        "org": "Citizen Reputational Bureau",
+        "org": "Behavioral Risk Check (BRC)",
         "email": "Email: info@brccheck.com",
         "last_updated": "Last Updated: July 2025"
       }
@@ -375,7 +374,7 @@
     "sections": {
       "introduction": {
         "title": "1. Introduction",
-        "content": "The Citizen Reputational Bureau (BRC) is committed to compliance with both the California Consumer Privacy Act (CCPA) and the European Union's General Data Protection Regulation (GDPR). This notice explains your rights under both regulations and how we protect your personal data.",
+        "content": "The Behavioral Risk Check (BRC) is committed to compliance with both the California Consumer Privacy Act (CCPA) and the European Union's General Data Protection Regulation (GDPR). This notice explains your rights under both regulations and how we protect your personal data.",
         "overviews": [
           {
             "title": "CCPA Overview",
@@ -447,7 +446,7 @@
           {
             "badge": "CCPA",
             "title": "Right to Opt-Out of Sale",
-            "content": "The Citizen Reputational Bureau does not sell personal information to third parties."
+            "content": "The Behavioral Risk Check (BRC) does not sell personal information to third parties."
           },
           {
             "badge": "CCPA",
@@ -468,8 +467,10 @@
           "title": "Request Methods",
           "items": [
             "Online Portal: Privacy Request Portal",
-            "Email: info@brccheck.com with \"Privacy Request\" in subject"
-           
+            "Email: info@brccheck.com with \"Privacy Request\" in subject",
+            "Toll-Free (US): 1-800-XXX-XXXX",
+            "EU Representative: [Your EU Representative Details]",
+            "Mail: Behavioral Risk Check (BRC), Attn: Privacy Officer, [Your Address]"
           ]
         }
       },
@@ -561,7 +562,9 @@
     "pdf_document": "PDF Document",
     "view_pdf": "View PDF Document",
     "audio_evidence_1": "Audio Evidence 1",
-    "audio_evidence_2": "Audio Evidence 2",
+    "audio_evidence_2": "Audio Evidence 2", 
+    "audio_evidence_3": "Audio Evidence 3", 
+    "audio_evidence_4": "Audio Evidence 4",
     "browser_no_audio": "Your browser does not support the audio element.",
     "image_evidence": "Image (Social Media)",
     "social_media_evidence": "Facebook/WhatsApp Evidence Link",
@@ -577,13 +580,13 @@
   },
   "legal_ethics": {
     "meta_title": "Legal Ethics Statement - BRC",
-    "meta_description": "Legal and Ethical Standards for the Citizen Reputational Bureau",
+    "meta_description": "Legal and Ethical Standards for the Behavioral Risk Check (BRC)",
     "title": "Legal Ethics Statement",
     "subtitle": "Our commitment to ethical standards in documentation and reputational justice",
     "sections": {
       "principles": {
         "title": "1. Foundational Principles",
-        "description": "The Citizen Reputational Bureau operates under these core ethical principles that guide all our activities and platform operations:",
+        "description": "The Behavioral Risk Check (BRC) operates under these core ethical principles that guide all our activities and platform operations:",
         "items": [
           {
             "title": "Truth & Accuracy",
@@ -659,7 +662,7 @@
         "title": "Ethics Committee Contact",
         "description": "To report ethical concerns or seek guidance:",
         "officer": "Ethics Review Board",
-        "org": "Citizen Reputational Bureau",
+        "org": "Behavioral Risk Check (BRC)",
         "email": "Email: info@brccheck.com",
         "phone": "Confidential Hotline: +1 (555) 123-4567",
         "last_updated": "Last Reviewed: July 2025"
@@ -703,13 +706,12 @@
     "sections": {
       "1": {
         "title": "1. Data Controller Information",
-        "text": "The Citizen Reputational Bureau (BRC) is the data controller responsible for your personal data.",
+        "text": "The Behavioral Risk Check (BRC) is the data controller responsible for your personal data.",
         "contact_heading": "Contact Details:",
         "contact_officer": "Data Protection Officer",
-        "contact_org": "Citizen Reputational Bureau",
-        "contact_email": "Email: info@brccheck.com",
-        "contact_address": "Postal Address: [Your Registered Office Address]"
-      },
+        "contact_org": "Behavioral Risk Check (BRC)",
+        "contact_email": "Email:  info@brccheck.com"
+        },
       "2": {
         "title": "2. Information We Collect",
         "text": "We may collect and process the following categories of personal data:",
@@ -795,7 +797,7 @@
         "title": "Contact Us",
         "text": "For questions about this privacy notice or our data practices, please contact:",
         "officer": "Data Protection Officer",
-        "org": "Citizen Reputational Bureau",
+        "org": "Behavioral Risk Check (BRC)",
         "email": "Email: info@brccheck.com",
         "address": "Postal Address: [Your Registered Office Address]",
         "last_updated": "Last Updated: July 2025"

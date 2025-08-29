@@ -46,17 +46,16 @@ const CCPACompliance = () => {
         <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4">{contact.title}</h3>
         <p><strong>{contact.privacy_officer.title}</strong><br />
         {t('ccpa_gdpr.contact.email')}: {contact.privacy_officer.email}<br />
-        {/* {t('ccpa_gdpr.contact.phone')}: {contact.privacy_officer.phone} */}
-        </p>
+        {t('ccpa_gdpr.contact.phone')}: {contact.privacy_officer.phone}</p>
         
         <p className="mt-4"><strong>{contact.eu_representative.title}</strong><br />
-        {/* {contact.eu_representative.name}<br /> */}
-        {/* {contact.eu_representative.address}<br /> */}
+        {contact.eu_representative.name}<br />
+        {contact.eu_representative.address}<br />
         {t('ccpa_gdpr.contact.email')}: {contact.eu_representative.email}</p>
         
         <p className="mt-4"><strong>{contact.uk_representative.title}</strong><br />
-        {/* {contact.uk_representative.name}<br /> */}
-        {/* {contact.uk_representative.address}<br /> */}
+        {contact.uk_representative.name}<br />
+        {contact.uk_representative.address}<br />
         {t('ccpa_gdpr.contact.email')}: {contact.uk_representative.email}</p>
         
         <p className="mt-4">{contact.last_updated}</p>
@@ -114,7 +113,7 @@ const CCPACompliance = () => {
             {t('ccpa_gdpr.sections.your_rights.title')}
           </h2>
           {renderRights()}
-ƒƒ
+
           <h2 className="text-xl sm:text-2xl font-bold mb-6 mt-10">
             {t('ccpa_gdpr.sections.exercise_rights.title')}
           </h2>
@@ -152,7 +151,7 @@ const CCPACompliance = () => {
             </React.Fragment>
           ))}
 
-          {renderContactInfo()}
+          {/* {renderContactInfo()} */}
         </div>
       </section>
 

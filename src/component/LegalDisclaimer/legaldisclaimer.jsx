@@ -37,7 +37,7 @@ const LegalDisclaimer = () => {
               <li><strong>{t('legal_disclaimers.contact.department')}</strong></li>
               <li><strong>{t('legal_disclaimers.contact.org')}</strong></li>
               <li><strong>{t('legal_disclaimers.contact.email_label')}</strong> {contact.email}</li>
-              {/* <li><strong>{t('legal_disclaimers.contact.phone_label')}</strong> {contact.phone}</li> */}
+            
               <li><strong>{t('legal_disclaimers.contact.last_updated_label')}</strong> {contact.last_updated}</li>
             </ul>
           </div>

@@ -138,7 +138,7 @@
     "sections": {
       "1": {
         "title": "1. Descargo de Responsabilidad General",
-        "text": "El Buró Ciudadano de Reputación (BRC) es una plataforma de justicia civil donde los ciudadanos pueden documentar injusticias personales, comunitarias o sistémicas. BRC no es un tribunal de justicia, una agencia gubernamental ni un organismo judicial oficial. La información contenida en esta plataforma representa documentación enviada por los usuarios y no constituye hallazgos legales ni determinaciones de hecho."
+        "text": "El Buró Reputacional Ciudadano (BRC) es una plataforma de justicia civil donde los ciudadanos pueden documentar injusticias personales, comunitarias o sistémicas. BRC no es un tribunal de justicia, una agencia gubernamental ni un organismo judicial oficial. La información contenida en esta plataforma representa documentación enviada por los usuarios y no constituye hallazgos legales ni determinaciones de hecho."
       },
       "2": {
         "title": "2. Naturaleza del Contenido",
@@ -170,7 +170,7 @@
       },
       "9": {
         "title": "9. Jurisdicción",
-        "text": "Estos términos se regirán e interpretarán de acuerdo con las leyes de [Jurisdicción], sin tener en cuenta sus disposiciones sobre conflictos de leyes. Cualquier acción legal relacionada con estos términos o el uso de la plataforma se llevará exclusivamente en los tribunales ubicados en [Jurisdicción]."
+        "text": "Estos términos se regirán e interpretarán de conformidad con las leyes del Estado de Texas, EE. UU., sin perjuicio de las disposiciones sobre conflicto de leyes. Cualquier acción legal relacionada con estos términos o el uso de la plataforma se presentará exclusivamente ante los tribunales competentes de Texas, EE. UU."
       },
       "10": {
         "title": "10. Cambios en los Avisos",
@@ -180,11 +180,9 @@
     "contact": {
       "title": "Información de Contacto",
       "department": "Departamento Legal",
-      "org": "Buró Ciudadano de Reputación",
+      "org": "Buró Reputacional Ciudadano",
       "email_label": "Email:",
       "email": "info@brccheck.com",
-      "phone_label": "Teléfono:",
-      "phone": "1-800-XXX-XXXX",
       "last_updated_label": "Última Actualización:",
       "last_updated": "Julio 2025"
     }
@@ -471,8 +469,10 @@
           "title": "Métodos de Solicitud",
           "items": [
             "Portal en Línea: Portal de Solicitudes de Privacidad",
-            "Correo Electrónico: privacidad@brc-platform.org con \"Solicitud de Privacidad\" en el asunto"
-          
+            "Correo Electrónico: info@brccheck.com con \"Solicitud de Privacidad\" en el asunto",
+            "Línea Gratuita (EE. UU.): 1-800-XXX-XXXX",
+            "Representante de la UE: [Detalles de su Representante de la UE]",
+            "Correo: Buró Reputacional Ciudadano, Attn: Oficial de Privacidad, [Su Dirección]"
           ]
         }
       },
@@ -706,7 +706,7 @@
     "sections": {
       "1": {
         "title": "1. Información del Responsable de los Datos",
-        "text": "El Buró Ciudadano de Reputación (BRC) es el responsable del tratamiento de sus datos personales.",
+        "text": "El Behavioral Risk Check (BRC) es el responsable del tratamiento de sus datos personales.",
         "contact_heading": "Datos de Contacto:",
         "contact_officer": "Responsable de Protección de Datos",
         "contact_org": "Buró Ciudadano de Reputación",

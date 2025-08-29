@@ -3,6 +3,11 @@ import { useTranslation } from 'react-i18next';
 import music1 from "../../assets/audio/BRC-Evidencia03_Notificaciones_Sarmiento colombiano a mi mama 21 julio 2024.jpg_.m4a";
 import music2 from "../../assets/audio/Evidencia02_MensajesWhatsapp_Sarmiento colombiano Milton 14 de Julio.m4a";
 import img1 from "../../assets/pdf/face.jpg"
+import img2 from "../../assets/pdf/face1.PNG"
+import img3 from "../../assets/pdf/face2.PNG"
+import img4 from "../../assets/pdf/face3.jpg"
+
+
 const SarmientoCase = () => {
   const { t } = useTranslation();
   const [showSuccessModal, setShowSuccessModal] = useState(false);
@@ -75,9 +80,20 @@ const SarmientoCase = () => {
         <h2 className="text-2xl font-bold mb-4">{t('sarmiento_case.public_evidence')}</h2>
 
         <div className="space-y-6">
+
+     <div>
+            <h4 className="font-semibold mb-2">{t('sarmiento_case.pdf_document')}</h4>
+            <a className="text-blue-600 underline" href="https://docs.google.com/document/d/1zs1zLkRz05sfE5inkWwVIAgCCaJt7tQD27PCD6i6zsI/" target="_blank" rel="noopener noreferrer">{t('sarmiento_case.view_pdf')}</a>
+          </div>
+
           <div>
             <h4 className="font-semibold mb-2">{t('sarmiento_case.pdf_document')}</h4>
-            <a className="text-blue-600 underline" href="https://limewire.com/d/HiXTs#eWezzkrK3k" target="_blank" rel="noopener noreferrer">{t('sarmiento_case.view_pdf')}</a>
+            <a className="text-blue-600 underline" href="https://docs.google.com/document/d/1P85iqL-FHBeCFCSBuyXctA24WY6jd2-O/edit?tab=t.0" target="_blank" rel="noopener noreferrer">{t('sarmiento_case.view_pdf')}</a>
+          </div>
+
+           <div>
+            <h4 className="font-semibold mb-2">{t('sarmiento_case.pdf_document')}</h4>
+            <a className="text-blue-600 underline" href="https://drive.google.com/drive/folders/1raUrPC-9sVaTj2V3C80Mn_RXIRNbmjzL" target="_blank" rel="noopener noreferrer">{t('sarmiento_case.view_pdf')}</a>
           </div>
 
           <div>
@@ -96,15 +112,44 @@ const SarmientoCase = () => {
 </audio>
           </div>
 
-          <div>
-            <h4 className="font-semibold mb-2">{t('sarmiento_case.image_evidence')}</h4>
-            <img src={"20097a80-c735-47d4-b6bc-dac3beccbae9.png"} alt={t('sarmiento_case.image_evidence')} className="rounded shadow max-w-full" />
-          </div>
+     <div>
+            <h4 className="font-semibold mb-2">{t('sarmiento_case.audio_evidence_3')}</h4>
+           <audio controls className="w-full">
+  <source src={music1} type="audio/mp4" />
+  {t('sarmiento_case.browser_no_audio')}
+</audio>
+       </div>
+
 
           <div>
-            <h4 className="font-semibold mb-2">{t('sarmiento_case.social_media_evidence')}</h4>
-            <a className="text-blue-600 underline" href={img1} target="_blank" rel="noopener noreferrer">{t('sarmiento_case.view_social_media')}</a>
-          </div>
+            <h4 className="font-semibold mb-2">{t('sarmiento_case.audio_evidence_4')}</h4>
+           <audio controls className="w-full">
+  <source src={music1} type="audio/mp4" />
+  {t('sarmiento_case.browser_no_audio')}
+</audio>
+       </div>
+
+<div>
+  <h4 className="font-semibold mb-2">{t('sarmiento_case.social_media_evidence')}</h4>
+
+  <a className="text-blue-600 underline" href={img1} target="_blank" rel="noopener noreferrer">
+    {t('sarmiento_case.view_social_media')} 1
+  </a><br />
+
+  <a className="text-blue-600 underline" href={img2} target="_blank" rel="noopener noreferrer">
+    {t('sarmiento_case.view_social_media')} 2
+  </a><br />
+
+  <a className="text-blue-600 underline" href={img3} target="_blank" rel="noopener noreferrer">
+    {t('sarmiento_case.view_social_media')} 3
+  </a><br />
+
+  <a className="text-blue-600 underline" href={img4} target="_blank" rel="noopener noreferrer">
+    {t('sarmiento_case.view_social_media')} 4
+  </a>
+</div>
+
+
         </div>
       </section>
 
