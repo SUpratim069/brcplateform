@@ -341,7 +341,7 @@
       },
       "dispute_resolution": {
         "title": "8. Dispute Resolution",
-        "content": "Any disputes arising from these terms shall be resolved through binding arbitration in [Jurisdiction], in accordance with the rules of [Arbitration Organization]. The arbitration shall be conducted in English, and the arbitrator's decision shall be final and binding."
+        "content": "These terms shall be governed by and construed in accordance with the laws of the State of Texas, USA, without regard to conflict of law provisions. Any legal action related to these terms or use of the platform shall be brought exclusively before the competent courts of Texas, USA"
       },
       "limitation_of_liability": {
         "title": "9. Limitation of Liability",
@@ -467,10 +467,7 @@
           "title": "Request Methods",
           "items": [
             "Online Portal: Privacy Request Portal",
-            "Email: info@brccheck.com with \"Privacy Request\" in subject",
-            "Toll-Free (US): 1-800-XXX-XXXX",
-            "EU Representative: [Your EU Representative Details]",
-            "Mail: Behavioral Risk Check (BRC), Attn: Privacy Officer, [Your Address]"
+            "Email: info@brccheck.com with \"Privacy Request\" in subject"
           ]
         }
       },
@@ -510,8 +507,8 @@
         "title": "Contact Information",
         "privacy_officer": {
           "title": "Privacy Officer (Global)",
-          "email": "info@brccheck.com",
-          "phone": "1-800-XXX-XXXX"
+          "email": "info@brccheck.com"
+          
         },
         "eu_representative": {
           "title": "EU Representative",
@@ -575,7 +572,7 @@
     "public_response": "Your public response...",
     "submit_response": "Submit Response",
     "thank_you": "Thank You!",
-    "success_message": "Thank you for submitting your response. José Eduardo Ignacio Sarmiento Pinedo will reply to your message.",
+    "success_message": "Thank you for contributing to our collective memory and accountability efforts. We'll review your submission and get back to you soon.",
     "ok": "OK"
   },
   "legal_ethics": {
@@ -694,7 +691,7 @@
     "checkboxes": {
       "review": "I understand that my response will be reviewed and may not be published immediately. (required)",
       "storage": "I authorize this information to be stored for legal traceability and public transparency purposes. (required)",
-      "terms": "I accept the <a href=\"terms&condition.html\" class=\"underline\">terms and conditions</a>. (required)"
+      "terms": "I accept the <a href=\"/terms-and-conditions\" class=\"underline\">terms and conditions</a>. (required)"
     },
     "submit": "Submit Case"
   },
@@ -805,4 +802,3 @@
     }
   }
 }
-

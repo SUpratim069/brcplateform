@@ -59,7 +59,7 @@
     }
   },
   "hero": {
-    "title": "Comprobación de riesgos conductuales (BRC)",
+    "title": "Buró Reputacional Ciudadano (BRC)",
     "subtitle": "Inteligencia reputacional ciudadana, evidencia verificada y justicia cívica en acción.",
     "description": "BRC es un protocolo cívico independiente para documentar y rastrear conductas de mala reputación. Permite a cualquier ciudadano presentar evidencia verificada y otorga derecho de réplica al acusado. Todos los registros son públicos y auditables.",
     "cta": "Involúcrate"
@@ -469,10 +469,7 @@
           "title": "Métodos de Solicitud",
           "items": [
             "Portal en Línea: Portal de Solicitudes de Privacidad",
-            "Correo Electrónico: info@brccheck.com con \"Solicitud de Privacidad\" en el asunto",
-            "Línea Gratuita (EE. UU.): 1-800-XXX-XXXX",
-            "Representante de la UE: [Detalles de su Representante de la UE]",
-            "Correo: Buró Reputacional Ciudadano, Attn: Oficial de Privacidad, [Su Dirección]"
+            "Correo Electrónico: info@brccheck.com con \"Solicitud de Privacidad\" en el asunto"
           ]
         }
       },
@@ -575,7 +572,7 @@
     "public_response": "Su respuesta pública...",
     "submit_response": "Enviar Respuesta",
     "thank_you": "¡Gracias!",
-    "success_message": "Gracias por enviar su respuesta. José Eduardo Ignacio Sarmiento Pinedo responderá a su mensaje.",
+    "success_message": "Gracias por contribuir a nuestra labor de memoria colectiva y rendición de cuentas. Revisaremos su envío y le responderemos pronto.",
     "ok": "Aceptar"
   },
   "legal_ethics": {
@@ -694,7 +691,7 @@
     "checkboxes": {
       "review": "Entiendo que mi respuesta será revisada y puede que no se publique de inmediato. (requerido)",
       "storage": "Autorizo que esta información sea almacenada para fines de trazabilidad legal y transparencia pública. (requerido)",
-      "terms": "Acepto los <a href=\"terms&condition.html\" class=\"underline\">términos y condiciones</a>. (requerido)"
+      "terms": "Acepto los <a href=\"terms&condition\" class=\"underline\">términos y condiciones</a>. (requerido)"
     },
     "submit": "Enviar Caso"
   },
