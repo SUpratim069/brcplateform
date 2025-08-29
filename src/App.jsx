@@ -9,7 +9,9 @@ import CookiesLink from './pages/cookiesLink';
 import LegalLink from "./pages/LegalLink";
 import LegalEthicLink from "./pages/LegalEthicLink";
 import PrivacyLink from "./pages/privacyLink";
-import TermsConditions from "./pages/termsConditons";
+import TermsAndConditions from "./component/TermConditions/TermsAndConditions";
+
+
 import Termofcase from "./pages/TermsofFocus";
 import Navbar from "./layout/Navbar/Navbar"
 import Footer from './layout/Footer/Footer';
@@ -32,7 +34,7 @@ const App = () => {
             <Route path="/legal-Ethics" element={<LegalEthicLink />} />
             <Route path="/legal-disclaimer" element={<LegalLink />} />
             <Route path="/privacy" element={<PrivacyLink />} />
-            <Route path="/terms&conditions" element={<TermsConditions />} />
+           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
             <Route path="/terms-of-use" element={<Termofcase />} />
             <Route path="/CCPA-Compliance" element={<CCPACompliance />} />
             <Route path="/all-Cases" element={<AllCases />} />
