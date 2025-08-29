@@ -21,6 +21,30 @@ const BRCPlatform = () => {
   const [popupOpen, setPopupOpen] = useState(false);
   const [activeLang, setActiveLang] = useState('EN');
 
+  // Stripe logic for tier buttons
+  const stripePromise = window.Stripe ? Promise.resolve(window.Stripe) : import('../../component/StripeButton').then(mod => mod.stripePromise);
+
+  const handleTierStripe = async (prodId) => {
+    // Map product IDs to price IDs (replace with your actual price IDs)
+    const productToPrice = {
+      'prod_Sx2u55KH2Zjf5e': 'price_1PjJqBSIaM2Z4f2BwXjYjZ7K',
+      'prod_Sx2zN3nxTTE1N3': 'price_1PjJqBSIaM2Z4f2BwXjYjZ7K',
+      'prod_Sx30AAXl8DMU3x': 'price_1PjJqBSIaM2Z4f2BwXjYjZ7K',
+    };
+    const priceId = productToPrice[prodId];
+    const stripe = await stripePromise;
+    const { error } = await stripe.redirectToCheckout({
+      lineItems: [{ price: priceId, quantity: 1 }],
+      mode: 'payment',
+      successUrl: `${window.location.origin}?session_id={CHECKOUT_SESSION_ID}`,
+      cancelUrl: window.location.origin,
+    });
+    if (error) {
+      alert('Stripe error: ' + error.message);
+    }
+  };
+
+
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
@@ -360,9 +384,12 @@ education community funding            </p>
                   <li key={i}>{benefit}</li>
                 ))}
               </ul>
-              <a className="inline-block bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded hover:bg-blue-700 text-xs sm:text-sm" href="#">
+              <button
+                className="inline-block bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded hover:bg-blue-700 text-xs sm:text-sm"
+                onClick={() => handleTierStripe('prod_Sx2u55KH2Zjf5e')}
+              >
                 {t('donations.options.founder.cta')}
-              </a>
+              </button>
             </div>
 
             <div className="bg-[#1a2236] border border-gray-700 rounded-lg p-4 sm:p-6 shadow text-white">
@@ -375,9 +402,12 @@ education community funding            </p>
                   <li key={i}>{benefit}</li>
                 ))}
               </ul>
-              <a className="inline-block bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded hover:bg-blue-700 text-xs sm:text-sm" href="#">
+              <button
+                className="inline-block bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded hover:bg-blue-700 text-xs sm:text-sm"
+                onClick={() => handleTierStripe('prod_Sx2zN3nxTTE1N3')}
+              >
                 {t('donations.options.citizen.cta')}
-              </a>
+              </button>
             </div>
 
             <div className="bg-[#1a2236] border border-gray-700 rounded-lg p-4 sm:p-6 shadow text-white">
@@ -390,9 +420,12 @@ education community funding            </p>
                   <li key={i}>{benefit}</li>
                 ))}
               </ul>
-              <a className="inline-block bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded hover:bg-blue-700 text-xs sm:text-sm" href="#">
+              <button
+                className="inline-block bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded hover:bg-blue-700 text-xs sm:text-sm"
+                onClick={() => handleTierStripe('prod_Sx30AAXl8DMU3x')}
+              >
                 {t('donations.options.ally.cta')}
-              </a>
+              </button>
             </div>
           </div>
         </div>

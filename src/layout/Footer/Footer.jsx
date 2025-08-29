@@ -13,7 +13,7 @@ const Footer = () => {
     {
       title: t('footer.links.legal'),
       links: [
-        { label: t('footer.links.legal'), href: '/legal-disclaimer' },
+        { label: t('footer.links.legal_disclaimers'), href: '/legal-disclaimer' },
         { label: t('footer.links.cookies'), href: '/cookies' },
         { label: t('footer.links.privacy'), href: '/privacy' },
         { label: t('footer.links.ethics'), href: '/legal-Ethics' },

@@ -111,7 +111,7 @@ const CookiePolicy = () => {
           <p>{t('cookie_policy.sections.7.text')}</p>
           <p className="mt-4"><strong>{t('cookie_policy.contact.officer')}</strong><br />
           {t('cookie_policy.contact.org')}<br />
-          {t('cookie_policy.contact.email_label')} privacy@brc-platform.org<br />
+          {t('cookie_policy.contact.email_label')} info@brccheck.com<br />
           {t('cookie_policy.contact.last_updated_label')} {t('cookie_policy.contact.last_updated')}</p>
 
           <div className="bg-gray-100 p-6 rounded-lg mt-10">

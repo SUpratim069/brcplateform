@@ -109,7 +109,7 @@ const PrivacyNoticeGDPR = () => {
             <p className="mt-4"><strong>{t('privacy_notice_gdpr.sections.contact.officer')}</strong><br />
             {t('privacy_notice_gdpr.sections.contact.org')}<br />
             {t('privacy_notice_gdpr.sections.contact.email')}<br />
-            {t('privacy_notice_gdpr.sections.contact.address')}<br />
+            {/* {t('privacy_notice_gdpr.sections.contact.address')}<br /> */}
             {t('privacy_notice_gdpr.sections.contact.last_updated')}</p>
           </div>
         </div>

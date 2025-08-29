@@ -71,7 +71,7 @@
   },
   "donations": {
     "title": "Apoya BRC con Contribuciones Éticas",
-    "desc": "Tus donaciones ayudan a mantener la Oficina Ciudadana de Reputación transparente, independiente y dirigida por la comunidad.",
+    "desc": "Tus donaciones ayudan a mantener la Buró Reputacional Ciudadano transparente, independiente y dirigida por la comunidad.",
     "stripe": "Donar vía Stripe",
     "paypal": "Donar vía PayPal",
     "options": {
@@ -114,7 +114,7 @@
     "coming": "Próximamente: Integraciones con IPFS y Arweave"
   },
   "footer": {
-    "title": "Oficina Ciudadana de Reputación",
+    "title": "Buró Reputacional Ciudadano",
     "desc": "Una plataforma cívica para documentar mala conducta, empoderar comunidades y defender la reputación a través de registros transparentes y basados en evidencia.",
     "links": {
       "legal": "Legal",
@@ -182,7 +182,7 @@
       "department": "Departamento Legal",
       "org": "Buró Ciudadano de Reputación",
       "email_label": "Email:",
-      "email": "legal@brc-platform.org",
+      "email": "info@brccheck.com",
       "phone_label": "Teléfono:",
       "phone": "1-800-XXX-XXXX",
       "last_updated_label": "Última Actualización:",
@@ -285,13 +285,13 @@
   },
   "terms_of_use": {
     "meta_title": "Términos de Uso - BRC",
-    "meta_description": "Reglas y pautas para usar la plataforma de la Oficina Ciudadana de Reputación",
+    "meta_description": "Reglas y pautas para usar la plataforma de la Buró Reputacional Ciudadano",
     "title": "Términos de Uso",
-    "subtitle": "Las reglas y pautas que rigen su uso de la plataforma de la Oficina Ciudadana de Reputación",
+    "subtitle": "Las reglas y pautas que rigen su uso de la plataforma de la Buró Reputacional Ciudadano",
     "sections": {
       "acceptance": {
         "title": "1. Aceptación de los Términos",
-        "content": "Al acceder o utilizar la plataforma de la Oficina Ciudadana de Reputación (\"BRC\"), usted acepta estar sujeto a estos Términos de Uso. Si no está de acuerdo con estos términos, no podrá utilizar nuestros servicios. Nos reservamos el derecho de modificar estos términos en cualquier momento, y su uso continuado constituye la aceptación de dichos cambios."
+        "content": "Al acceder o utilizar la plataforma de la Buró Reputacional Ciudadano (\"BRC\"), usted acepta estar sujeto a estos Términos de Uso. Si no está de acuerdo con estos términos, no podrá utilizar nuestros servicios. Nos reservamos el derecho de modificar estos términos en cualquier momento, y su uso continuado constituye la aceptación de dichos cambios."
       },
       "eligibility": {
         "title": "2. Elegibilidad del Usuario",
@@ -363,8 +363,8 @@
         "title": "Información de Contacto",
         "content": "Si tiene preguntas sobre estos Términos de Uso, contáctenos en:",
         "department": "Departamento Legal",
-        "org": "Oficina Ciudadana de Reputación",
-        "email": "Correo electrónico: legal@brc-platform.org",
+        "org": "Buró Reputacional Ciudadano",
+        "email": "Correo electrónico: info@brccheck.com",
         "last_updated": "Última actualización: Julio 2025"
       }
     }
@@ -378,7 +378,7 @@
     "sections": {
       "introduction": {
         "title": "1. Introducción",
-        "content": "La Oficina Ciudadana de Reputación (BRC) está comprometida con el cumplimiento tanto de la Ley de Privacidad del Consumidor de California (CCPA) como del Reglamento General de Protección de Datos (GDPR) de la Unión Europea. Este aviso explica sus derechos bajo ambas regulaciones y cómo protegemos sus datos personales.",
+        "content": "La Buró Reputacional Ciudadano (BRC) está comprometida con el cumplimiento tanto de la Ley de Privacidad del Consumidor de California (CCPA) como del Reglamento General de Protección de Datos (GDPR) de la Unión Europea. Este aviso explica sus derechos bajo ambas regulaciones y cómo protegemos sus datos personales.",
         "overviews": [
           {
             "title": "Resumen de CCPA",
@@ -450,7 +450,7 @@
           {
             "badge": "CCPA",
             "title": "Derecho a No Participar en la Venta",
-            "content": "La Oficina Ciudadana de Reputación no vende información personal a terceros."
+            "content": "La Buró Reputacional Ciudadano no vende información personal a terceros."
           },
           {
             "badge": "CCPA",
@@ -471,10 +471,8 @@
           "title": "Métodos de Solicitud",
           "items": [
             "Portal en Línea: Portal de Solicitudes de Privacidad",
-            "Correo Electrónico: privacidad@brc-platform.org con \"Solicitud de Privacidad\" en el asunto",
-            "Línea Gratuita (EE. UU.): 1-800-XXX-XXXX",
-            "Representante de la UE: [Detalles de su Representante de la UE]",
-            "Correo: Oficina Ciudadana de Reputación, Attn: Oficial de Privacidad, [Su Dirección]"
+            "Correo Electrónico: privacidad@brc-platform.org con \"Solicitud de Privacidad\" en el asunto"
+          
           ]
         }
       },
@@ -514,20 +512,20 @@
         "title": "Información de Contacto",
         "privacy_officer": {
           "title": "Oficial de Privacidad (Global)",
-          "email": "privacidad@brc-platform.org",
+          "email": "info@brccheck.com",
           "phone": "1-800-XXX-XXXX"
         },
         "eu_representative": {
           "title": "Representante de la UE",
           "name": "[Nombre del Representante]",
           "address": "[Dirección del Representante]",
-          "email": "eurep@brc-platform.org"
+          "email": "info@brccheck.com"
         },
         "uk_representative": {
           "title": "Representante del Reino Unido",
           "name": "[Nombre del Representante]",
           "address": "[Dirección del Representante]",
-          "email": "ukrep@brc-platform.org"
+          "email": "info@brccheck.com"
         },
         "last_updated": "Última actualización: Julio 2025"
       }
@@ -582,13 +580,13 @@
   },
   "legal_ethics": {
     "meta_title": "Declaración de Ética Legal - BRC",
-    "meta_description": "Estándares Legales y Éticos para la Oficina Ciudadana de Reputación",
+    "meta_description": "Estándares Legales y Éticos para la Buró Reputacional Ciudadano",
     "title": "Declaración de Ética Legal",
     "subtitle": "Nuestro compromiso con los estándares éticos en la documentación y la justicia reputacional",
     "sections": {
       "principles": {
         "title": "1. Principios Fundamentales",
-        "description": "La Oficina Ciudadana de Reputación opera bajo estos principios éticos fundamentales que guían todas nuestras actividades y operaciones de la plataforma:",
+        "description": "La Buró Reputacional Ciudadano opera bajo estos principios éticos fundamentales que guían todas nuestras actividades y operaciones de la plataforma:",
         "items": [
           {
             "title": "Verdad y Precisión",
@@ -664,8 +662,8 @@
         "title": "Contacto del Comité de Ética",
         "description": "Para reportar inquietudes éticas o buscar orientación:",
         "officer": "Junta de Revisión Ética",
-        "org": "Oficina Ciudadana de Reputación",
-        "email": "Correo electrónico: ethics@brc-platform.org",
+        "org": "Buró Reputacional Ciudadano",
+        "email": "Correo electrónico: info@brccheck.com",
         "phone": "Línea confidencial: +1 (555) 123-4567",
         "last_updated": "Última revisión: Julio 2025"
       }
@@ -712,7 +710,7 @@
         "contact_heading": "Datos de Contacto:",
         "contact_officer": "Responsable de Protección de Datos",
         "contact_org": "Buró Ciudadano de Reputación",
-        "contact_email": "Correo electrónico: dpo@brc-platform.org",
+        "contact_email": "Correo electrónico: info@brccheck.com",
         "contact_address": "Dirección Postal: [Su Dirección de Oficina Registrada]"
       },
       "2": {
@@ -801,7 +799,7 @@
         "text": "Para preguntas sobre este aviso de privacidad o nuestras prácticas de datos, por favor contacte a:",
         "officer": "Responsable de Protección de Datos",
         "org": "Buró Ciudadano de Reputación",
-        "email": "Correo electrónico: dpo@brc-platform.org",
+        "email": "Correo electrónico: info@brccheck.com",
         "address": "Dirección Postal: [Su Dirección de Oficina Registrada]",
         "last_updated": "Última Actualización: Julio 2025"
       }

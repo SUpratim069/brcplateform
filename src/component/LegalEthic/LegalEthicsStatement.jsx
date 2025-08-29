@@ -104,8 +104,8 @@ const LegalEthicsStatement = () => {
               {t('legal_ethics.sections.contact.org')}
               <br />
               {t('legal_ethics.sections.contact.email')}
-              <br />
-              {t('legal_ethics.sections.contact.phone')}
+              {/* <br /> */}
+              {/* {t('legal_ethics.sections.contact.phone')} */}
               <br />
               {t('legal_ethics.sections.contact.last_updated')}
             </p>

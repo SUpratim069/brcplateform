@@ -7,20 +7,20 @@ import { loadStripe } from '@stripe/stripe-js';
 
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY);
 
+// TODO: Replace with your real Stripe price ID
+const priceId = 'price_YOUR_ID_HERE';
+
 const StripeButton = () => {
   const isKeyMissing = !import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY || import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY.includes('YOUR_STRIPE');
 
   const handleClick = async (event) => {
-    // This is a basic client-side integration. For a real application,
-    // you would create the checkout session on your server to keep prices secure.
     const stripe = await stripePromise;
     const { error } = await stripe.redirectToCheckout({
-      lineItems: [{ price: 'price_1PjJqBSIaM2Z4f2BwXjYjZ7K', quantity: 1 }], // Replace with a real Price ID from your Stripe Dashboard
+      lineItems: [{ price: priceId, quantity: 1 }],
       mode: 'payment',
       successUrl: `${window.location.origin}?session_id={CHECKOUT_SESSION_ID}`,
       cancelUrl: window.location.origin,
     });
-
     if (error) {
       console.error("Stripe checkout error:", error);
     }
