@@ -12,8 +12,8 @@ i18n
     },
     ns: ['translation'],
     defaultNS: 'translation',
-    lng: 'en',
-    fallbackLng: 'en',
+    lng: 'es-MX',
+    fallbackLng: 'es-MX',
     interpolation: {
       escapeValue: false,
     },
