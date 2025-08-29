@@ -1,248 +1,250 @@
 {
   "nav": {
-    "home": "Home",
-    "all_cases": "All Cases",
-    "case_3000": "Case #3000",
-    "submit_case": "Submit Case",
-    "donate": "Donate",
-    "membership": "Membership",
+    "home": "Inicio",
+  
+    "case_3000": "Todos los Casos",
+    "submit_case": "Enviar Caso",
+    "donate": "Donar",
+    "membership": "Membresía",
     "legal": "Legal",
     "en": "EN",
     "es": "ES"
   },
   "sections": {
     "ledger": {
-      "title": "Reputation Ledger",
-      "desc": "Permanent, transparent logs of abuses and omissions beyond court records."
+      "title": "Libro de Reputación",
+      "desc": "Registros permanentes y transparentes de abusos y omisiones más allá de los expedientes judiciales."
     },
     "validation": {
-      "title": "Community Validation",
-      "desc": "Cases are supported or challenged by verified peers and public commentary."
+      "title": "Validación Comunitaria",
+      "desc": "Los casos son apoyados o cuestionados por pares verificados y comentarios públicos."
     },
     "empowerment": {
-      "title": "Civic Empowerment",
-      "desc": "Every citizen becomes an archivist of legal memory and social truth."
+      "title": "Empoderamiento Cívico",
+      "desc": "Cada ciudadano se convierte en archivista de la memoria legal y la verdad social."
     }
   },
   "how_it_works": {
-    "title": "How BRC Works",
+    "title": "Cómo Funciona BRC",
     "steps": {
-      "1": "Submit Evidence",
-      "1_desc": "Provide details and upload verifiable documentation about the misconduct.",
-      "2": "Verification",
-      "2_desc": "Our team reviews and verifies the evidence for authenticity and relevance.",
-      "3": "Public Record",
-      "3_desc": "Verified cases are published on the BRC ledger for public transparency.",
-      "4": "Right to Reply",
-      "4_desc": "Accused parties are notified and have the right to respond to allegations.",
-      "5": "Civic Action",
-      "5_desc": "Cases inform civic action, policy, and collective memory."
+      "1": "Enviar Evidencia",
+      "1_desc": "Proporcione detalles y cargue documentación verificable sobre la mala conducta.",
+      "2": "Verificación",
+      "2_desc": "Nuestro equipo revisa y verifica la evidencia por autenticidad y relevancia.",
+      "3": "Registro Público",
+      "3_desc": "Los casos verificados se publican en el libro mayor de BRC para la transparencia pública.",
+      "4": "Derecho de Réplica",
+      "4_desc": "Las partes acusadas son notificadas y tienen derecho a responder a las acusaciones.",
+      "5": "Acción Cívica",
+      "5_desc": "Los casos informan la acción cívica, la política y la memoria colectiva."
     }
   },
   "cases": {
-    "title": "Real-life",
-    "subtitle": "Reputational Cases",
+    "title": "Casos Reales",
+    "subtitle": "Casos Reputacionales",
     "1123": {
-      "title": "Case #1123: Municipal Negligence",
-      "desc": "Waste overflow reported in Ward 17 was ignored by 3 civic bodies. The BRC record forced media coverage and a delayed apology."
+      "title": "Caso #1123: Negligencia Municipal",
+      "desc": "El desbordamiento de desechos reportado en el Distrito 17 fue ignorado por 3 organismos cívicos. El registro BRC forzó la cobertura mediática y una disculpa tardía.",
+      "tags": "negligencia gubernamental salud pública"
     },
     "1047": {
-      "title": "Case #1047: Harassment at Work",
-      "desc": "A female whistleblower documented repeated HR retaliation. BRC entry led to external review and NGO-led support."
+      "title": "Caso #1047: Acoso en el Trabajo",
+      "desc": "Una denunciante documentó repetidas represalias de RRHH. El registro en BRC llevó a una revisión externa y apoyo de una ONG.",
+      "tags": "acoso laboral represalia"
     },
     "1355": {
-      "title": "Case #1355: Public School Closure",
-      "desc": "Community documented 3 years of underfunding leading to school shutdown. Case helped reverse closure in 2024."
+      "title": "Caso #1355: Cierre de Escuela Pública",
+      "desc": "La comunidad documentó 3 años de falta de fondos que llevaron al cierre escolar. El caso ayudó a revertir el cierre en 2024.",
+      "tags": "educación financiamiento comunitario"
     }
   },
   "hero": {
-    "title": "Behavioral Risk Check (BRC)",
-    "subtitle": "Citizen-led reputational intelligence, verified evidence, and civic justice in action.",
-    "description": "BRC is an independent civic protocol to document and trace reputational misconduct. It allows any citizen to submit verified evidence and grants the right to reply for the accused. All records are public and auditable.",
-    "cta": "Get Involved"
+    "title": "Buró Reputacional Ciudadano (BRC)",
+    "subtitle": "Inteligencia reputacional ciudadana, evidencia verificada y justicia cívica en acción.",
+    "description": "BRC es un protocolo cívico independiente para documentar y rastrear conductas de mala reputación. Permite a cualquier ciudadano presentar evidencia verificada y otorga derecho de réplica al acusado. Todos los registros son públicos y auditables.",
+    "cta": "Involúcrate"
   },
   "cta_section": {
-    "title": "Be a Guardian of Reputational Justice",
-    "desc": "Join our mission to create legal memory for the unacknowledged. Share stories. Amplify truth. Push accountability forward.",
-    "button": "Get Involved"
+    "title": "Sé un Guardián de la Justicia Reputacional",
+    "desc": "Únete a nuestra misión para crear memoria legal para los no reconocidos. Comparte historias. Amplifica la verdad. Impulsa la rendición de cuentas.",
+    "button": "Involúcrate"
   },
   "donations": {
-    "title": "Support BRC with Ethical Contributions",
-    "desc": "Your donations help keep the Behavioral Risk Check (BRC) transparent, independent, and community-driven.",
-    "stripe": "Donate via Stripe",
-    "paypal": "Donate via PayPal",
+    "title": "Apoya BRC con Contribuciones Éticas",
+    "desc": "Tus donaciones ayudan a mantener la Buró Reputacional Ciudadano transparente, independiente y dirigida por la comunidad.",
+    "stripe": "Donar vía Stripe",
+    "paypal": "Donar vía PayPal",
     "options": {
       "founder": {
-        "title": "Founding Supporter",
-        "price": "$10/month",
+        "title": "Patrocinador Fundador",
+        "price": "$10/mes",
         "benefits": [
-          "Name on public wall (optional)",
-          "Exclusive newsletter",
-          "Help fund BRC growth"
+          "Nombre en el muro público (opcional)",
+          "Boletín exclusivo",
+          "Ayuda a financiar el crecimiento de BRC"
         ],
-        "cta": "Join Now"
+        "cta": "Unirse Ahora"
       },
       "citizen": {
-        "title": "Verified Citizen",
-        "price": "$25/year",
+        "title": "Ciudadano Verificado",
+        "price": "$25/año",
         "benefits": [
-          "Membership certificate",
-          "Access to internal updates",
-          "Optional listing on BRC directory"
+          "Certificado de membresía",
+          "Acceso a actualizaciones internas",
+          "Inclusión opcional en el directorio BRC"
         ],
-        "cta": "Verify Me"
+        "cta": "Verifícame"
       },
       "ally": {
-        "title": "Legal Ally",
-        "price": "$25/year",
+        "title": "Aliado Legal",
+        "price": "$25/año",
         "benefits": [
-          "Public listing (optional)",
-          "Community defense toolkit",
-          "Advisory group access"
+          "Listado público (opcional)",
+          "Kit de herramientas de defensa comunitaria",
+          "Acceso a grupo asesor"
         ],
-        "cta": "Become Ally"
+        "cta": "Hazte Aliado"
       }
     },
-    "onetime": "One-Time or Monthly Donations"
+    "onetime": "Donaciones Únicas o Mensuales"
   },
   "decentralized": {
-    "title": "Decentralized Publishing",
-    "desc": "We support optional publishing on distributed networks to ensure censorship resistance and data integrity.",
-    "coming": "Coming Soon: IPFS & Arweave integrations"
+    "title": "Publicación Descentralizada",
+    "desc": "Apoyamos la publicación opcional en redes distribuidas para garantizar resistencia a la censura e integridad de datos.",
+    "coming": "Próximamente: Integraciones con IPFS y Arweave"
   },
   "footer": {
-    "title": "Behavioral Risk Check (BRC)",
-    "desc": "A civic platform documenting misconduct, empowering communities, and defending reputation through transparent, evidence-based records.",
+    "title": "Buró Reputacional Ciudadano",
+    "desc": "Una plataforma cívica para documentar mala conducta, empoderar comunidades y defender la reputación a través de registros transparentes y basados en evidencia.",
     "links": {
       "legal": "Legal",
-      "legal_disclaimers": "Legal Disclaimers",
-      "cookies": "Cookie Policy",
-      "privacy": "Privacy Notice (GDPR)",
-      "ethics": "Legal Ethics Statement",
-      "terms": "Terms Of Use",
-      "ccpa": "CCPA Compliance"
+      "legal_disclaimers": "Avisos Legales",
+      "cookies": "Política de Cookies",
+      "privacy": "Aviso de Privacidad (GDPR)",
+      "ethics": "Declaración de Ética Legal",
+      "terms": "Términos de Uso",
+      "ccpa": "Cumplimiento CCPA"
     },
     "involve": {
-      "submit": "Submit a Case",
-      "donate": "Make a Donation",
-      "join": "Join as Member"
+      "submit": "Enviar un Caso",
+      "donate": "Hacer una Donación",
+      "join": "Unirse como Miembro"
     },
-    "copyright": " ©️ 2025 BRC Platform – A citizen-led public registry for documenting misconduct and enabling verified right of reply"
+    "copyright": "©️ 2025 Plataforma BRC – Un registro público ciudadano para documentar mala conducta y habilitar el derecho verificado de réplica"
   },
   "legal_disclaimers": {
-    "title": "Legal Disclaimers",
-    "subtitle": "Important legal information regarding the use of the Buró Reputacional Ciudadano (BRC) platform",
+    "title": "Avisos Legales",
+    "subtitle": "Información legal importante sobre el uso de la plataforma del Buró Ciudadano de Reputación",
     "sections": {
       "1": {
-        "title": "1. General Disclaimer",
-        "text": "The Buró Reputacional Ciudadano (BRC) is a civil justice platform where citizens can document personal, community, or systemic injustices. BRC is not a court of law, government agency, or official judicial body. The information contained on this platform represents user-submitted documentation and does not constitute legal findings or determinations of fact."
+        "title": "1. Descargo de Responsabilidad General",
+        "text": "El Buró Reputacional Ciudadano (BRC) es una plataforma de justicia civil donde los ciudadanos pueden documentar injusticias personales, comunitarias o sistémicas. BRC no es un tribunal de justicia, una agencia gubernamental ni un organismo judicial oficial. La información contenida en esta plataforma representa documentación enviada por los usuarios y no constituye hallazgos legales ni determinaciones de hecho."
       },
       "2": {
-        "title": "2. Nature of Content",
-        "text": "All case documentation, reports, and evidence submitted to BRC are provided by users of the platform. BRC does not independently verify the accuracy, completeness, or veracity of user-submitted content unless explicitly stated. Users are solely responsible for the content they submit."
+        "title": "2. Naturaleza del Contenido",
+        "text": "Toda la documentación de casos, informes y pruebas enviadas a BRC son proporcionadas por los usuarios de la plataforma. BRC no verifica de manera independiente la exactitud, integridad o veracidad del contenido enviado por los usuarios, salvo que se indique expresamente. Los usuarios son los únicos responsables del contenido que envían."
       },
       "3": {
-        "title": "3. No Legal Advice",
-        "text": "The materials and information on this platform are provided for informational purposes only and do not constitute legal advice. BRC is not a law firm and does not provide legal services or representation. Users should consult with qualified legal professionals for specific legal advice."
+        "title": "3. Sin Asesoramiento Legal",
+        "text": "Los materiales e información en esta plataforma se proporcionan únicamente con fines informativos y no constituyen asesoramiento legal. BRC no es un bufete de abogados y no presta servicios ni representación legal. Los usuarios deben consultar con profesionales legales calificados para obtener asesoramiento específico."
       },
       "4": {
-        "title": "4. Limitation of Liability",
-        "text": "BRC shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages resulting from: The use or inability to use the service; Unauthorized access to or alteration of your transmissions or data; Statements or conduct of any third party on the service; Any other matter relating to the service."
+        "title": "4. Limitación de Responsabilidad",
+        "text": "BRC no será responsable por ningún daño directo, indirecto, incidental, especial, consecuente o ejemplar que resulte de: El uso o la imposibilidad de usar el servicio; El acceso no autorizado o la alteración de sus transmisiones o datos; Declaraciones o conductas de terceros en el servicio; Cualquier otro asunto relacionado con el servicio."
       },
       "5": {
-        "title": "5. User Responsibilities",
-        "text": "By using this platform, you agree: To provide accurate and truthful information in your submissions; Not to submit defamatory, libelous, or knowingly false information; To comply with all applicable laws and regulations; To respect the privacy and rights of others."
+        "title": "5. Responsabilidades del Usuario",
+        "text": "Al usar esta plataforma, usted acepta: Proporcionar información precisa y veraz en sus envíos; No enviar información difamatoria, calumniosa o conscientemente falsa; Cumplir con todas las leyes y regulaciones aplicables; Respetar la privacidad y los derechos de los demás."
       },
       "6": {
-        "title": "6. Intellectual Property",
-        "text": "All content submitted to BRC remains the intellectual property of the original submitter. By submitting content, users grant BRC a non-exclusive, worldwide, royalty-free license to use, display, and distribute the content in connection with the platform's operations."
+        "title": "6. Propiedad Intelectual",
+        "text": "Todo el contenido enviado a BRC sigue siendo propiedad intelectual del remitente original. Al enviar contenido, los usuarios otorgan a BRC una licencia no exclusiva, mundial y libre de regalías para usar, mostrar y distribuir el contenido en relación con las operaciones de la plataforma."
       },
       "7": {
-        "title": "7. Right to Response",
-        "text": "Individuals named in case documentation have the right to submit responses or rebuttals, which will be published alongside the original content in accordance with our policies."
+        "title": "7. Derecho de Respuesta",
+        "text": "Las personas mencionadas en la documentación de casos tienen derecho a enviar respuestas o réplicas, que se publicarán junto con el contenido original de acuerdo con nuestras políticas."
       },
       "8": {
-        "title": "8. Content Moderation",
-        "text": "BRC reserves the right to remove or modify any content that violates our terms of service or community guidelines, including but not limited to content that is unlawful, threatening, abusive, harassing, defamatory, or otherwise objectionable."
+        "title": "8. Moderación de Contenido",
+        "text": "BRC se reserva el derecho de eliminar o modificar cualquier contenido que viole nuestros términos de servicio o pautas comunitarias, incluido, entre otros, contenido que sea ilegal, amenazante, abusivo, acosador, difamatorio o de otro modo objetable."
       },
       "9": {
-        "title": "9. Jurisdiction",
-        "text": "These terms shall be governed by and construed in accordance with the laws of the State of Texas, USA, without regard to conflict of law provisions. Any legal action related to these terms or use of the platform shall be brought exclusively before the competent courts of Texas, USA"
+        "title": "9. Jurisdicción",
+        "text": "Estos términos se regirán e interpretarán de conformidad con las leyes del Estado de Texas, EE. UU., sin perjuicio de las disposiciones sobre conflicto de leyes. Cualquier acción legal relacionada con estos términos o el uso de la plataforma se presentará exclusivamente ante los tribunales competentes de Texas, EE. UU."
       },
       "10": {
-        "title": "10. Changes to Disclaimers",
-        "text": "BRC reserves the right to modify these disclaimers at any time. Continued use of the platform following any changes constitutes acceptance of the new terms."
+        "title": "10. Cambios en los Avisos",
+        "text": "BRC se reserva el derecho de modificar estos avisos en cualquier momento. El uso continuo de la plataforma después de cualquier cambio constituye la aceptación de los nuevos términos."
       }
     },
     "contact": {
-      "title": "Contact Information",
-      "department": "Legal Department",
-      "org": "Behavioral Risk Check (BRC)",
+      "title": "Información de Contacto",
+      "department": "Departamento Legal",
+      "org": "Buró Reputacional Ciudadano",
       "email_label": "Email:",
-      "email": " info@brccheck.com",
-    
-      "last_updated_label": "Last Updated:",
-      "last_updated": "July 2025"
+      "email": "info@brccheck.com",
+      "last_updated_label": "Última Actualización:",
+      "last_updated": "Julio 2025"
     }
   },
   "cookie_policy": {
-    "meta_title": "Cookie Policy - BRC",
-    "meta_description": "Our Cookie Policy explains how we use cookies and similar technologies on our website.",
-    "title": "Cookie Policy",
-    "subtitle": "Information about how we use cookies on the Behavioral Risk Check (BRC) platform",
+    "meta_title": "Política de Cookies - BRC",
+    "meta_description": "Nuestra Política de Cookies explica cómo usamos cookies y tecnologías similares en nuestro sitio web.",
+    "title": "Política de Cookies",
+    "subtitle": "Información sobre cómo usamos cookies en la plataforma del Buró Ciudadano de Reputación",
     "sections": {
       "1": {
-        "title": "1. What Are Cookies?",
-        "text": "Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently, as well as to provide information to the website owners."
+        "title": "1. ¿Qué son las Cookies?",
+        "text": "Las cookies son pequeños archivos de texto que se colocan en su computadora o dispositivo móvil cuando visita un sitio web. Se utilizan ampliamente para hacer que los sitios web funcionen de manera más eficiente, así como para proporcionar información a los propietarios del sitio."
       },
       "2": {
-        "title": "2. How We Use Cookies",
-        "text": "The Behavioral Risk Check (BRC) uses cookies for several purposes:"
+        "title": "2. Cómo Usamos las Cookies",
+        "text": "El Buró Ciudadano de Reputación (BRC) utiliza cookies para varios propósitos:"
       },
       "3": {
-        "title": "3. Types of Cookies We Use",
-        "text": "Below is a list of cookies we use and their purposes."
+        "title": "3. Tipos de Cookies que Usamos",
+        "text": "A continuación se muestra una lista de las cookies que usamos y sus propósitos."
       },
       "4": {
-        "title": "4. Managing Cookies",
-        "text": "You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. However, if you do this, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work."
+        "title": "4. Gestión de Cookies",
+        "text": "Usted puede controlar y/o eliminar las cookies como desee. Puede eliminar todas las cookies que ya están en su computadora y puede configurar la mayoría de los navegadores para evitar que se coloquen. Sin embargo, si hace esto, es posible que tenga que ajustar manualmente algunas preferencias cada vez que visite un sitio y algunos servicios y funcionalidades pueden no funcionar."
       },
       "5": {
-        "title": "5. Third-Party Cookies",
-        "text": "We may use third-party services that place cookies on your device. These include:"
+        "title": "5. Cookies de Terceros",
+        "text": "Podemos utilizar servicios de terceros que colocan cookies en su dispositivo. Estos incluyen:"
       },
       "6": {
-        "title": "6. Changes to This Policy",
-        "text": "We may update this Cookie Policy from time to time. We will notify you of any changes by posting the new Cookie Policy on this page and updating the 'Last Updated' date below."
+        "title": "6. Cambios en esta Política",
+        "text": "Podemos actualizar esta Política de Cookies de vez en cuando. Le notificaremos cualquier cambio publicando la nueva Política de Cookies en esta página y actualizando la fecha de 'Última Actualización' a continuación."
       },
       "7": {
-        "title": "7. Contact Us",
-        "text": "If you have any questions about our use of cookies, please contact us at:"
+        "title": "7. Contáctenos",
+        "text": "Si tiene alguna pregunta sobre nuestro uso de cookies, por favor contáctenos en:"
       }
     },
     "essential": {
-      "title": "Essential Cookies:",
-      "text": "Necessary for the website to function properly."
+      "title": "Cookies Esenciales:",
+      "text": "Necesarias para que el sitio web funcione correctamente."
     },
     "performance": {
-      "title": "Performance Cookies:",
-      "text": "Help us understand how visitors interact with our website."
+      "title": "Cookies de Rendimiento:",
+      "text": "Nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web."
     },
     "functionality": {
-      "title": "Functionality Cookies:",
-      "text": "Remember your preferences to enhance your experience."
+      "title": "Cookies de Funcionalidad:",
+      "text": "Recuerdan sus preferencias para mejorar su experiencia."
     },
     "analytics": {
-      "title": "Analytics Cookies:",
-      "text": "Help us improve our website by collecting anonymous information."
+      "title": "Cookies Analíticas:",
+      "text": "Nos ayudan a mejorar nuestro sitio web recopilando información anónima."
     },
     "table": {
-      "name": "Cookie Name",
-      "purpose": "Purpose",
-      "duration": "Duration"
+      "name": "Nombre de la Cookie",
+      "purpose": "Propósito",
+      "duration": "Duración"
     },
     "browser_instructions": {
-      "title": "Browser-Specific Instructions:",
+      "title": "Instrucciones Específicas del Navegador:",
       "chrome": "Google Chrome",
       "firefox": "Mozilla Firefox",
       "safari": "Safari",
@@ -250,555 +252,555 @@
     },
     "third_party": {
       "analytics": {
-        "title": "Analytics Services:",
-        "text": "Such as Google Analytics to help us analyze website usage."
+        "title": "Servicios de Analítica:",
+        "text": "Como Google Analytics para ayudarnos a analizar el uso del sitio web."
       },
       "payments": {
-        "title": "Payment Processors:",
-        "text": "Cookies necessary for processing donations."
+        "title": "Procesadores de Pago:",
+        "text": "Cookies necesarias para procesar donaciones."
       },
       "social": {
-        "title": "Social Media:",
-        "text": "Cookies from embedded content like Twitter or Facebook feeds."
+        "title": "Redes Sociales:",
+        "text": "Cookies de contenido incrustado como los feeds de Twitter o Facebook."
       }
     },
     "contact": {
-      "officer": "Data Protection Officer",
-      "org": "Behavioral Risk Check (BRC)",
-      "email_label": "Email:",
-      "last_updated_label": "Last Updated:",
-      "last_updated": "August 2025"
+      "officer": "Responsable de Protección de Datos",
+      "org": "Buró Ciudadano de Reputación",
+      "email_label": "Correo electrónico:",
+      "last_updated_label": "Última Actualización:",
+      "last_updated": "Agosto 2025"
     },
     "preferences": {
-      "title": "Your Cookie Preferences",
-      "text": "You can manage your cookie preferences below:",
-      "essential": "Essential Cookies (Required)",
-      "performance": "Performance Cookies",
-      "analytics": "Analytics Cookies",
-      "save_button": "Save Preferences",
-      "save_alert": "Cookie preferences saved. Note: This is a demonstration. Actual cookie preferences would be implemented with proper cookie management tools."
+      "title": "Sus Preferencias de Cookies",
+      "text": "Puede gestionar sus preferencias de cookies a continuación:",
+      "essential": "Cookies Esenciales (Requeridas)",
+      "performance": "Cookies de Rendimiento",
+      "analytics": "Cookies Analíticas",
+      "save_button": "Guardar Preferencias",
+      "save_alert": "Preferencias de cookies guardadas. Nota: Esto es una demostración. Las preferencias reales de cookies se implementarían con herramientas de gestión de cookies adecuadas."
     }
   },
   "terms_of_use": {
-    "meta_title": "Terms of Use - BRC",
-    "meta_description": "Rules and guidelines for using the Behavioral Risk Check (BRC) platform",
-    "title": "Terms of Use",
-    "subtitle": "The rules and guidelines governing your use of the Behavioral Risk Check (BRC) platform",
+    "meta_title": "Términos de Uso - BRC",
+    "meta_description": "Reglas y pautas para usar la plataforma de la Buró Reputacional Ciudadano",
+    "title": "Términos de Uso",
+    "subtitle": "Las reglas y pautas que rigen su uso de la plataforma de la Buró Reputacional Ciudadano",
     "sections": {
       "acceptance": {
-        "title": "1. Acceptance of Terms",
-        "content": "By accessing or using the Behavioral Risk Check (BRC) (\"BRC\") platform, you agree to be bound by these Terms of Use. If you do not agree to these terms, you may not use our services. We reserve the right to modify these terms at any time, and your continued use constitutes acceptance of any changes."
+        "title": "1. Aceptación de los Términos",
+        "content": "Al acceder o utilizar la plataforma de la Buró Reputacional Ciudadano (\"BRC\"), usted acepta estar sujeto a estos Términos de Uso. Si no está de acuerdo con estos términos, no podrá utilizar nuestros servicios. Nos reservamos el derecho de modificar estos términos en cualquier momento, y su uso continuado constituye la aceptación de dichos cambios."
       },
       "eligibility": {
-        "title": "2. User Eligibility",
-        "content": "To use BRC services, you must:",
+        "title": "2. Elegibilidad del Usuario",
+        "content": "Para utilizar los servicios de BRC, debe:",
         "items": [
-          "Be at least 18 years of age or the age of majority in your jurisdiction",
-          "Have the legal capacity to enter into binding agreements",
-          "Not be prohibited from receiving our services under applicable laws",
-          "Provide accurate and complete registration information"
+          "Tener al menos 18 años o la mayoría de edad en su jurisdicción",
+          "Tener capacidad legal para celebrar acuerdos vinculantes",
+          "No estar impedido por ley de recibir nuestros servicios",
+          "Proporcionar información de registro precisa y completa"
         ]
       },
       "account_registration": {
-        "title": "3. Account Registration",
-        "content": "Some features may require account registration. You agree to:",
+        "title": "3. Registro de Cuenta",
+        "content": "Algunas funciones pueden requerir registro de cuenta. Usted acepta:",
         "items": [
-          "Provide accurate and current information",
-          "Maintain the security of your credentials",
-          "Be responsible for all activities under your account",
-          "Notify us immediately of any unauthorized use"
+          "Proporcionar información precisa y actual",
+          "Mantener la seguridad de sus credenciales",
+          "Ser responsable de todas las actividades bajo su cuenta",
+          "Notificarnos inmediatamente sobre cualquier uso no autorizado"
         ]
       },
       "user_conduct": {
-        "title": "4. User Conduct",
-        "content": "You agree not to use the platform to:",
+        "title": "4. Conducta del Usuario",
+        "content": "Usted acepta no utilizar la plataforma para:",
         "items": [
-          "Submit false, misleading, or defamatory information",
-          "Violate any laws or third-party rights",
-          "Harass, threaten, or intimidate others",
-          "Upload malicious code or interfere with platform operations",
-          "Impersonate any person or entity",
-          "Engage in fraudulent or deceptive activities"
+          "Enviar información falsa, engañosa o difamatoria",
+          "Violar leyes o derechos de terceros",
+          "Acosar, amenazar o intimidar a otros",
+          "Cargar código malicioso o interferir con las operaciones de la plataforma",
+          "Suplantar a cualquier persona o entidad",
+          "Participar en actividades fraudulentas o engañosas"
         ]
       },
       "content_submission": {
-        "title": "5. Content Submission",
-        "content": "By submitting content to BRC, you:",
+        "title": "5. Envío de Contenido",
+        "content": "Al enviar contenido a BRC, usted:",
         "items": [
-          "Affirm you have the right to share the content",
-          "Grant BRC a non-exclusive license to use, display, and distribute the content",
-          "Understand content may be publicly visible",
-          "Acknowledge BRC may remove content that violates these terms"
+          "Afirma que tiene derecho a compartir el contenido",
+          "Otorga a BRC una licencia no exclusiva para usar, mostrar y distribuir el contenido",
+          "Comprende que el contenido puede ser visible públicamente",
+          "Reconoce que BRC puede eliminar contenido que viole estos términos"
         ]
       },
       "privacy_policy": {
-        "title": "6. Privacy Policy",
-        "content": "Your use of BRC is subject to our Privacy Notice, which explains how we collect, use, and protect your information. By using BRC, you consent to our data practices as described in the Privacy Notice."
+        "title": "6. Política de Privacidad",
+        "content": "Su uso de BRC está sujeto a nuestro Aviso de Privacidad, que explica cómo recopilamos, usamos y protegemos su información. Al usar BRC, usted acepta nuestras prácticas de datos según se describe en el Aviso de Privacidad."
       },
       "intellectual_property": {
-        "title": "7. Intellectual Property",
-        "content": "All platform content, including text, graphics, logos, and software, is owned by BRC or its licensors and protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without express permission."
+        "title": "7. Propiedad Intelectual",
+        "content": "Todo el contenido de la plataforma, incluidos textos, gráficos, logotipos y software, es propiedad de BRC o sus licenciantes y está protegido por las leyes de propiedad intelectual. No puede reproducir, distribuir ni crear obras derivadas sin permiso expreso."
       },
       "dispute_resolution": {
-        "title": "8. Dispute Resolution",
-        "content": "These terms shall be governed by and construed in accordance with the laws of the State of Texas, USA, without regard to conflict of law provisions. Any legal action related to these terms or use of the platform shall be brought exclusively before the competent courts of Texas, USA"
+        "title": "8. Resolución de Disputas",
+        "content": "Cualquier disputa que surja de estos términos se resolverá mediante arbitraje vinculante en [Jurisdicción], de acuerdo con las reglas de [Organización de Arbitraje]. El arbitraje se llevará a cabo en español y la decisión del árbitro será definitiva y vinculante."
       },
       "limitation_of_liability": {
-        "title": "9. Limitation of Liability",
-        "content": "BRC shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the platform, even if advised of the possibility of such damages."
+        "title": "9. Limitación de Responsabilidad",
+        "content": "BRC no será responsable por daños indirectos, incidentales, especiales, consecuentes o punitivos que resulten de su uso o incapacidad para usar la plataforma, incluso si se le ha advertido de la posibilidad de dichos daños."
       },
       "termination": {
-        "title": "10. Termination",
-        "content": "BRC reserves the right to suspend or terminate your access to the platform at any time, without notice, for conduct that we believe violates these terms or is harmful to other users, us, or third parties, or for any other reason."
+        "title": "10. Terminación",
+        "content": "BRC se reserva el derecho de suspender o dar por terminado su acceso a la plataforma en cualquier momento, sin previo aviso, por conductas que consideremos que violan estos términos o son perjudiciales para otros usuarios, para nosotros o para terceros, o por cualquier otra razón."
       },
       "governing_law": {
-        "title": "11. Governing Law",
-        "content": "These terms shall be governed by and construed in accordance with the laws of [Jurisdiction], without regard to its conflict of law provisions."
+        "title": "11. Ley Aplicable",
+        "content": "Estos términos se regirán e interpretarán de acuerdo con las leyes de [Jurisdicción], sin tener en cuenta sus disposiciones sobre conflictos de leyes."
       },
       "contact": {
-        "title": "Contact Information",
-        "content": "For questions about these Terms of Use, please contact:",
-        "department": "Legal Department",
-        "org": "Behavioral Risk Check (BRC)",
-        "email": "Email: info@brccheck.com",
-        "last_updated": "Last Updated: July 2025"
+        "title": "Información de Contacto",
+        "content": "Si tiene preguntas sobre estos Términos de Uso, contáctenos en:",
+        "department": "Departamento Legal",
+        "org": "Buró Reputacional Ciudadano",
+        "email": "Correo electrónico: info@brccheck.com",
+        "last_updated": "Última actualización: Julio 2025"
       }
     }
   },
   
   "ccpa_gdpr": {
-    "meta_title": "CCPA/GDPR Compliance Notice - BRC",
-    "meta_description": "Your privacy rights under California and European Union data protection laws",
-    "title": "CCPA/GDPR Compliance Notice",
-    "subtitle": "Your privacy rights under California and European Union data protection laws",
+    "meta_title": "Aviso de Cumplimiento CCPA/GDPR - BRC",
+    "meta_description": "Sus derechos de privacidad bajo las leyes de protección de datos de California y la Unión Europea",
+    "title": "Aviso de Cumplimiento CCPA/GDPR",
+    "subtitle": "Sus derechos de privacidad bajo las leyes de protección de datos de California y la Unión Europea",
     "sections": {
       "introduction": {
-        "title": "1. Introduction",
-        "content": "The Behavioral Risk Check (BRC) is committed to compliance with both the California Consumer Privacy Act (CCPA) and the European Union's General Data Protection Regulation (GDPR). This notice explains your rights under both regulations and how we protect your personal data.",
+        "title": "1. Introducción",
+        "content": "La Buró Reputacional Ciudadano (BRC) está comprometida con el cumplimiento tanto de la Ley de Privacidad del Consumidor de California (CCPA) como del Reglamento General de Protección de Datos (GDPR) de la Unión Europea. Este aviso explica sus derechos bajo ambas regulaciones y cómo protegemos sus datos personales.",
         "overviews": [
           {
-            "title": "CCPA Overview",
-            "description": "Provides California residents with specific rights regarding their personal information collected by businesses."
+            "title": "Resumen de CCPA",
+            "description": "Proporciona a los residentes de California derechos específicos con respecto a su información personal recopilada por empresas."
           },
           {
-            "title": "GDPR Overview",
-            "description": "Regulates data protection and privacy for individuals within the European Union and European Economic Area."
+            "title": "Resumen de GDPR",
+            "description": "Regula la protección de datos y la privacidad de las personas dentro de la Unión Europea y el Espacio Económico Europeo."
           }
         ]
       },
       "data_collection": {
-        "title": "2. Data Collection Practices",
-        "content": "We collect the following categories of personal information:",
+        "title": "2. Prácticas de Recolección de Datos",
+        "content": "Recopilamos las siguientes categorías de información personal:",
         "items": [
-          "Identifiers: Name, alias, contact information, IP address",
-          "Case Documentation: Information submitted in reputational cases",
-          "Financial Information: For donations and memberships",
-          "Technical Data: Browser type, device information, usage patterns",
-          "Location Data: Approximate geographic location"
+          "Identificadores: Nombre, alias, información de contacto, dirección IP",
+          "Documentación de Casos: Información presentada en casos de reputación",
+          "Información Financiera: Para donaciones y membresías",
+          "Datos Técnicos: Tipo de navegador, información del dispositivo, patrones de uso",
+          "Datos de Ubicación: Ubicación geográfica aproximada"
         ]
       },
       "your_rights": {
-        "title": "3. Your Rights",
+        "title": "3. Sus Derechos",
         "rights": [
           {
             "badge": "CCPA",
-            "title": "Right to Know and Access",
-            "content": "You may request disclosure of:",
+            "title": "Derecho a Saber y Acceder",
+            "content": "Puede solicitar la divulgación de:",
             "items": [
-              "Categories of personal information collected",
-              "Sources of collection",
-              "Business purposes for collection",
-              "Categories of third parties we share with",
-              "Specific pieces of personal information"
+              "Categorías de información personal recopilada",
+              "Fuentes de recopilación",
+              "Propósitos comerciales de la recopilación",
+              "Categorías de terceros con los que compartimos",
+              "Piezas específicas de información personal"
             ]
           },
           {
             "badges": ["CCPA", "GDPR"],
-            "title": "Right to Deletion",
-            "content": "Request deletion of your personal data, subject to legal exceptions including:",
+            "title": "Derecho a la Eliminación",
+            "content": "Solicitar la eliminación de sus datos personales, sujeto a excepciones legales que incluyen:",
             "items": [
-              "Completion of transactions",
-              "Security protections",
-              "Legal compliance",
-              "Public interest archiving"
+              "Finalización de transacciones",
+              "Protecciones de seguridad",
+              "Cumplimiento legal",
+              "Archivo de interés público"
             ]
           },
           {
             "badge": "GDPR",
-            "title": "Right to Rectification",
-            "content": "Request correction of inaccurate personal data and completion of incomplete data."
+            "title": "Derecho de Rectificación",
+            "content": "Solicitar la corrección de datos personales inexactos y la finalización de datos incompletos."
           },
           {
             "badge": "GDPR",
-            "title": "Right to Restrict Processing",
-            "content": "Request limitation of how we use your data in certain circumstances."
+            "title": "Derecho a la Limitación del Tratamiento",
+            "content": "Solicitar la limitación de cómo usamos sus datos en ciertas circunstancias."
           },
           {
             "badge": "GDPR",
-            "title": "Right to Data Portability",
-            "content": "Receive your data in a structured, commonly used format and transmit it to another controller."
+            "title": "Derecho a la Portabilidad de Datos",
+            "content": "Recibir sus datos en un formato estructurado, de uso común y legible por máquina, y transmitirlos a otro responsable."
           },
           {
             "badge": "GDPR",
-            "title": "Right to Object",
-            "content": "Object to processing of your personal data in certain situations."
+            "title": "Derecho de Oposición",
+            "content": "Oponerse al tratamiento de sus datos personales en ciertas situaciones."
           },
           {
             "badge": "CCPA",
-            "title": "Right to Opt-Out of Sale",
-            "content": "The Behavioral Risk Check (BRC) does not sell personal information to third parties."
+            "title": "Derecho a No Participar en la Venta",
+            "content": "La Buró Reputacional Ciudadano no vende información personal a terceros."
           },
           {
             "badge": "CCPA",
-            "title": "Right to Non-Discrimination",
-            "content": "We will not discriminate against you for exercising your privacy rights."
+            "title": "Derecho a No Discriminación",
+            "content": "No lo discriminaremos por ejercer sus derechos de privacidad."
           }
         ]
       },
       "exercise_rights": {
-        "title": "4. How to Exercise Your Rights",
-        "intro": "To submit a request regarding your personal data:",
+        "title": "4. Cómo Ejercer Sus Derechos",
+        "intro": "Para enviar una solicitud con respecto a sus datos personales:",
         "items": [
-          "Verifiable Request: Contact us through our designated request methods",
-          "Identity Verification: We will verify your identity before processing",
-          "Response Time: We aim to respond within required timeframes (30 days for CCPA, 1 month for GDPR)"
+          "Solicitud Verificable: Contáctenos a través de nuestros métodos de solicitud designados",
+          "Verificación de Identidad: Verificaremos su identidad antes de procesar",
+          "Tiempo de Respuesta: Nuestro objetivo es responder dentro de los plazos requeridos (30 días para CCPA, 1 mes para GDPR)"
         ],
         "request_methods": {
-          "title": "Request Methods",
+          "title": "Métodos de Solicitud",
           "items": [
-            "Online Portal: Privacy Request Portal",
-            "Email: info@brccheck.com with \"Privacy Request\" in subject"
+            "Portal en Línea: Portal de Solicitudes de Privacidad",
+            "Correo Electrónico: info@brccheck.com con \"Solicitud de Privacidad\" en el asunto"
           ]
         }
       },
       "data_security": {
-        "title": "5. Data Security",
-        "content": "We implement appropriate technical and organizational measures to protect personal data, including:",
+        "title": "5. Seguridad de Datos",
+        "content": "Implementamos medidas técnicas y organizativas apropiadas para proteger los datos personales, incluyendo:",
         "items": [
-          "Encryption of sensitive data",
-          "Regular security assessments",
-          "Access controls and authentication",
-          "Staff training on data protection"
+          "Cifrado de datos sensibles",
+          "Evaluaciones periódicas de seguridad",
+          "Controles de acceso y autenticación",
+          "Capacitación del personal en protección de datos"
         ]
       },
       "data_transfers": {
-        "title": "6. International Data Transfers",
-        "content": "For GDPR compliance, we ensure appropriate safeguards for international data transfers, including:",
+        "title": "6. Transferencias Internacionales de Datos",
+        "content": "Para el cumplimiento del GDPR, aseguramos las garantías adecuadas para las transferencias internacionales de datos, incluyendo:",
         "items": [
-          "EU Standard Contractual Clauses",
-          "Adequacy decisions where applicable",
-          "Other approved transfer mechanisms"
+          "Cláusulas Contractuales Estándar de la UE",
+          "Decisiones de adecuación cuando corresponda",
+          "Otros mecanismos de transferencia aprobados"
         ]
       },
       "data_retention": {
-        "title": "7. Data Retention",
-        "content": "We retain personal data only as long as necessary for:",
+        "title": "7. Conservación de Datos",
+        "content": "Conservamos los datos personales solo durante el tiempo necesario para:",
         "items": [
-          "The purposes outlined in our Privacy Notice",
-          "Legal and regulatory requirements",
-          "Public interest archiving of reputational cases"
+          "Los fines descritos en nuestro Aviso de Privacidad",
+          "Los requisitos legales y regulatorios",
+          "El archivo de interés público de casos de reputación"
         ]
       },
       "changes": {
-        "title": "8. Changes to This Notice",
-        "content": "We may update this compliance notice periodically. Significant changes will be communicated through our website or directly to affected individuals when required."
+        "title": "8. Cambios en Este Aviso",
+        "content": "Podemos actualizar este aviso de cumplimiento periódicamente. Los cambios significativos se comunicarán a través de nuestro sitio web o directamente a las personas afectadas cuando sea necesario."
       },
       "contact": {
-        "title": "Contact Information",
+        "title": "Información de Contacto",
         "privacy_officer": {
-          "title": "Privacy Officer (Global)",
-          "email": "info@brccheck.com"
-          
+          "title": "Oficial de Privacidad (Global)",
+          "email": "info@brccheck.com",
+          "phone": "1-800-XXX-XXXX"
         },
         "eu_representative": {
-          "title": "EU Representative",
-          "name": "[Representative Name]",
-          "address": "[Representative Address]",
+          "title": "Representante de la UE",
+          "name": "[Nombre del Representante]",
+          "address": "[Dirección del Representante]",
           "email": "info@brccheck.com"
         },
         "uk_representative": {
-          "title": "UK Representative",
-          "name": "[Representative Name]",
-          "address": "[Representative Address]",
+          "title": "Representante del Reino Unido",
+          "name": "[Nombre del Representante]",
+          "address": "[Dirección del Representante]",
           "email": "info@brccheck.com"
         },
-        "last_updated": "Last Updated: July 2025"
+        "last_updated": "Última actualización: Julio 2025"
       }
     }
   },
   "coming_soon": {
-    "title": "Something meaningful is coming soon",
-    "description": "We're putting the final touches on our next release. Stay tuned for updates and early access.",
-    "email_placeholder": "Enter your email to get notified",
-    "notify_me": "Notify me",
-    "stay_updated": "Stay updated with our progress",
-    "follow_us": "Follow us"
+    "title": "Algo significativo está por venir",
+    "description": "Estamos dando los últimos toques a nuestro próximo lanzamiento. Manténgase atento a las actualizaciones y acceso anticipado.",
+    "email_placeholder": "Ingresa tu correo para recibir notificaciones",
+    "notify_me": "Notifícame",
+    "stay_updated": "Mantente actualizado con nuestro progreso",
+    "follow_us": "Síguenos"
   },
   "sarmiento_case": {
-    "case_profile": "Case Profile",
-    "legal_notice_title": "LEGAL NOTICE",
-    "legal_notice": "This platform does not issue legal judgments. It documents citizen reports with supporting evidence and offers full right of reply. The individuals mentioned are presumed innocent. This is a transparency and prevention tool.",
-    "case_summary": "1. Case Summary",
-    "relationship_beginning": "Relationship beginning",
-    "relationship_beginning_text": "This relationship started as a friendship when the complainant was beginning a construction project. Three lump-sum, time-bound contracts were signed.",
-    "conflict": "Conflict",
-    "conflict_text": "Despite a fixed-price, fixed-term contract, he unjustifiably demanded more money. He had done full due diligence before signing, and third-party experts confirmed the info provided was more than sufficient. Other bidders even quoted lower prices.",
-    "demands": "Demands",
-    "demands_text": "He demanded additional payments without justification, even after signing a settlement agreement.",
-    "threats": "Threats",
-    "threats_text": "Two years later, threats and intimidating messages began, including social media posts.",
-    "impact": "Impact on third parties",
-    "impact_text": "Threats and defamation included family members (children, wife, mother), professional reputation, and social standing.",
-    "related_contacts": "Related Contacts",
-    "contact_note": "Note",
-    "contact_text": "Contact information is kept confidential and only shared with authorized parties for verification purposes.",
-    "to_request_contact": "To request verified contact information for legitimate purposes, please",
-    "contact_link": "contact our Data Protection Officer",
-    "with_your_request": "with your official request.",
-    "public_evidence": "2. Public Evidence",
-    "pdf_document": "PDF Document",
-    "view_pdf": "View PDF Document",
+    "case_profile": "Perfil del Caso",
+    "legal_notice_title": "AVISO LEGAL",
+    "legal_notice": "Esta plataforma no emite juicios legales. Documenta informes ciudadanos con evidencia de respaldo y ofrece pleno derecho de réplica. Se presume la inocencia de las personas mencionadas. Esta es una herramienta de transparencia y prevención.",
+    "case_summary": "1. Resumen del Caso",
+    "relationship_beginning": "Inicio de la relación",
+    "relationship_beginning_text": "Esta relación comenzó como una amistad cuando el demandante estaba comenzando un proyecto de construcción. Se firmaron tres contratos de suma global con plazo determinado.",
+    "conflict": "Conflicto",
+    "conflict_text": "A pesar de un contrato de precio fijo y plazo determinado, él exigió injustificadamente más dinero. Había realizado una debida diligencia completa antes de firmar, y expertos independientes confirmaron que la información proporcionada era más que suficiente. Otros postores incluso cotizaron precios más bajos.",
+    "demands": "Exigencias",
+    "demands_text": "Exigió pagos adicionales sin justificación, incluso después de firmar un acuerdo de conciliación.",
+    "threats": "Amenazas",
+    "threats_text": "Dos años después, comenzaron las amenazas y mensajes intimidatorios, incluyendo publicaciones en redes sociales.",
+    "impact": "Impacto en terceros",
+    "impact_text": "Las amenazas y difamación incluyeron a miembros de la familia (hijos, esposa, madre), reputación profesional y posición social.",
+    "related_contacts": "Contactos Relacionados",
+    "contact_note": "Nota",
+    "contact_text": "La información de contacto se mantiene confidencial y solo se comparte con partes autorizadas para fines de verificación.",
+    "to_request_contact": "Para solicitar información de contacto verificada con fines legítimos, por favor",
+    "contact_link": "contacte a nuestro Oficial de Protección de Datos",
+    "with_your_request": "con su solicitud oficial.",
+    "public_evidence": "2. Evidencia Pública",
+    "pdf_document": "Documento PDF",
+    "view_pdf": "Ver Documento PDF",
     "audio_evidence_1": "Audio Evidence 1",
-    "audio_evidence_2": "Audio Evidence 2", 
-    "audio_evidence_3": "Audio Evidence 3", 
-    "audio_evidence_4": "Audio Evidence 4",
-    "browser_no_audio": "Your browser does not support the audio element.",
-    "image_evidence": "Image (Social Media)",
-    "social_media_evidence": "Facebook/WhatsApp Evidence Link",
-    "view_social_media": "View social media post",
-    "right_to_reply": "3. Right to Reply",
-    "full_name": "Full name",
-    "email_address": "Email address",
-    "public_response": "Your public response...",
-    "submit_response": "Submit Response",
-    "thank_you": "Thank You!",
-    "success_message": "Thank you for contributing to our collective memory and accountability efforts. We'll review your submission and get back to you soon.",
-    "ok": "OK"
+    "audio_evidence_2": "Audio Evidence 2",
+    "browser_no_audio": "Su navegador no soporta el elemento de audio.",
+    "image_evidence": "Imagen (Redes Sociales)",
+    "social_media_evidence": "Enlace de Evidencia de Facebook/WhatsApp",
+    "view_social_media": "Ver publicación en redes sociales",
+    "right_to_reply": "3. Derecho de Réplica",
+    "full_name": "Nombre completo",
+    "email_address": "Correo electrónico",
+    "public_response": "Su respuesta pública...",
+    "submit_response": "Enviar Respuesta",
+    "thank_you": "¡Gracias!",
+    "success_message": "Gracias por contribuir a nuestra labor de memoria colectiva y rendición de cuentas. Revisaremos su envío y le responderemos pronto.",
+    "ok": "Aceptar"
   },
   "legal_ethics": {
-    "meta_title": "Legal Ethics Statement - BRC",
-    "meta_description": "Legal and Ethical Standards for the Behavioral Risk Check (BRC)",
-    "title": "Legal Ethics Statement",
-    "subtitle": "Our commitment to ethical standards in documentation and reputational justice",
+    "meta_title": "Declaración de Ética Legal - BRC",
+    "meta_description": "Estándares Legales y Éticos para la Buró Reputacional Ciudadano",
+    "title": "Declaración de Ética Legal",
+    "subtitle": "Nuestro compromiso con los estándares éticos en la documentación y la justicia reputacional",
     "sections": {
       "principles": {
-        "title": "1. Foundational Principles",
-        "description": "The Behavioral Risk Check (BRC) operates under these core ethical principles that guide all our activities and platform operations:",
+        "title": "1. Principios Fundamentales",
+        "description": "La Buró Reputacional Ciudadano opera bajo estos principios éticos fundamentales que guían todas nuestras actividades y operaciones de la plataforma:",
         "items": [
           {
-            "title": "Truth & Accuracy",
-            "description": "We prioritize factual accuracy and require verifiable evidence for all submissions, while acknowledging the complexity of truth in reputational matters."
+            "title": "Verdad y Precisión",
+            "description": "Priorizamos la precisión fáctica y requerimos evidencia verificable para todos los envíos, reconociendo la complejidad de la verdad en asuntos de reputación."
           },
           {
-            "title": "Due Process",
-            "description": "All subjects of documentation receive notice and opportunity to respond before publication, with clear procedures for rebuttal and appeal."
+            "title": "Debido Proceso",
+            "description": "Todos los sujetos de documentación reciben notificación y oportunidad de responder antes de la publicación, con procedimientos claros para réplica y apelación."
           },
           {
-            "title": "Proportionality",
-            "description": "We assess the severity of claims against available evidence, ensuring documentation reflects appropriate scope and context."
+            "title": "Proporcionalidad",
+            "description": "Evaluamos la gravedad de las afirmaciones contra la evidencia disponible, asegurando que la documentación refleje el alcance y contexto apropiados."
           },
           {
-            "title": "Public Interest",
-            "description": "Documentation serves legitimate civic purposes - exposing misconduct, protecting communities, and promoting accountability."
+            "title": "Interés Público",
+            "description": "La documentación sirve a propósitos cívicos legítimos: exponer irregularidades, proteger comunidades y promover la rendición de cuentas."
           }
         ]
       },
       "documentation_standards": {
-        "title": "2. Documentation Standards",
-        "description": "All case documentation must meet these ethical standards:",
+        "title": "2. Estándares de Documentación",
+        "description": "Toda la documentación de casos debe cumplir con estos estándares éticos:",
         "items": [
-          "Verification: Submitters must provide supporting evidence for factual claims",
-          "Context: Documentation must include relevant background and circumstances",
-          "Balance: Submitters should acknowledge any contradictory evidence",
-          "Privacy: Personal information not relevant to the case should be redacted",
-          "Timeliness: Documentation should reflect current information or clearly note historical context"
+          "Verificación: Los remitentes deben proporcionar evidencia que respalde las afirmaciones fácticas",
+          "Contexto: La documentación debe incluir antecedentes y circunstancias relevantes",
+          "Equilibrio: Los remitentes deben reconocer cualquier evidencia contradictoria",
+          "Privacidad: La información personal no relevante para el caso debe ser redactada",
+          "Oportunidad: La documentación debe reflejar información actual o notar claramente el contexto histórico"
         ]
       },
       "right_to_response": {
-        "title": "3. Right to Response",
-        "description": "We uphold these ethical practices regarding responses:",
+        "title": "3. Derecho a Respuesta",
+        "description": "Mantenemos estas prácticas éticas con respecto a las respuestas:",
         "items": [
-          "Subjects receive notification before publication with clear response instructions",
-          "Responses receive equal prominence to original documentation",
-          "We facilitate mediation in cases of factual disputes",
-          "Corrections are published promptly with clear change documentation"
+          "Los sujetos reciben notificación antes de la publicación con instrucciones claras de respuesta",
+          "Las respuestas reciben igual prominencia que la documentación original",
+          "Facilitamos la mediación en casos de disputas fácticas",
+          "Las correcciones se publican rápidamente con documentación clara de los cambios"
         ]
       },
       "moderation_ethics": {
-        "title": "4. Moderation Ethics",
-        "description": "Our content moderation follows these principles:",
+        "title": "4. Ética de Moderación",
+        "description": "Nuestra moderación de contenido sigue estos principios:",
         "items": [
-          "Transparency in moderation decisions and criteria",
-          "Consistency in applying platform rules",
-          "Opportunity for appeal of moderation decisions",
-          "Protection against misuse while preserving legitimate documentation",
-          "Regular review of moderation practices by independent ethics advisors"
+          "Transparencia en las decisiones y criterios de moderación",
+          "Consistencia en la aplicación de las reglas de la plataforma",
+          "Oportunidad de apelación de las decisiones de moderación",
+          "Protección contra el mal uso mientras se preserva la documentación legítima",
+          "Revisión periódica de las prácticas de moderación por asesores de ética independientes"
         ]
       },
       "conflict_of_interest": {
-        "title": "5. Conflict of Interest",
-        "description": "We maintain strict policies regarding conflicts:",
+        "title": "5. Conflicto de Intereses",
+        "description": "Mantenemos políticas estrictas con respecto a los conflictos:",
         "items": [
-          "Staff and reviewers must disclose potential conflicts",
-          "Cases involving BRC personnel receive independent review",
-          "Funding sources are transparent and do not influence case documentation",
-          "No paid removals or alterations of documentation"
+          "El personal y los revisores deben revelar posibles conflictos",
+          "Los casos que involucran al personal de BRC reciben revisión independiente",
+          "Las fuentes de financiamiento son transparentes y no influyen en la documentación de casos",
+          "No se permiten eliminaciones o alteraciones de documentación a cambio de pago"
         ]
       },
       "continuous_improvement": {
-        "title": "6. Continuous Improvement",
-        "description": "Our ethical framework evolves through:",
+        "title": "6. Mejora Continua",
+        "description": "Nuestro marco ético evoluciona a través de:",
         "items": [
-          "Annual ethics reviews by external experts",
-          "Public comment periods for policy changes",
-          "Case studies of ethical dilemmas for staff training",
-          "Transparent reporting on ethical challenges faced"
+          "Revisiones anuales de ética por expertos externos",
+          "Períodos de comentarios públicos para cambios en las políticas",
+          "Estudios de casos de dilemas éticos para la capacitación del personal",
+          "Informes transparentes sobre los desafíos éticos enfrentados"
         ]
       },
       "contact": {
-        "title": "Ethics Committee Contact",
-        "description": "To report ethical concerns or seek guidance:",
-        "officer": "Ethics Review Board",
-        "org": "Behavioral Risk Check (BRC)",
-        "email": "Email: info@brccheck.com",
-        "phone": "Confidential Hotline: +1 (555) 123-4567",
-        "last_updated": "Last Reviewed: July 2025"
+        "title": "Contacto del Comité de Ética",
+        "description": "Para reportar inquietudes éticas o buscar orientación:",
+        "officer": "Junta de Revisión Ética",
+        "org": "Buró Reputacional Ciudadano",
+        "email": "Correo electrónico: info@brccheck.com",
+        "phone": "Línea confidencial: +1 (555) 123-4567",
+        "last_updated": "Última revisión: Julio 2025"
       }
     }
   },
   
   "form": {
     "warning": {
-      "title": "Important Legal Information",
-      "description": "This registry is of civic nature and public interest:",
+      "title": "Información Legal Importante",
+      "description": "Este registro es de naturaleza cívica y de interés público:",
       "items": [
-        "All submissions must be supported by verifiable evidence",
-        "Subjects have the right to reply to any allegations",
-        "False or misleading submissions may have legal consequences",
-        "This platform does not replace official legal proceedings"
+        "Todas las presentaciones deben estar respaldadas por evidencia verificable",
+        "Los sujetos tienen derecho a responder a cualquier acusación",
+        "Las presentaciones falsas o engañosas pueden tener consecuencias legales",
+        "Esta plataforma no reemplaza los procedimientos legales oficiales"
       ]
     },
-    "title": "Submit a Reputational Case",
-    "description": "Your truth matters. Help us build collective memory and accountability. Every documented injustice helps shape civic power.",
+    "title": "Enviar un Caso de Reputación",
+    "description": "Tu verdad importa. Ayúdanos a construir memoria colectiva y rendición de cuentas. Cada injusticia documentada ayuda a dar forma al poder cívico.",
     "fields": {
-      "name": "Your Full Name (required)",
-      "email": "Your Email (required)",
-      "phone": "Your Phone (required)",
-      "tags": "Tags (e.g. workplace, corruption, civic) (required)",
-      "description": "Describe the incident... (required)",
-      "evidence": "Upload Evidence (PDF, Image, Audio) (required):"
+      "name": "Tu Nombre Completo (requerido)",
+      "email": "Tu Correo Electrónico (requerido)",
+      "phone": "Tu Teléfono (requerido)",
+      "tags": "Etiquetas (ej. lugar de trabajo, corrupción, cívico) (requerido)",
+      "description": "Describe el incidente... (requerido)",
+      "evidence": "Subir Evidencia (PDF, Imagen, Audio) (requerido):"
     },
     "checkboxes": {
-      "review": "I understand that my response will be reviewed and may not be published immediately. (required)",
-      "storage": "I authorize this information to be stored for legal traceability and public transparency purposes. (required)",
-      "terms": "I accept the <a href=\"/terms-and-conditions\" class=\"underline\">terms and conditions</a>. (required)"
+      "review": "Entiendo que mi respuesta será revisada y puede que no se publique de inmediato. (requerido)",
+      "storage": "Autorizo que esta información sea almacenada para fines de trazabilidad legal y transparencia pública. (requerido)",
+      "terms": "Acepto los <a href=\"terms&condition\" class=\"underline\">términos y condiciones</a>. (requerido)"
     },
-    "submit": "Submit Case"
+    "submit": "Enviar Caso"
   },
   "privacy_notice_gdpr": {
-    "meta_title": "Privacy Notice (GDPR) - BRC",
-    "meta_description": "How we collect, use, and protect your personal data in compliance with the General Data Protection Regulation (GDPR).",
-    "title": "Privacy Notice (GDPR)",
-    "subtitle": "How we collect, use, and protect your personal data in compliance with the General Data Protection Regulation",
+    "meta_title": "Aviso de Privacidad (GDPR) - BRC",
+    "meta_description": "Cómo recopilamos, usamos y protegemos sus datos personales en cumplimiento con el Reglamento General de Protección de Datos (GDPR).",
+    "title": "Aviso de Privacidad (GDPR)",
+    "subtitle": "Cómo recopilamos, usamos y protegemos sus datos personales en cumplimiento con el Reglamento General de Protección de Datos",
     "sections": {
       "1": {
-        "title": "1. Data Controller Information",
-        "text": "The Behavioral Risk Check (BRC) is the data controller responsible for your personal data.",
-        "contact_heading": "Contact Details:",
-        "contact_officer": "Data Protection Officer",
-        "contact_org": "Behavioral Risk Check (BRC)",
-        "contact_email": "Email:  info@brccheck.com"
-        },
+        "title": "1. Información del Responsable de los Datos",
+        "text": "El Behavioral Risk Check (BRC) es el responsable del tratamiento de sus datos personales.",
+        "contact_heading": "Datos de Contacto:",
+        "contact_officer": "Responsable de Protección de Datos",
+        "contact_org": "Buró Ciudadano de Reputación",
+        "contact_email": "Correo electrónico: info@brccheck.com",
+        "contact_address": "Dirección Postal: [Su Dirección de Oficina Registrada]"
+      },
       "2": {
-        "title": "2. Information We Collect",
-        "text": "We may collect and process the following categories of personal data:",
+        "title": "2. Información que Recopilamos",
+        "text": "Podemos recopilar y procesar las siguientes categorías de datos personales:",
         "list": {
-          "identity": "Identity Data: Name, username, or similar identifier",
-          "contact": "Contact Data: Email address, telephone numbers, postal address",
-          "case": "Case Data: Information submitted when documenting cases"
+          "identity": "Datos de Identidad: Nombre, nombre de usuario u otro identificador similar",
+          "contact": "Datos de Contacto: Correo electrónico, números de teléfono, dirección postal",
+          "case": "Datos de Caso: Información enviada al documentar casos"
         }
       },
       "3": {
-        "title": "3. How We Use Your Data",
-        "text": "We will only use your personal data when the law allows us to. Most commonly, we will use your data in the following circumstances:",
+        "title": "3. Cómo Usamos Sus Datos",
+        "text": "Solo usaremos sus datos personales cuando la ley lo permita. Más comúnmente, usaremos sus datos en las siguientes circunstancias:",
         "list": {
-          "register": "To register you as a user of our platform",
-          "process": "To process and document cases of reputational concern",
-          "manage": "To manage our relationship with you",
-          "admin": "To administer and protect our platform",
-          "deliver": "To deliver relevant website content",
-          "analytics": "To use data analytics to improve our platform"
+          "register": "Para registrarlo como usuario de nuestra plataforma",
+          "process": "Para procesar y documentar casos de preocupación reputacional",
+          "manage": "Para gestionar nuestra relación con usted",
+          "admin": "Para administrar y proteger nuestra plataforma",
+          "deliver": "Para entregar contenido relevante del sitio web",
+          "analytics": "Para usar análisis de datos y mejorar nuestra plataforma"
         }
       },
       "4": {
-        "title": "4. Legal Basis for Processing",
-        "text": "Under GDPR, we rely on the following legal bases for processing personal data:",
+        "title": "4. Base Legal para el Tratamiento",
+        "text": "Según el GDPR, nos basamos en las siguientes bases legales para el tratamiento de datos personales:",
         "list": {
-          "consent": "Consent: When you have given clear consent",
-          "contract": "Contract: When processing is necessary for a contract",
-          "legal_obligation": "Legal Obligation: When processing is required by law",
-          "legitimate_interests": "Legitimate Interests: When processing is necessary for our legitimate interests",
-          "public_interest": "Public Interest: When processing is necessary for a task carried out in the public interest"
+          "consent": "Consentimiento: Cuando usted ha dado un consentimiento claro",
+          "contract": "Contrato: Cuando el tratamiento es necesario para un contrato",
+          "legal_obligation": "Obligación Legal: Cuando el tratamiento es requerido por ley",
+          "legitimate_interests": "Intereses Legítimos: Cuando el tratamiento es necesario para nuestros intereses legítimos",
+          "public_interest": "Interés Público: Cuando el tratamiento es necesario para una tarea realizada en interés público"
         }
       },
       "5": {
-        "title": "5. Data Sharing and Transfers",
-        "text": "We may share your personal data with the following parties:",
+        "title": "5. Compartición y Transferencia de Datos",
+        "text": "Podemos compartir sus datos personales con las siguientes partes:",
         "list": {
-          "service_providers": "Service providers who provide IT and system administration services",
-          "advisers": "Professional advisers including lawyers, bankers, and insurers",
-          "government": "Government bodies that require us to report processing activities",
-          "third_parties": "Third parties to whom we may choose to transfer parts of our operations"
+          "service_providers": "Proveedores de servicios que brindan servicios de TI y administración de sistemas",
+          "advisers": "Asesores profesionales incluyendo abogados, banqueros y aseguradoras",
+          "government": "Organismos gubernamentales que requieren que informemos actividades de tratamiento",
+          "third_parties": "Terceros a quienes podríamos transferir partes de nuestras operaciones"
         },
-        "note": "We require all third parties to respect the security of your personal data and to treat it in accordance with the law."
+        "note": "Requerimos que todos los terceros respeten la seguridad de sus datos personales y los traten de acuerdo con la ley."
       },
       "6": {
-        "title": "6. Data Security",
-        "text": "We have implemented appropriate security measures to prevent your personal data from being accidentally lost, used, or accessed in an unauthorized way. These include:",
+        "title": "6. Seguridad de los Datos",
+        "text": "Hemos implementado medidas de seguridad apropiadas para evitar que sus datos personales se pierdan, usen o accedan de manera no autorizada. Estas incluyen:",
         "list": {
-          "encryption": "Encryption of data in transit and at rest",
-          "assessments": "Regular security assessments and penetration testing",
-          "access_controls": "Access controls and authentication procedures",
-          "training": "Staff training on data protection"
+          "encryption": "Cifrado de datos en tránsito y en reposo",
+          "assessments": "Evaluaciones de seguridad regulares y pruebas de penetración",
+          "access_controls": "Controles de acceso y procedimientos de autenticación",
+          "training": "Capacitación del personal en protección de datos"
         }
       },
       "7": {
-        "title": "7. Data Retention",
-        "text": "We will only retain your personal data for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.",
-        "note": "Our standard retention periods are:",
+        "title": "7. Retención de los Datos",
+        "text": "Solo conservaremos sus datos personales durante el tiempo necesario para cumplir con los fines para los que los recopilamos, incluidos los fines de cumplir con requisitos legales, contables o de informes.",
+        "note": "Nuestros períodos estándar de retención son:",
         "list": {
-          "user_accounts": "User accounts: 5 years after last activity",
-          "case_docs": "Case documentation: 10 years from case closure",
-          "financial": "Financial records: 7 years for tax purposes"
+          "user_accounts": "Cuentas de usuario: 5 años después de la última actividad",
+          "case_docs": "Documentación de casos: 10 años desde el cierre del caso",
+          "financial": "Registros financieros: 7 años para fines fiscales"
         }
       },
       "8": {
-        "title": "8. Your Legal Rights",
-        "text": "Under GDPR, you have rights including:",
+        "title": "8. Sus Derechos Legales",
+        "text": "Bajo el GDPR, usted tiene derechos que incluyen:",
         "list": {
-          "access": "Right to access: Request copies of your personal data",
-          "rectification": "Right to rectification: Request correction of inaccurate data",
-          "erasure": "Right to erasure: Request deletion of your personal data",
-          "restrict": "Right to restrict processing: Request limitation of processing",
-          "portability": "Right to data portability: Request transfer of your data",
-          "object": "Right to object: Object to certain types of processing",
-          "withdraw": "Right to withdraw consent: Withdraw consent at any time"
+          "access": "Derecho de acceso: Solicitar copias de sus datos personales",
+          "rectification": "Derecho de rectificación: Solicitar corrección de datos inexactos",
+          "erasure": "Derecho de supresión: Solicitar eliminación de sus datos personales",
+          "restrict": "Derecho a restringir el tratamiento: Solicitar limitación del tratamiento",
+          "portability": "Derecho a la portabilidad de los datos: Solicitar la transferencia de sus datos",
+          "object": "Derecho de oposición: Oponerse a ciertos tipos de tratamiento",
+          "withdraw": "Derecho a retirar el consentimiento: Retirar el consentimiento en cualquier momento"
         },
-        "note": "To exercise any of these rights, please contact our Data Protection Officer."
+        "note": "Para ejercer cualquiera de estos derechos, por favor contacte a nuestro Responsable de Protección de Datos."
       },
       "9": {
-        "title": "9. Changes to This Notice",
-        "text": "We may update this privacy notice from time to time. The current version will always be posted on our website with an updated revision date."
+        "title": "9. Cambios en este Aviso",
+        "text": "Podemos actualizar este aviso de privacidad ocasionalmente. La versión actual siempre estará publicada en nuestro sitio web con la fecha de revisión actualizada."
       },
       "contact": {
-        "title": "Contact Us",
-        "text": "For questions about this privacy notice or our data practices, please contact:",
-        "officer": "Data Protection Officer",
-        "org": "Behavioral Risk Check (BRC)",
-        "email": "Email: info@brccheck.com",
-        "address": "Postal Address: [Your Registered Office Address]",
-        "last_updated": "Last Updated: July 2025"
+        "title": "Contáctenos",
+        "text": "Para preguntas sobre este aviso de privacidad o nuestras prácticas de datos, por favor contacte a:",
+        "officer": "Responsable de Protección de Datos",
+        "org": "Buró Ciudadano de Reputación",
+        "email": "Correo electrónico: info@brccheck.com",
+        "address": "Dirección Postal: [Su Dirección de Oficina Registrada]",
+        "last_updated": "Última Actualización: Julio 2025"
       }
     }
   }
 }
+
