@@ -10,6 +10,7 @@ const Navbar = () => {
   const location = useLocation();
   const navLinks = [
     { key: "home", link: "/" },
+    { key: "all_cases", link: "/coming-soon" },
     { key: "case_3000", link: "/case-3000" },
     { key: "submit_case", link: "/#submit" },
     { key: "donate", link: "/#donate" },

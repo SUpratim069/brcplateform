@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import music1 from "../../assets/audio/BRC-Evidencia03_Notificaciones_Sarmiento colombiano a mi mama 21 julio 2024.jpg_.m4a";
 import music2 from "../../assets/audio/Evidencia02_MensajesWhatsapp_Sarmiento colombiano Milton 14 de Julio.m4a";
+import music3 from "../../assets/audio/3rd.opus";
 import img1 from "../../assets/pdf/face.jpg"
 import img2 from "../../assets/pdf/face1.PNG"
 import img3 from "../../assets/pdf/face2.PNG"
@@ -121,7 +122,7 @@ const SarmientoCase = () => {
           <div>
             <h4 className="font-semibold mb-2">{t('sarmiento_case.audio_evidence_5')}</h4>
            <audio controls className="w-full">
-  <source src={music1} type="audio/mp4" />
+  <source src={music3} type="audio/mp4" />
   {t('sarmiento_case.browser_no_audio')}
 </audio>
           </div>
