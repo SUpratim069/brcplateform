@@ -10,11 +10,9 @@ const Navbar = () => {
   const location = useLocation();
   const navLinks = [
     { key: "home", link: "/" },
-    { key: "all_cases", link: "/coming-soon" },
     { key: "case_3000", link: "/case-3000" },
     { key: "submit_case", link: "/#submit" },
     { key: "donate", link: "/#donate" },
-    // { key: "membership", link: "/" },
     { key: "legal", link: "/legal-disclaimer" },
   ];
 
@@ -103,7 +101,7 @@ const Navbar = () => {
                   }`}
                   onClick={() => handleLanguageChange(lang)}
                 >
-                  {lang === 'ES' ? 'ES' : 'EN'}
+                  {lang === 'ES' ? 'Es' : 'En'}
                 </button>
               ))}
             </div>
@@ -132,15 +130,7 @@ const Navbar = () => {
                 {i18n.t(`nav.${key}`)}
               </Link>
             ))}
-            {/* <div className="flex w-full px-3 py-2 space-x-2 relative bottom-2 ">
-              <button
-                className={`w-1/2 py-[0.01rem] rounded-full bg font-semibold ${
-                  activeLang === 'EN' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
-                }`}
-                onClick={() => handleLanguageChange('EN')}
-              >
-                English
-              </button>
+            <div className="flex w-full px-3 py-2 space-x-2 relative bottom-2 ">
               <button
                 className={`w-1/2 py-1 rounded-full font-semibold ${
                   activeLang === 'ES' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
@@ -149,7 +139,15 @@ const Navbar = () => {
               >
                 Español
               </button>
-            </div> */}
+              <button
+                className={`w-1/2 py-[0.01rem] rounded-full font-semibold ${
+                  activeLang === 'EN' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
+                }`}
+                onClick={() => handleLanguageChange('EN')}
+              >
+                English
+              </button>
+            </div>
           </div>
         </div>
       </div>
