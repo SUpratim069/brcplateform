@@ -4,29 +4,31 @@ import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [activeLang, setActiveLang] = useState('EN');
+  const [activeLang, setActiveLang] = useState('ES'); // Default to ES
   const { i18n } = useTranslation();
 
   const location = useLocation();
   const navLinks = [
     { key: "home", link: "/" },
-   
     { key: "case_3000", link: "/case-3000" },
     { key: "submit_case", link: "/#submit" },
     { key: "donate", link: "/#donate" },
-    { key: "membership", link: "/" },
     { key: "legal", link: "/legal-disclaimer" },
   ];
+
+  useEffect(() => {
+    // Set Spanish as default on first load
+    i18n.changeLanguage('es-MX');
+  }, [i18n]);
 
   useEffect(() => {
     // Handle navigation to sections
     const handleScrollToSection = () => {
       if (location.pathname === '/') {
-        const sectionId = location.hash.substring(1); // Remove the '#' from the hash
+        const sectionId = location.hash.substring(1);
         if (sectionId) {
           const element = document.getElementById(sectionId);
           if (element) {
-            // Small timeout to ensure the page has rendered
             setTimeout(() => {
               element.scrollIntoView({ behavior: 'smooth' });
             }, 100);
@@ -36,10 +38,7 @@ const Navbar = () => {
     };
 
     handleScrollToSection();
-    
-    // Listen for hash changes
     window.addEventListener('hashchange', handleScrollToSection);
-    
     return () => {
       window.removeEventListener('hashchange', handleScrollToSection);
     };
@@ -58,8 +57,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-          <Link to="/">
-            <img src="brclogo.jpeg" alt="BRC Logo" className="h-14 sm:h-16 mr-3" />
+            <Link to="/">
+              <img src="brclogo.jpeg" alt="BRC Logo" className="h-14 sm:h-16 mr-3" />
             </Link>
           </div>
 
@@ -67,17 +66,17 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-9">
             <nav className="flex space-x-10">
               {navLinks.map(({ key, link }) => (
-              <Link
-                key={key}
-                to={link}
-                className="text-black hover:text-blue-600 px-2 py-2 text-sm sm:text-base transition"
-              >
-                {i18n.t(`nav.${key}`)}
-              </Link>
-            ))}
+                <Link
+                  key={key}
+                  to={link}
+                  className="text-black hover:text-blue-600 px-2 py-2 text-sm sm:text-base transition"
+                >
+                  {i18n.t(`nav.${key}`)}
+                </Link>
+              ))}
             </nav>
             <div className="lang-toggle ml-4">
-              {['EN', 'ES'].map((lang) => (
+              {['ES', 'EN'].map((lang) => (
                 <button
                   key={lang}
                   className={`px-3 py-1 rounded-full text-xs font-semibold ${
@@ -85,7 +84,7 @@ const Navbar = () => {
                   }`}
                   onClick={() => handleLanguageChange(lang)}
                 >
-                  {lang}
+                  {lang === 'ES' ? 'ES' : 'EN'}
                 </button>
               ))}
             </div>
@@ -94,7 +93,7 @@ const Navbar = () => {
           {/* Mobile menu button */}
           <div className="flex items-center md:hidden">
             <div className="lang-toggle mr-2">
-              {['EN', 'ES'].map((lang) => (
+              {['ES', 'EN'].map((lang) => (
                 <button
                   key={lang}
                   className={`px-3 py-1 rounded-full text-xs font-semibold ${
@@ -102,7 +101,7 @@ const Navbar = () => {
                   }`}
                   onClick={() => handleLanguageChange(lang)}
                 >
-                  {lang}
+                  {lang === 'ES' ? 'Es' : 'En'}
                 </button>
               ))}
             </div>
@@ -133,14 +132,6 @@ const Navbar = () => {
             ))}
             <div className="flex w-full px-3 py-2 space-x-2 relative bottom-2 ">
               <button
-                className={`w-1/2 py-[0.01rem] rounded-full bg font-semibold ${
-                  activeLang === 'EN' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
-                }`}
-                onClick={() => handleLanguageChange('EN')}
-              >
-                English
-              </button>
-              <button
                 className={`w-1/2 py-1 rounded-full font-semibold ${
                   activeLang === 'ES' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
                 }`}
@@ -148,11 +139,19 @@ const Navbar = () => {
               >
                 Español
               </button>
+              <button
+                className={`w-1/2 py-[0.01rem] rounded-full font-semibold ${
+                  activeLang === 'EN' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
+                }`}
+                onClick={() => handleLanguageChange('EN')}
+              >
+                English
+              </button>
             </div>
           </div>
         </div>
       </div>
-       <style jsx>{`
+      <style jsx>{`
         .lang-toggle {
           background-color: #f3f4f6;
           border-radius: 9999px;
