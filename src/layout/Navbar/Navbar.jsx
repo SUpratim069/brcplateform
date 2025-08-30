@@ -153,11 +153,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
-      <style jsx>{`
-=======
        <style>{`
->>>>>>> dev-vid
+
         .lang-toggle {
           background-color: #f3f4f6;
           border-radius: 9999px;
