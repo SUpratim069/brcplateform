@@ -46,7 +46,7 @@ const SarmientoCase = () => {
       {/* Case Header - Centered */}
       <header className="bg-gray-900 text-white py-6 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-3xl font-bold">{t('sarmiento_case.case_profile')}</h1>
+          <h1 className="text-2xl md:text-3xl font-bold">{t('sarmiento_case.case_profile')}</h1>
           <p className="text-sm">José Eduardo Ignacio Sarmiento Pinedo</p>
         </div>
       </header>
