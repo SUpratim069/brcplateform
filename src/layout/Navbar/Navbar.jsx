@@ -14,6 +14,7 @@ const Navbar = () => {
     { key: "case_3000", link: "/case-3000" },
     { key: "submit_case", link: "/#submit" },
     { key: "donate", link: "/#donate" },
+    // { key: "membership", link: "/" },
     { key: "legal", link: "/legal-disclaimer" },
   ];
 

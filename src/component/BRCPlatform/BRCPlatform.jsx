@@ -13,7 +13,7 @@ const BRCPlatform = () => {
     {title: "Case #3000_Sarmiento", link: "/case-sarmiento"},
     {title: "Submit Case", link: "#submit"},
     {title: "Donate", link: "#donate"},
-    {title: "Membership", link: "/membership"},
+    {title: "Membership", link: "/"},
     {title: "Legal", link: "/legal"},
   ];
 

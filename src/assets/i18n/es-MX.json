@@ -5,6 +5,7 @@
     "case_3000": "Caso #3000",
     "submit_case": "Enviar Caso",
     "donate": "Donar",
+    "membership": "Membresía",
     "legal": "Legal",
     "en": "EN",
     "es": "ES"
@@ -536,6 +537,9 @@
     "follow_us": "Síguenos"
   },
   "sarmiento_case": {
+    "case_profile": "Perfil del Caso",
+  "legal_notice_title": "AVISO LEGAL",
+  "legal_notice": "Esta plataforma no emite juicios legales. Documenta reportes ciudadanos con evidencia de respaldo y ofrece pleno derecho de respuesta. Las personas mencionadas se presumen inocentes. Esta es una herramienta de transparencia y prevención.",
     "case_summary": "Resumen del Caso – José Eduardo Ignacio Sarmiento Pinedo",
   "relationship_beginning": "Propietario de empresas:",
   "relationship_beginning_text": "• El Circo de la Noche, S.A. de C.V. (San Luis Potosí)",
