@@ -58,11 +58,17 @@ const SarmientoCase = () => {
       <section className="py-10 px-4 max-w-5xl mx-auto">
         <h2 className="text-2xl font-bold mb-4">{t('sarmiento_case.case_summary')}</h2>
         <div className="space-y-4">
-          <p><strong>{t('sarmiento_case.relationship_beginning')}:</strong> {t('sarmiento_case.relationship_beginning_text')}</p>
+          <p><strong>{t('sarmiento_case.relationship_beginning')}:</strong> <br />  {t('sarmiento_case.relationship_beginning_text')}<br />  
+           {t('sarmiento_case.relationship_beginning_text1')}<br />          
+             {t('sarmiento_case.relationship_beginning_text2')}<br />  
+             {t('sarmiento_case.relationship_beginning_text3')}<br />  
+               {t('sarmiento_case.relationship_beginning_text3')}<br /> 
+          </p>
           <p><strong>{t('sarmiento_case.conflict')}:</strong> {t('sarmiento_case.conflict_text')}</p>
+          
           <p><strong>{t('sarmiento_case.demands')}:</strong> {t('sarmiento_case.demands_text')}</p>
           <p><strong>{t('sarmiento_case.threats')}:</strong> {t('sarmiento_case.threats_text')}</p>
-          <p><strong>{t('sarmiento_case.impact')}:</strong> {t('sarmiento_case.impact_text')}</p>
+          {/* <p><strong>{t('sarmiento_case.impact')}:</strong> {t('sarmiento_case.impact_text')}</p> */}
         </div>
       </section>
 
@@ -112,22 +118,15 @@ const SarmientoCase = () => {
 </audio>
           </div>
 
-     {/* <div> */}
-            {/* <h4 className="font-semibold mb-2">{t('sarmiento_case.audio_evidence_3')}</h4>
-           <audio controls className="w-full">
-  <source src={music1} type="audio/mp4" />
+             <div>
+           <h4 className="font-semibold mb-2">
+  {t('sarmiento_case.audio_evidence_3')}
+</h4>
+<audio controls className="w-full">
+  <source src="/audios/whatsapp-audio-2025-08-30.ogg" type="audio/ogg" />
   {t('sarmiento_case.browser_no_audio')}
 </audio>
-       </div>
-
-
-          <div>
-            <h4 className="font-semibold mb-2">{t('sarmiento_case.audio_evidence_4')}</h4>
-           <audio controls className="w-full">
-  <source src={music1} type="audio/mp4" />
-  {t('sarmiento_case.browser_no_audio')}
-</audio>
-       </div> */}
+</div>
 
 <div>
   <h4 className="font-semibold mb-2">{t('sarmiento_case.social_media_evidence')}</h4>
