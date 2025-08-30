@@ -152,7 +152,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-       <style jsx>{`
+       <style>{`
         .lang-toggle {
           background-color: #f3f4f6;
           border-radius: 9999px;

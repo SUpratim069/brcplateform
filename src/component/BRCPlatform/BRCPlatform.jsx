@@ -22,27 +22,27 @@ const BRCPlatform = () => {
   const [activeLang, setActiveLang] = useState('EN');
 
   // Stripe logic for tier buttons
-  const stripePromise = window.Stripe ? Promise.resolve(window.Stripe) : import('../../component/StripeButton').then(mod => mod.stripePromise);
+  // const stripePromise = window.Stripe ? Promise.resolve(window.Stripe) : import('../../component/StripeButton').then(mod => mod.stripePromise);
 
-  const handleTierStripe = async (prodId) => {
-    // Map product IDs to price IDs (replace with your actual price IDs)
-    const productToPrice = {
-      'prod_Sx2u55KH2Zjf5e': 'price_1PjJqBSIaM2Z4f2BwXjYjZ7K',
-      'prod_Sx2zN3nxTTE1N3': 'price_1PjJqBSIaM2Z4f2BwXjYjZ7K',
-      'prod_Sx30AAXl8DMU3x': 'price_1PjJqBSIaM2Z4f2BwXjYjZ7K',
-    };
-    const priceId = productToPrice[prodId];
-    const stripe = await stripePromise;
-    const { error } = await stripe.redirectToCheckout({
-      lineItems: [{ price: priceId, quantity: 1 }],
-      mode: 'payment',
-      successUrl: `${window.location.origin}?session_id={CHECKOUT_SESSION_ID}`,
-      cancelUrl: window.location.origin,
-    });
-    if (error) {
-      alert('Stripe error: ' + error.message);
-    }
-  };
+//   const handleTierStripe = async (prodId) => {
+//     // Map product IDs to price IDs (replace with your actual price IDs)
+//   const productToPrice = {
+//   'prod_SxRB7V6pFtVfqZ': 'price_1S1WIj3v6QJbLe5NskGJUTqn', 
+//   'prod_SxRBIsj95tqMkd': 'price_1S1WJV3v6QJbLe5NsMWPZDaL', 
+//   'prod_SxRC2rZM0CfmyU': 'price_1S1WJx3v6QJbLe5NlmG9S4nX', 
+// };
+//     const priceId = productToPrice[prodId];
+//     const stripe = await stripePromise;
+//     const { error } = await stripe.redirectToCheckout({
+//       lineItems: [{ price: priceId, quantity: 1 }],
+//       mode: 'payment',
+//       successUrl: `${window.location.origin}?session_id={CHECKOUT_SESSION_ID}`,
+//       cancelUrl: window.location.origin,
+//     });
+//     if (error) {
+//       alert('Stripe error: ' + error.message);
+//     }
+//   };
 
 
   const toggleMobileMenu = () => {
@@ -353,83 +353,103 @@ education community funding            </p>
       </section>
 
       {/* Donations */}
-      <section className="bg-[#0d111c] text-white py-12 sm:py-20 px-4 sm:px-6" id="donate">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
-            {t('donations.title')}
-          </h2>
-          <p className="text-base sm:text-lg mb-8 sm:mb-12">
-            {t('donations.desc')}
-          </p>
+   <section className="bg-[#0d111c] text-white py-12 sm:py-20 px-4 sm:px-6" id="donate">
+  <div className="max-w-5xl mx-auto text-center">
+    <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
+      {t("donations.title")}
+    </h2>
+    <p className="text-base sm:text-lg mb-8 sm:mb-12">
+      {t("donations.desc")}
+    </p>
 
-          <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
-            {t('donations.onetime')}
-          </h3>
-         <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
-  <StripeButton />
-  <div className="relative z-10 self-center sm:self-auto">
-    <PayPalButton className="flex items-center justify-center text-center" />
+    <h3 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-6">
+      {t("donations.onetime")}
+    </h3>
+
+    {/* One-time donation buttons */}
+    <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 sm:mb-12">
+      <StripeButton plan="onetime_donation">
+        {t("donations.stripe")}
+      </StripeButton>
+      <div className="relative z-10 self-center sm:self-auto">
+        <PayPalButton className="flex items-center justify-center text-center" />
+      </div>
+    </div>
+
+    {/* Tier donations */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 text-left">
+      {/* Founder */}
+      <div className="bg-[#1a2236] border border-gray-700 rounded-lg p-4 sm:p-6 shadow text-white">
+        <h4 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">
+          {t("donations.options.founder.title")}
+        </h4>
+        <p className="mb-1 sm:mb-2 text-sm sm:text-base">
+          {t("donations.options.founder.price")}
+        </p>
+        <ul className="text-xs sm:text-sm list-disc pl-4 sm:pl-5 mb-3 sm:mb-4 text-gray-300">
+          {(Array.isArray(
+            t("donations.options.founder.benefits", { returnObjects: true })
+          )
+            ? t("donations.options.founder.benefits", { returnObjects: true })
+            : []
+          ).map((benefit, i) => (
+            <li key={i}>{benefit}</li>
+          ))}
+        </ul>
+        <StripeButton plan="founder">
+          {t("donations.options.founder.cta")}
+        </StripeButton>
+      </div>
+
+      {/* Citizen */}
+      <div className="bg-[#1a2236] border border-gray-700 rounded-lg p-4 sm:p-6 shadow text-white">
+        <h4 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">
+          {t("donations.options.citizen.title")}
+        </h4>
+        <p className="mb-1 sm:mb-2 text-sm sm:text-base">
+          {t("donations.options.citizen.price")}
+        </p>
+        <ul className="text-xs sm:text-sm list-disc pl-4 sm:pl-5 mb-3 sm:mb-4 text-gray-300">
+          {(Array.isArray(
+            t("donations.options.citizen.benefits", { returnObjects: true })
+          )
+            ? t("donations.options.citizen.benefits", { returnObjects: true })
+            : []
+          ).map((benefit, i) => (
+            <li key={i}>{benefit}</li>
+          ))}
+        </ul>
+        <StripeButton plan="citizen">
+          {t("donations.options.citizen.cta")}
+        </StripeButton>
+      </div>
+
+      {/* Ally */}
+      <div className="bg-[#1a2236] border border-gray-700 rounded-lg p-4 sm:p-6 shadow text-white">
+        <h4 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">
+          {t("donations.options.ally.title")}
+        </h4>
+        <p className="mb-1 sm:mb-2 text-sm sm:text-base">
+          {t("donations.options.ally.price")}
+        </p>
+        <ul className="text-xs sm:text-sm list-disc pl-4 sm:pl-5 mb-3 sm:mb-4 text-gray-300">
+          {(Array.isArray(
+            t("donations.options.ally.benefits", { returnObjects: true })
+          )
+            ? t("donations.options.ally.benefits", { returnObjects: true })
+            : []
+          ).map((benefit, i) => (
+            <li key={i}>{benefit}</li>
+          ))}
+        </ul>
+        <StripeButton plan="ally">
+          {t("donations.options.ally.cta")}
+        </StripeButton>
+      </div>
+    </div>
   </div>
-</div>
+</section>
 
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8 text-left">
-            <div className="bg-[#1a2236] border border-gray-700 rounded-lg p-4 sm:p-6 shadow text-white">
-              <h4 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">
-                {t('donations.options.founder.title')}
-              </h4>
-              <p className="mb-1 sm:mb-2 text-sm sm:text-base">{t('donations.options.founder.price')}</p>
-              <ul className="text-xs sm:text-sm list-disc pl-4 sm:pl-5 mb-3 sm:mb-4 text-gray-300">
-                {(Array.isArray(t('donations.options.founder.benefits', { returnObjects: true })) ? t('donations.options.founder.benefits', { returnObjects: true }) : []).map((benefit, i) => (
-                  <li key={i}>{benefit}</li>
-                ))}
-              </ul>
-              <button
-                className="inline-block bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded hover:bg-blue-700 text-xs sm:text-sm"
-                onClick={() => handleTierStripe('prod_Sx2u55KH2Zjf5e')}
-              >
-                {t('donations.options.founder.cta')}
-              </button>
-            </div>
-
-            <div className="bg-[#1a2236] border border-gray-700 rounded-lg p-4 sm:p-6 shadow text-white">
-              <h4 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">
-                {t('donations.options.citizen.title')}
-              </h4>
-              <p className="mb-1 sm:mb-2 text-sm sm:text-base">{t('donations.options.citizen.price')}</p>
-              <ul className="text-xs sm:text-sm list-disc pl-4 sm:pl-5 mb-3 sm:mb-4 text-gray-300">
-                {(Array.isArray(t('donations.options.citizen.benefits', { returnObjects: true })) ? t('donations.options.citizen.benefits', { returnObjects: true }) : []).map((benefit, i) => (
-                  <li key={i}>{benefit}</li>
-                ))}
-              </ul>
-              <button
-                className="inline-block bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded hover:bg-blue-700 text-xs sm:text-sm"
-                onClick={() => handleTierStripe('prod_Sx2zN3nxTTE1N3')}
-              >
-                {t('donations.options.citizen.cta')}
-              </button>
-            </div>
-
-            <div className="bg-[#1a2236] border border-gray-700 rounded-lg p-4 sm:p-6 shadow text-white">
-              <h4 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">
-                {t('donations.options.ally.title')}
-              </h4>
-              <p className="mb-1 sm:mb-2 text-sm sm:text-base">{t('donations.options.ally.price')}</p>
-              <ul className="text-xs sm:text-sm list-disc pl-4 sm:pl-5 mb-3 sm:mb-4 text-gray-300">
-                {(Array.isArray(t('donations.options.ally.benefits', { returnObjects: true })) ? t('donations.options.ally.benefits', { returnObjects: true }) : []).map((benefit, i) => (
-                  <li key={i}>{benefit}</li>
-                ))}
-              </ul>
-              <button
-                className="inline-block bg-blue-600 text-white px-3 sm:px-4 py-1 sm:py-2 rounded hover:bg-blue-700 text-xs sm:text-sm"
-                onClick={() => handleTierStripe('prod_Sx30AAXl8DMU3x')}
-              >
-                {t('donations.options.ally.cta')}
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Decentralized Publishing */}
       <section className="bg-white py-12 sm:py-16 px-4 sm:px-6">
