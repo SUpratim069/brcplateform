@@ -102,7 +102,7 @@ const Navbar = () => {
                   }`}
                   onClick={() => handleLanguageChange(lang)}
                 >
-                  {lang === 'ES' ? 'Es' : 'En'}
+                  {lang === 'ES' ? 'ES' : 'EN'}
                 </button>
               ))}
             </div>
