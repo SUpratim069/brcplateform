@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import brclogo from "../../assets/logo/brclogo.png";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -57,9 +58,10 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/">
-              <img src="brclogo.jpeg" alt="BRC Logo" className="h-14 sm:h-16 mr-3" />
-            </Link>
+          <Link to="/">
+  <img src={brclogo} alt="BRC Logo" className="h-14 sm:h-16 mr-3" />
+</Link>
+
           </div>
 
           {/* Desktop Nav */}
@@ -151,8 +153,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-       <style>{`
-
+      <style jsx>{`
         .lang-toggle {
           background-color: #f3f4f6;
           border-radius: 9999px;
