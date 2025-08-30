@@ -132,20 +132,20 @@ const Navbar = () => {
             ))}
             <div className="flex w-full px-3 py-2 space-x-2 relative bottom-2 ">
               <button
+                className={`w-1/2 py-[0.01rem] rounded-full bg font-semibold ${
+                  activeLang === 'EN' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
+                }`}
+                onClick={() => handleLanguageChange('EN')}
+              >
+                English
+              </button>
+              <button
                 className={`w-1/2 py-1 rounded-full font-semibold ${
                   activeLang === 'ES' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
                 }`}
                 onClick={() => handleLanguageChange('ES')}
               >
                 Español
-              </button>
-              <button
-                className={`w-1/2 py-[0.01rem] rounded-full font-semibold ${
-                  activeLang === 'EN' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
-                }`}
-                onClick={() => handleLanguageChange('EN')}
-              >
-                English
               </button>
             </div>
           </div>
