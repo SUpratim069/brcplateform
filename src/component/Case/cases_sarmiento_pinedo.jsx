@@ -118,15 +118,13 @@ const SarmientoCase = () => {
 </audio>
           </div>
 
-             <div>
-           <h4 className="font-semibold mb-2">
-  {t('sarmiento_case.audio_evidence_3')}
-</h4>
-<audio controls className="w-full">
-  <source src="/audios/whatsapp-audio-2025-08-30.ogg" type="audio/ogg" />
+          <div>
+            <h4 className="font-semibold mb-2">{t('sarmiento_case.audio_evidence_5')}</h4>
+           <audio controls className="w-full">
+  <source src={music1} type="audio/mp4" />
   {t('sarmiento_case.browser_no_audio')}
 </audio>
-</div>
+          </div>
 
 <div>
   <h4 className="font-semibold mb-2">{t('sarmiento_case.social_media_evidence')}</h4>
