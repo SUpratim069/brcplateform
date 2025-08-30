@@ -131,7 +131,7 @@ const Navbar = () => {
                 {i18n.t(`nav.${key}`)}
               </Link>
             ))}
-            <div className="flex w-full px-3 py-2 space-x-2 relative bottom-2 ">
+            {/* <div className="flex w-full px-3 py-2 space-x-2 relative bottom-2 ">
               <button
                 className={`w-1/2 py-[0.01rem] rounded-full bg font-semibold ${
                   activeLang === 'EN' ? 'bg-gray-900 text-white' : 'bg-gray-200 text-gray-700'
@@ -148,7 +148,7 @@ const Navbar = () => {
               >
                 Español
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
