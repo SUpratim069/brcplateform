@@ -34,5 +34,6 @@ export default async function handler(req, res) {
   } catch (err) {
     console.error("Stripe error:", err);
     res.status(500).json({ error: err.message });
-  }
-}
+  } 
+} 
+//api
