@@ -5,10 +5,11 @@
     "case_3000": "All Cases",
     "submit_case": "Submit Case",
     "donate": "Donate",
-    "membership": "Membership",
+    
     "legal": "Legal",
-    "en": "EN",
-    "es": "ES"
+    "es": "ES",
+    "en": "EN"
+
   },
   "sections": {
     "ledger": {

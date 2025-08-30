@@ -1768,4 +1768,5 @@ const Section = ({ title, children, bgColor, textColor }) => {
   );
 };
 
+
 export default BRCAllCases;
