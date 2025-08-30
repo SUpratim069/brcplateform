@@ -694,7 +694,7 @@
     "checkboxes": {
       "review": "I understand that my response will be reviewed and may not be published immediately. (required)",
       "storage": "I authorize this information to be stored for legal traceability and public transparency purposes. (required)",
-      "terms": "I accept the <a href=\"/terms-and-conditions\" class=\"underline\">terms and conditions</a>. (required)"
+      "terms": "I accept the <a href=\"/terms-of-use\" class=\"underline\">terms and conditions</a>. (required)"
     },
     "submit": "Submit Case"
   },

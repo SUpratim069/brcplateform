@@ -695,7 +695,7 @@
     "checkboxes": {
       "review": "Entiendo que mi respuesta será revisada y puede que no se publique de inmediato. (requerido)",
       "storage": "Autorizo que esta información sea almacenada para fines de trazabilidad legal y transparencia pública. (requerido)",
-      "terms": "Acepto los <a href=\"/terms-and-conditions\" class=\"underline\">términos y condiciones</a>. (requerido)"
+      "terms": "Acepto los <a href=\"terms-of-use\" class=\"underline\">términos y condiciones</a>. (requerido)"
     },
     "submit": "Enviar Caso"
   },
