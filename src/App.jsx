@@ -10,43 +10,49 @@ import LegalLink from "./pages/LegalLink";
 import LegalEthicLink from "./pages/LegalEthicLink";
 import PrivacyLink from "./pages/privacyLink";
 import TermsAndConditions from "./component/TermConditions/TermsAndConditions";
-
-
 import Termofcase from "./pages/TermsofFocus";
 import Navbar from "./layout/Navbar/Navbar"
 import Footer from './layout/Footer/Footer';
 import CCPACompliance from './component/Ccpa/ccpa';
 import ScrollToTop from './ScrollToTop';
 import AllCases from './pages/AllcaseLink';
-import ComingSoon from './pages/ComingLink';
-const App = () => {
-  const [activeLang, setActiveLang] = React.useState('en');
+
+import Comingsoon from "./pages/Comingsoon";
+
+function App() {
   return (
-    <I18nextProvider i18n={i18n}>
-      <div className="app">
-        <ScrollToTop/>
-        <Navbar activeLang={activeLang} setActiveLang={setActiveLang} />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/case-3000" element={<Case />} />
-            <Route path="/cookies" element={<CookiesLink />} />
-            <Route path="/legal-Ethics" element={<LegalEthicLink />} />
-            <Route path="/legal-disclaimer" element={<LegalLink />} />
-            <Route path="/privacy" element={<PrivacyLink />} />
-           <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
-            <Route path="/terms-of-use" element={<Termofcase />} />
-            <Route path="/CCPA-Compliance" element={<CCPACompliance />} />
-            <Route path="/all-Cases" element={<AllCases />} />
-            <Route path="/coming-soon" element={<ComingSoon />} />
-            {/* Example: BRCPlatform route with language support */}
-            <Route path="/brc-platform" element={<BRCPlatform activeLang={activeLang} setActiveLang={setActiveLang} />} />
-          </Routes>
-        </main>
-        <Footer/>
-      </div>
-    </I18nextProvider>
+    <div>
+      <Comingsoon />
+    </div>
   );
 }
+// const App = () => {
+  // const [activeLang, setActiveLang] = React.useState('en');
+  // return (
+    // <I18nextProvider i18n={i18n}>
+      // <div className="app">
+        // <ScrollToTop/>
+        {/* <Navbar activeLang={activeLang} setActiveLang={setActiveLang} /> */}
+        // <main>
+          // <Routes>
+            // <Route path="/" element={<Home />} />
+            {/* <Route path="/case-3000" element={<Case />} /> */}
+            {/* <Route path="/cookies" element={<CookiesLink />} /> */}
+            {/* <Route path="/legal-Ethics" element={<LegalEthicLink />} /> */}
+            {/* <Route path="/legal-disclaimer" element={<LegalLink />} /> */}
+            {/* <Route path="/privacy" element={<PrivacyLink />} /> */}
+           {/* <Route path="/terms-and-conditions" element={<TermsAndConditions />} /> */}
+            {/* <Route path="/terms-of-use" element={<Termofcase />} /> */}
+            {/* <Route path="/CCPA-Compliance" element={<CCPACompliance />} /> */}
+            {/* <Route path="/all-Cases" element={<AllCases />} /> */}
+            {/* Example: BRCPlatform route with language support */}
+            {/* <Route path="/brc-platform" element={<BRCPlatform activeLang={activeLang} setActiveLang={setActiveLang} />} /> */}
+          // </Routes>
+        // </main>
+        {/* <Footer/> */}
+      // </div>
+  //   // </I18nextProvider>
+  // );
+// }
 
 export default App
