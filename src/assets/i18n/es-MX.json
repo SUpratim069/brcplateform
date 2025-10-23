@@ -1,8 +1,7 @@
 {
   "nav": {
     "home": "Inicio",
-  
-    "case_3000": "Todos los Casos",
+    "case_3000": "Caso 3000",
     "submit_case": "Enviar Caso",
     "donate": "Donar",
     "legal": "Legal",
